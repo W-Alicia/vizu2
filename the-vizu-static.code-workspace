@@ -30,7 +30,8 @@
           "baseUri": "/",                             //  ii. workspace
           "proxyUri": "http://localhost/theme-vizu-static/" // iii. actual address
       
-  }
+},
+"liveServer.settings.port": 5501
  
     } // settings
 }
