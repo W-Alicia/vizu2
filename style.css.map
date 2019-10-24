@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAAA,OAAO,CAAP,6DAAO;AAEP,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,GAAG;CAClB;;AAED,AAAA,UAAU,CAAC;EACP,UAAU,EAAE,KAAK;CACpB",
+    "mappings": "AAAA,OAAO,CAAC,6DAAI;ACGZ,AAAA,IAAI,CAAC;EACD,UAAU,EAJF,OAAO;CAKhB;;AACD,AAAA,EAAE,CAAC;EACC,KAAK,EANI,OAAO;CAOnB;;ADJH,AAAA,UAAU,CAAC;EACT,UAAU,EAAE,KAAK;CAClB",
     "sources": [
-        "scss/style.scss"
+        "style.scss",
+        "scss/_kanny.scss"
     ],
     "names": [],
     "file": "style.css"
