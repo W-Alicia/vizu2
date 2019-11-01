@@ -166,15 +166,26 @@
 /* FIN MENU     FIN MENU    FIN MENU    FIN MENU */
 
 
-header .logo {
-    height: 100px;
-    display: block;
-    margin: 0px auto;
-}
 img {
     vertical-align: middle;
     border-style: none;
 }
+
+
+
+body, html{
+    background-color: $bg-color;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+:root {
+  scrollbar-color: $prime-color $bg-color;
+  scrollbar-width: thin;
+  height: auto;
+}
+
 
 header{
     margin-top: 30px;
@@ -185,3 +196,4 @@ header{
       margin: 0 auto;
     }
 }
+
