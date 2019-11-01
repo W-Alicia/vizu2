@@ -36,7 +36,7 @@ header .logo {
 }
 
 .filtre {
-  margin: 15px;
+  margin: 15px 15px 15px 0px;
   padding: 0px;
   text-align: right;
   color: #BA3941;
@@ -67,6 +67,16 @@ header .logo {
   padding: .4rem .6rem;
   -webkit-box-shadow: 5px 5px 8px black;
           box-shadow: 5px 5px 8px black;
+}
+
+.cat {
+  margin-top: 20px;
+  border-bottom: 2px #BA3941 solid;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  max-width: 80px;
+  margin-left: 50px;
 }
 
 .etu {
