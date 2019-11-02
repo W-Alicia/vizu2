@@ -4,7 +4,76 @@ body {
 }
 
 h1 {
-  color: #de0089;
+  color: #BA3941;
+}
+
+.container.etudiants {
+  background-color: #000000;
+  max-width: 960px;
+}
+
+.filtre {
+  margin: 15px 15px 15px 0px;
+  padding: 0px;
+  text-align: right;
+  color: #BA3941;
+}
+
+.filtre .btn-outline-success {
+  background-color: #BA3941;
+  border: 0px;
+  color: #000000;
+}
+
+.filtre .form-control {
+  background-color: #000000;
+  border-radius: 0;
+  border-bottom: 2px white solid;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  width: 180px;
+  margin-right: 20px !important;
+}
+
+.filtre .fas {
+  font-size: 20px;
+}
+
+.filtre #search {
+  padding: .4rem .6rem;
+  -webkit-box-shadow: 5px 5px 8px black;
+          box-shadow: 5px 5px 8px black;
+}
+
+.cat {
+  margin-top: 20px;
+  border-bottom: 2px #BA3941 solid;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  max-width: 80px;
+  margin-left: 50px;
+}
+
+.etu {
+  margin-top: 40px;
+}
+
+.etu .etu-picto {
+  border: 2px #BA3941 solid;
+  border-radius: 1rem;
+  max-width: 200px;
+  height: 200px;
+  padding: 0px;
+}
+
+.etu .etu-info {
+  max-width: 200px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 20px;
 }
 
 /* MENU     MENU    MENU    MENU    MENU */
@@ -27,22 +96,22 @@ h1 {
 .button_container.active .top {
   -webkit-transform: translateY(11px) translateX(0) rotate(45deg);
   transform: translateY(11px) translateX(0) rotate(45deg);
-  background: #de0089;
+  background: #BA3941;
 }
 
 .button_container.active .middle {
   opacity: 0;
-  background: #de0089;
+  background: #BA3941;
 }
 
 .button_container.active .bottom {
   -webkit-transform: translateY(-11px) translateX(0) rotate(-45deg);
   transform: translateY(-11px) translateX(0) rotate(-45deg);
-  background: #de0089;
+  background: #BA3941;
 }
 
 .button_container span {
-  background: #de0089;
+  background: #BA3941;
   border: none;
   height: 5px;
   width: 100%;
@@ -140,7 +209,7 @@ h1 {
   text-decoration: none;
   overflow: hidden;
   text-transform: uppercase;
-  text-shadow: -3px 0px #de0089;
+  text-shadow: -3px 0px #BA3941;
 }
 
 .overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
@@ -156,7 +225,7 @@ h1 {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   height: 2px;
-  background: #de0089;
+  background: #BA3941;
   -webkit-transition: .35s;
   transition: .35s;
 }
@@ -196,7 +265,7 @@ body, html {
 }
 
 :root {
-  scrollbar-color: #de0089 #000000;
+  scrollbar-color: #BA3941 #000000;
   scrollbar-width: thin;
   height: auto;
 }
