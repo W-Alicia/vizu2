@@ -1,10 +1,10 @@
 @import url(c:\xampp\htdocs\theme-vizu-static\scss\bootstrap.min.css);
 body {
-  background: #000000;
+  background: #111110;
 }
 
 h1 {
-  color: #de0089;
+  color: #BA3941;
 }
 
 /* MENU     MENU    MENU    MENU    MENU */
@@ -27,22 +27,22 @@ h1 {
 .button_container.active .top {
   -webkit-transform: translateY(11px) translateX(0) rotate(45deg);
   transform: translateY(11px) translateX(0) rotate(45deg);
-  background: #de0089;
+  background: #BA3941;
 }
 
 .button_container.active .middle {
   opacity: 0;
-  background: #de0089;
+  background: #BA3941;
 }
 
 .button_container.active .bottom {
   -webkit-transform: translateY(-11px) translateX(0) rotate(-45deg);
   transform: translateY(-11px) translateX(0) rotate(-45deg);
-  background: #de0089;
+  background: #BA3941;
 }
 
 .button_container span {
-  background: #de0089;
+  background: #BA3941;
   border: none;
   height: 5px;
   width: 100%;
@@ -64,7 +64,7 @@ h1 {
 
 .overlay {
   position: fixed;
-  background: #000000;
+  background: #111110;
   top: 0;
   left: 0;
   width: 100%;
@@ -140,7 +140,7 @@ h1 {
   text-decoration: none;
   overflow: hidden;
   text-transform: uppercase;
-  text-shadow: -3px 0px #de0089;
+  text-shadow: -3px 0px #BA3941;
 }
 
 .overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
@@ -156,7 +156,7 @@ h1 {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   height: 2px;
-  background: #de0089;
+  background: #BA3941;
   -webkit-transition: .35s;
   transition: .35s;
 }
@@ -190,13 +190,13 @@ img {
 }
 
 body, html {
-  background-color: #000000;
+  background-color: #111110;
   margin: 0px;
   padding: 0px;
 }
 
 :root {
-  scrollbar-color: #de0089 #000000;
+  scrollbar-color: #BA3941 #111110;
   scrollbar-width: thin;
   height: auto;
 }
