@@ -1,0 +1,18 @@
+<?php require("header.php") ?>
+<div class="container gauche">
+   
+<div class="gallery">
+    <img src="img/un.jpg" alt="Cinque Terre" width="auto" height="auto">
+    <h4>Professeur</h4>
+</div>
+</div>
+
+<div class="container droite">
+<h2>TITRE
+<h3>2019</h3></h2>
+<h4>Auteur</h4>
+<p class="textdesc">
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Itaque sed architecto aperiam deserunt id, blanditiis alias nihil voluptatem, neque velit soluta rerum, placeat aliquam nostrum dolore aut molestiae natus. Numquam.</p>
+</div>
+<?php require("footer.php") ?>
