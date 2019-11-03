@@ -7,6 +7,75 @@ h1 {
   color: #BA3941;
 }
 
+.container.etudiants {
+  background-color: #111110;
+  max-width: 960px;
+}
+
+.filtre {
+  margin: 15px 15px 15px 0px;
+  padding: 0px;
+  text-align: right;
+  color: #BA3941;
+}
+
+.filtre .btn-outline-success {
+  background-color: #BA3941;
+  border: 0px;
+  color: #111110;
+}
+
+.filtre .form-control {
+  background-color: #111110;
+  border-radius: 0;
+  border-bottom: 2px white solid;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  width: 180px;
+  margin-right: 20px !important;
+}
+
+.filtre .fas {
+  font-size: 20px;
+}
+
+.filtre #search {
+  padding: .4rem .6rem;
+  -webkit-box-shadow: 5px 5px 8px black;
+          box-shadow: 5px 5px 8px black;
+}
+
+.cat {
+  margin-top: 20px;
+  border-bottom: 2px #BA3941 solid;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  max-width: 80px;
+  margin-left: 50px;
+}
+
+.etu {
+  margin-top: 40px;
+}
+
+.etu .etu-picto {
+  border: 2px #BA3941 solid;
+  border-radius: 1rem;
+  max-width: 200px;
+  height: 200px;
+  padding: 0px;
+}
+
+.etu .etu-info {
+  max-width: 200px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 20px;
+}
+
 /* MENU     MENU    MENU    MENU    MENU */
 .button_container {
   position: fixed;
@@ -128,7 +197,7 @@ h1 {
 .overlay ul li {
   display: block;
   height: 25%;
-  height: calc(100% / 4);
+  height: calc(100% / 5);
   min-height: 50px;
   position: relative;
   opacity: 0;
