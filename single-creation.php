@@ -1,8 +1,8 @@
 <?php require("header.php") ?>
 <div class="container gauche">
-   
+<img src="img/arrow.svg" alt="arrow" class="arrow" width="75px">
 <div class="gallery">
-    <img src="img/un.jpg" alt="Cinque Terre" width="auto" height="auto">
+    <img src="img/un.jpg" alt="un" width="auto" height="auto">
     <h4>Professeur</h4>
 </div>
 </div>

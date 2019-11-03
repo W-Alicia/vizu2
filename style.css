@@ -102,6 +102,8 @@ header .logo {
 .container.gauche {
   max-width: 860px;
   float: left;
+  margin-left: 5%;
+  background-image: url(img/creation.svg);
 }
 
 .container.etudiants {
@@ -255,6 +257,7 @@ h2 {
 h4 {
   color: #BA3941;
   font-family: 'Poppins', sans-serif;
+  margin-top: 1%;
 }
 
 h3 {
@@ -284,6 +287,10 @@ div.gallery {
 div.gallery img {
   width: 100%;
   height: auto;
+}
+
+.arrow {
+  float: left;
 }
 
 /* MENU     MENU    MENU    MENU    MENU */
