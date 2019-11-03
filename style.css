@@ -100,7 +100,6 @@ header .logo {
 }
 
 .container.gauche {
-  background-color: red;
   max-width: 860px;
   float: left;
 }
@@ -247,32 +246,44 @@ h2 {
   display: inline;
   position: relative;
   font-family: 'Poppins', sans-serif;
-  letter-spacing: -5px;
-  color: rgba(0, 0, 255, 0.5);
+  letter-spacing: 4px;
+  color: white;
   font-size: 80px;
+  text-shadow: 5px 3px 0px #BA3941;
 }
 
 h4 {
   color: #BA3941;
+  font-family: 'Poppins', sans-serif;
 }
 
-h2:after {
-  position: absolute;
-  left: 10px;
-  top: 5px;
-  color: rgba(255, 0, 0, 0.5);
+h3 {
+  color: white;
+  font-family: 'Poppins', sans-serif;
 }
 
-.container.droit {
-  background-image: url(img/description.svg);
-  background-size: 25%;
-  max-width: 960px;
-  float: right;
+.container.droite {
+  background-repeat: no-repeat;
+  margin-top: 16%;
+  position: inherit;
 }
 
 .textdesc {
   color: white;
   font-size: 18px;
+  margin-top: 7%;
+}
+
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 450px;
+  margin-left: 10%;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
 }
 
 /* MENU     MENU    MENU    MENU    MENU */

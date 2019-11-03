@@ -23,7 +23,6 @@ header{
 }
 
 .container.gauche{
-    background-color: red;
     max-width: 860px;
     float: left;
 }
@@ -175,31 +174,47 @@ h2 {
     display: inline;
     position: relative;
     font-family: 'Poppins', sans-serif;
-    letter-spacing: -5px;
-    color: rgba(0,0,255,0.5);
+    letter-spacing: 4px;
+    color:white;
     font-size: 80px;
+    text-shadow:  5px 3px 0px $prime-color;
 }
 
 h4 {
     color: $prime-color;
+    font-family: 'Poppins', sans-serif;
+}
+h3 {
+    color:white;
+    font-family: 'Poppins', sans-serif;
 }
 
 
-h2:after {
-    position: absolute;
-    left: 10px;
-    top: 5px;
-    color: rgba(255,0,0,0.5);
+
+
+.container.droite{
+    background-repeat: no-repeat;
+    margin-top: 16%;
+    position: inherit;
+    
 }
 
-.container.droit{
-    background-image: url(img/description.svg);
-    background-size: 25%;
-    max-width: 960px;
-    float: right;
-}
 
 .textdesc {
     color: white;
     font-size: 18px;
+    margin-top: 7%;
 }
+div.gallery {
+    margin: 5px;
+    float: left;
+    width: 450px;
+    margin-left: 10%;
+  }
+  
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
