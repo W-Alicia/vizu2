@@ -50,21 +50,22 @@
 
 .etu{
     margin-top: 40px;
+  .etu-picto{
+      border: 2px $prime-color solid;
+      border-radius: 1rem;
+      max-width: 200px;
+      width: 100%;
+      max-height: 200px;
+      height: 100%;
+      padding: 0px;
+  }
 
-    
-.etu-picto{
-    border: 2px $prime-color solid;
-    border-radius: 1rem;
-    max-width: 200px;
-    height: 200px;
-    padding: 0px;
+  .etu-info{
+      max-width: 200px;
+      text-align: center;
+      text-transform: uppercase;
+      color: white;
+      margin-top: 20px;
+  }
 }
 
-.etu-info{
-    max-width: 200px;
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
-    margin-top: 20px;
-}
-}

@@ -9,7 +9,7 @@
 
    
 <header>
-    <img src="img/logo.svg" alt="logovizu" class="logo">
+    <a href="home.php"><img src="img/logo.svg" alt="logovizu" class="logo"></a>
       <div class="button_container" id="toggle">
         <span class="top"></span>
         <span class="middle"></span>

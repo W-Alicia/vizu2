@@ -1,14 +1,12 @@
 @import url(c:\xampp\htdocs\theme-vizu-static\scss\bootstrap.min.css);
 @import "scss/kanny";
 @import "scss/elzbieta";
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
 @import "scss/alicia";
-=======
-=======
 
->>>>>>> 2e2227086f72720fc77ed03866b9df77e0e2230a
+
+
 @import "scss/alicia";
 
 /* MENU     MENU    MENU    MENU    MENU */
@@ -166,7 +164,7 @@
   }
   100% {
     opacity: 1;
-<<<<<<< HEAD
+
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
     -webkit-transition: -webkit-transform .2s,opacity .2s;
@@ -194,10 +192,9 @@
 .nav-open #nav-icon3 span:nth-child(4){top:9px;width:0;left:50%}
 
 .flex-center{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;height:100%}
->>>>>>> c44be8928f8dc95fbc9860d5bc0e5b42c9c7ab24
-=======
+
     left: 0;
-  }
+  
 }
 
 /* FIN MENU     FIN MENU    FIN MENU    FIN MENU */
@@ -234,4 +231,4 @@ header{
     }
 }
 
->>>>>>> 2e2227086f72720fc77ed03866b9df77e0e2230a
+

@@ -19,37 +19,37 @@
                 </div>
         </div><!--row recherche-->
 
-        <div class="row justify-content-center etudiants">
-            <div  class="col-3 etu">
+        <div class="row etudiants">
+            <div class="col-6 col-lg-3 d-flex flex-column align-items-center etu">
                 <div class="etu-picto">
-                  <img src="img/picto-logo.svg" alt="pictogramme">
+                  <a href="single-etudiant.php"><img src="img/picto-logo.svg" alt="pictogramme"></a>
                 </div>
                 <div class="etu-info">
                     <h5>nom</h5>
                     <h6>categorie</h6>
                 </div>
             </div>
-            <div  class="col-3 etu">
+            <div  class="col-6 col-lg-3 d-flex flex-column align-items-center etu">
                 <div class="etu-picto">
-                  <img src="img/picto-logo.svg" alt="pictogramme">
+                <a href="single-etudiant.php"><img src="img/picto-logo.svg" alt="pictogramme"></a>
                 </div>
                 <div class="etu-info">
                     <h5>nom</h5>
                     <h6>categorie</h6>
                 </div>
             </div>
-            <div class="col-3 etu">
+            <div class="col-6 col-lg-3 d-flex flex-column align-items-center etu">
                 <div class="etu-picto">
-                  <img src="img/picto-logo.svg" alt="pictogramme">
+                <a href="single-etudiant.php"><img src="img/picto-logo.svg" alt="pictogramme"></a>
                 </div>
                 <div class="etu-info">
                     <h5>nom</h5>
                     <h6>categorie</h6>
                 </div>
               </div>
-              <div  class="col-3 etu">
+              <div  class="col-6 col-lg-3 d-flex flex-column align-items-center etu">
                 <div class="etu-picto">
-                  <img src="img/picto-logo.svg" alt="pictogramme">
+                <a href="single-etudiant.php"><img src="img/picto-logo.svg" alt="pictogramme"></a>
                 </div>
                 <div class="etu-info">
                     <h5>nom</h5>
@@ -57,36 +57,36 @@
                 </div>
               </div>
 
-              <div  class="col-3 etu">
+              <div  class="col-6 col-lg-3 d-flex flex-column align-items-center etu">
                 <div class="etu-picto">
-                  <img src="img/picto-logo.svg" alt="pictogramme">
+                <a href="single-etudiant.php"><img src="img/picto-logo.svg" alt="pictogramme"></a>
                 </div>
                 <div class="etu-info">
                     <h5>nom</h5>
                     <h6>categorie</h6>
                 </div>
               </div>
-              <div  class="col-3 etu">
+              <div  class="col-6 col-lg-3 d-flex flex-column align-items-center etu">
                 <div class="etu-picto">
-                  <img src="img/picto-logo.svg" alt="pictogramme">
+                <a href="single-etudiant.php"><img src="img/picto-logo.svg" alt="pictogramme"></a>
                 </div>
                 <div class="etu-info">
                     <h5>nom</h5>
                     <h6>categorie</h6>
                 </div>
               </div>
-              <div  class="col-3 etu">
+              <div  class="col-6 col-lg-3 d-flex flex-column align-items-center etu">
                 <div class="etu-picto">
-                  <img src="img/picto-logo.svg" alt="pictogramme">
+                <a href="single-etudiant.php"><img src="img/picto-logo.svg" alt="pictogramme"></a>
                 </div>
                 <div class="etu-info">
                     <h5>nom</h5>
                     <h6>categorie</h6>
                 </div>
               </div>
-              <div  class="col-3 etu">
+              <div  class="col-6 col-lg-3 d-flex flex-column align-items-center etu">
                 <div class="etu-picto">
-                  <img src="img/picto-logo.svg" alt="pictogramme">
+                <a href="single-etudiant.php"><img src="img/picto-logo.svg" alt="pictogramme"></a>
                 </div>
                 <div class="etu-info">
                     <h5>nom</h5>
