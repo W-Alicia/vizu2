@@ -9,7 +9,7 @@
 
    
 <header>
-<li class="about"><a href="#">About</a></li>
+<li class="about"><a href="#" class="apropos">About</a></li>
     <a href="home.php"><img src="img/logo.svg" alt="logovizu" class="logo"></a>
       <div class="button_container" id="toggle">
         <span class="top"></span>
