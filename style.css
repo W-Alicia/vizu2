@@ -7,6 +7,32 @@ h1 {
   color: #BA3941;
 }
 
+header {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+header .about {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  list-style: none;
+  margin-top: 45px;
+  margin-left: 30px;
+  position: absolute;
+}
+
+header .about a {
+  color: #BA3941;
+}
+
+header .logo {
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
 .container.etudiants {
   background-color: #111110;
   max-width: 960px;
