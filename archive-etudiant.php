@@ -1,6 +1,6 @@
 <?php require("header.php") ?>
 
-<div class="container etudiants">
+<div class="container archive-etudiants">
         <div class="row justify-content-center recherche">
                 <div class="col-6 filtre">
                         <form class="form-inline my-2 my-lg-0">
