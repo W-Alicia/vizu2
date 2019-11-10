@@ -22,6 +22,7 @@
             <li ><a href="archive-creation.php">Vizu-L</a></li>
             <li><a href="#">Vizuthèque</a></li>
             <li><a href="archive-etudiant.php">Portfolios</a></li>
+            <li><a href="archive-projet.php">Projets</a></li>
             <li><a href="#">Filières</a></li>
             <li><a href="#">Events</a></li>
           </ul>

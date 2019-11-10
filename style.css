@@ -78,6 +78,407 @@ h1 {
   margin-top: 20px;
 }
 
+/* SINGLE ETUDANT     SINGLE ETUDANT    SINGLE ETUDANT    SINGLE ETUDANT */
+.etu-single {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-top: 30px;
+}
+
+.etu-picto-white {
+  border: 2px white solid;
+  border-radius: 1rem;
+  max-width: 200px;
+  max-height: 200px;
+  padding: 0px;
+}
+
+h4.nom-etudiant {
+  display: block;
+  color: #FFF;
+  text-decoration: none;
+  overflow: hidden;
+  text-transform: uppercase;
+  text-shadow: -3px 0px #BA3941;
+}
+
+p.mail-etudiant {
+  color: white;
+  font-size: 1.5rem;
+}
+
+p.description-etu {
+  color: white;
+  font-size: 1.2rem;
+  max-width: 500px;
+  text-align: left;
+}
+
+.etu-section {
+  margin-left: 30px;
+}
+
+.etu-section h5 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.icon-media {
+  height: 200px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.description-etudiant:after {
+  content: '';
+  position: absolute;
+  width: 70%;
+  height: 2px;
+  background: #BA3941;
+  right: 0;
+  bottom: 0;
+  margin-right: 15px;
+}
+
+#modif-description {
+  width: 70px;
+  position: absolute;
+  right: -45px;
+  top: 115px;
+}
+
+#modif-picto {
+  width: 70px;
+  position: absolute;
+  right: -40px;
+  top: 155px;
+}
+
+.portfolio-etudiant {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.recherche {
+  margin: 20px;
+}
+
+.filtre-random {
+  margin: 15px 155px 15px 0px;
+  padding: 0px;
+  text-align: left;
+  color: #BA3941;
+  border-bottom: 2px #BA3941 solid;
+}
+
+.travaux {
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  margin-bottom: 20px;
+}
+
+.travaux > div {
+  border: 2px #BA3941 solid;
+  border-radius: 1rem;
+  padding: 0px;
+  height: 150px;
+}
+
+.show-img {
+  border: 2px white solid;
+  width: 350px;
+  height: 450px;
+}
+
+.show-creation {
+  margin-top: 155px;
+}
+
+.recherche {
+  margin-bottom: 20px;
+}
+
+h5.nom-etudiant {
+  color: white;
+}
+
+.rect1 {
+  position: absolute;
+  left: -35px;
+  top: -50px;
+}
+
+.rect2 {
+  position: absolute;
+  left: -10px;
+  top: -25px;
+}
+
+.fab {
+  font-size: 50px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: #BA3941;
+  margin-left: 15px;
+}
+
+.fa-basketball-ball {
+  font-size: 50px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: #BA3941;
+  margin-left: 15px;
+}
+
+.picto-cv {
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.picto-cv img {
+  vertical-align: bottom;
+}
+
+.pictogrammes {
+  width: 90px;
+  position: absolute;
+  right: -40px;
+  bottom: 60px;
+}
+
+.pictogrammes img {
+  width: 80px;
+}
+
+body, html {
+  background-color: #111110;
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  scrollbar-color: #BA3941 #111110;
+  scrollbar-width: thin;
+  height: auto;
+}
+
+header {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+header .logo {
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.container.gauche {
+  max-width: 860px;
+  float: left;
+  margin-left: 5%;
+  background-image: url(img/creation.svg);
+}
+
+.container.etudiants {
+  background-color: #111110;
+  max-width: 960px;
+  float: right;
+}
+
+.filtre {
+  margin: 15px 15px 15px 0px;
+  padding: 0px;
+  text-align: right;
+  color: #BA3941;
+}
+
+.filtre .btn-outline-success {
+  background-color: #BA3941;
+  border: 0px;
+  color: #111110;
+}
+
+.filtre .form-control {
+  background-color: #111110;
+  border-radius: 0;
+  border-bottom: 2px white solid;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  width: 180px;
+  margin-right: 20px !important;
+}
+
+.filtre .fas {
+  font-size: 20px;
+}
+
+.filtre #search {
+  padding: .4rem .6rem;
+  -webkit-box-shadow: 5px 5px 8px black;
+          box-shadow: 5px 5px 8px black;
+}
+
+.cat {
+  margin-top: 20px;
+  border-bottom: 2px #BA3941 solid;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  max-width: 80px;
+  margin-left: 50px;
+}
+
+.etu {
+  margin-top: 40px;
+}
+
+.etu .etu-picto {
+  border: 2px #BA3941 solid;
+  border-radius: 1rem;
+  max-width: 200px;
+  height: 200px;
+  padding: 0px;
+}
+
+.etu .etu-info {
+  max-width: 200px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 20px;
+}
+
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  right: 100%;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  margin-right: 500px;
+}
+
+.overlay2:hover {
+  display: none;
+}
+
+.col-3.etu:hover .overlay2 {
+  width: 100%;
+  right: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px grey;
+          box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #BA3941;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #BA3941;
+}
+
+.imagecrea {
+  position: fixed;
+}
+
+h2 {
+  display: inline;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 4px;
+  color: white;
+  font-size: 80px;
+  text-shadow: 5px 3px 0px #BA3941;
+}
+
+h4 {
+  color: #BA3941;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 1%;
+}
+
+h3 {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container.droite {
+  background-repeat: no-repeat;
+  margin-top: 16%;
+  position: inherit;
+}
+
+.textdesc {
+  color: white;
+  font-size: 18px;
+  margin-top: 7%;
+}
+
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 450px;
+  margin-left: 10%;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.arrow {
+  float: left;
+}
+
 /* MENU     MENU    MENU    MENU    MENU */
 .button_container {
   position: fixed;
@@ -199,7 +600,7 @@ h1 {
 .overlay ul li {
   display: block;
   height: 25%;
-  height: calc(100% / 4);
+  height: calc(100% / 5);
   min-height: 50px;
   position: relative;
   opacity: 0;
