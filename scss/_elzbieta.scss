@@ -19,6 +19,15 @@ header{
     }
 }
 
+.apropos::after{
+    content: '';
+  position: absolute;
+  width: 45px;
+  height: 2px;
+  background: $prime-color;
+  margin: 30px 0px 0px -45px;
+  }
+
 .container.etudiants{
     background-color: $bg-color;
     max-width: 960px;
