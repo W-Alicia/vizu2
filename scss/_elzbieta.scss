@@ -355,23 +355,25 @@ display: flex;
   margin-bottom: 20px;;
 }
 
-.travaux>div{
-    border: 2px $prime-color solid;
-    border-radius: 1rem;
-    padding: 0px;
-    height: 150px;
-  }
+    .travaux>div{
+        border: 2px $prime-color solid;
+        border-radius: 1rem;
+        padding: 0px;
+        height: 150px;
+      }
 
-  .show-img{
-    border: 2px white solid;
-    width: 350px;
-    height: 450px;
-  }
+      
+.portfolio-etudiant{
+    .show-img{
+        border: 2px white solid;
+        width: 350px !important;
+        height: 450px !important;
+      }
 
-.show-creation{
-  margin-top: 155px;
+    .show-creation{
+      margin-top: 155px;
+    }
 }
-
 
 .recherche{
   margin-bottom: 20px;
@@ -401,4 +403,103 @@ top: -25px;
     width: 80px;
   }
 }
+
+
+/* NEWS   NEWS    NEWS    NEWS  */
+
+.archive-news{
+  .show-news{
+    margin-top: 155px;
+  }
+  .show-img{
+    border: 1px white solid;
+    width: 350px !important;
+    height: 350px !important;
+    display: flex;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .info-news{
+    position: absolute;
+    padding: 30px;
+    width: 350px;
+    align-self: center;
+    h4{
+      color: white;
+      font-size: 5.5rem;
+      text-align: center;
+      margin: 0 !important;
+    }
+    h5{
+      color: white;
+      font-size: 3.3rem;
+      text-align: center;
+      margin: 0 !important;
+    }
+    p{
+      margin-top: 30px;
+      color: white;
+    }
+  }
+  .rect-2{
+    stroke-width: 2 !important;
+    stroke-dasharray: 15 10;
+    fill: none;
+  }
+  .rect-1{
+    stroke-width: 2 !important;
+    stroke-dasharray: 10 15;
+    fill: none;
+  }
+  .description-event{
+    margin-top: 10px;
+  }
+  .tag-event{
+    display: inline-flex;
+  }
+  h5{
+    color: $prime-color;
+    margin-right: 10px;
+    font-size: 1rem;
+  }
+  .date-event{
+    max-width: 145px;
+    text-align: right;
+    h5{
+      margin-right: 0px !important;
+    }
+  }
+  .lien-event{
+    width: 90%;
+    left: -25px;
+    position: relative;
+    margin-top: 10px;
+    a{
+      color: $prime-color;
+    }
+  }
+  .filtre-random {
+    margin: 15px 110px 15px 0px;
+    padding: 0px;
+    text-align: left;
+    color: #BA3941;
+    border-bottom: 2px
+    #BA3941 solid;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .cat{
+    max-width: 90px;
+  }
+
+}
+
+
+
+
+/*FIN NEWS   FIN NEWS    FIN NEWS    FIN NEWS  */
 

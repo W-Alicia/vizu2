@@ -389,13 +389,13 @@ p.description-etu {
   height: 150px;
 }
 
-.show-img {
+.portfolio-etudiant .show-img {
   border: 2px white solid;
-  width: 350px;
-  height: 450px;
+  width: 350px !important;
+  height: 450px !important;
 }
 
-.show-creation {
+.portfolio-etudiant .show-creation {
   margin-top: 155px;
 }
 
@@ -430,6 +430,119 @@ h5.nom-etudiant {
   width: 80px;
 }
 
+/* NEWS   NEWS    NEWS    NEWS  */
+.archive-news .show-news {
+  margin-top: 155px;
+}
+
+.archive-news .show-img {
+  border: 1px white solid;
+  width: 350px !important;
+  height: 350px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.archive-news .show-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.archive-news .info-news {
+  position: absolute;
+  padding: 30px;
+  width: 350px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.archive-news .info-news h4 {
+  color: white;
+  font-size: 5.5rem;
+  text-align: center;
+  margin: 0 !important;
+}
+
+.archive-news .info-news h5 {
+  color: white;
+  font-size: 3.3rem;
+  text-align: center;
+  margin: 0 !important;
+}
+
+.archive-news .info-news p {
+  margin-top: 30px;
+  color: white;
+}
+
+.archive-news .rect-2 {
+  stroke-width: 2 !important;
+  stroke-dasharray: 15 10;
+  fill: none;
+}
+
+.archive-news .rect-1 {
+  stroke-width: 2 !important;
+  stroke-dasharray: 10 15;
+  fill: none;
+}
+
+.archive-news .description-event {
+  margin-top: 10px;
+}
+
+.archive-news .tag-event {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.archive-news h5 {
+  color: #BA3941;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.archive-news .date-event {
+  max-width: 145px;
+  text-align: right;
+}
+
+.archive-news .date-event h5 {
+  margin-right: 0px !important;
+}
+
+.archive-news .lien-event {
+  width: 90%;
+  left: -25px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.archive-news .lien-event a {
+  color: #BA3941;
+}
+
+.archive-news .filtre-random {
+  margin: 15px 110px 15px 0px;
+  padding: 0px;
+  text-align: left;
+  color: #BA3941;
+  border-bottom: 2px #BA3941 solid;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.archive-news .cat {
+  max-width: 90px;
+}
+
+/*FIN NEWS   FIN NEWS    FIN NEWS    FIN NEWS  */
 body, html {
   background-color: #111110;
   margin: 0px;
