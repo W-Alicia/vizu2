@@ -72,10 +72,15 @@ header{
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  max-width: 80px;
+  max-width: 90px;
   margin-left: 50px;
+  margin-right: 0px;
 }
 
+#random{
+  width: 30px;
+  display: none;
+}
 
 
 .etu{
@@ -89,7 +94,6 @@ header{
       height: 100%;
       padding: 0px;
   }
-
   .etu-info{
       max-width: 200px;
       text-align: center;
@@ -124,7 +128,10 @@ h4.nom-etudiant{
   overflow: hidden;
   text-transform: uppercase;
   text-shadow: -3px 0px $prime-color;
+  font-size: 2.9rem;
 }
+
+
 
 p.mail-etudiant{
   color: white;
@@ -147,8 +154,15 @@ p.description-etu{
 }
 
 .icon-media{
-  height: 200px;
+  height: 100px;
   justify-content: end;
+  display: flex;
+  align-items: end;
+  margin-bottom: 50px;
+}
+
+.description-etudiant{
+  align-items: end;
 display: flex;
 }
 
@@ -168,7 +182,7 @@ display: flex;
   width: 70px;
   position: absolute;
   right: -45px;
-  top: 115px;
+  top: 190px;
 }
 #modif-picto{
   width: 70px;
@@ -178,6 +192,147 @@ display: flex;
 }
 
 
+.fab{
+  font-size: 50px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: $prime-color;
+  margin-left: 15px;
+}
+
+.fa-basketball-ball{
+  font-size: 50px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: $prime-color;
+  margin-left: 15px;
+}
+
+.picto-cv{
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 15px;
+  img{vertical-align: bottom;}
+}
+
+
+
+/* SINGLE ETUDIANT SMARTPHONE */
+
+@media screen and (max-width: 900px) {
+  .single-etudiant .row{
+    justify-content: center;
+  }
+  .single-etudiant{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  h4.nom-etudiant{
+    font-size: 2.6rem;
+    text-align: center;
+  }
+  .etu-section h5{
+    font-size: 1.4rem;
+  }
+  p.mail-etudiant{
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  .icon-media{
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 0px;
+    justify-content: center;
+    margin-top: 30px;
+    padding-right: 40px;
+  }
+  .fab{
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+  .picto-cv{
+    height: 35px;
+  }
+  .etu-picto-white{
+    height: 100%;
+    width: 100%;
+  }
+  .etu-single{
+    align-self: center;
+  }
+  .description-etudiant{
+    margin-top: 50px;
+    padding-right: 40px;
+  }
+  p.description-etu{
+    font-size: 0.9rem;
+  }
+  #modif-picto {
+    width: 60px;
+    top: 70%;
+}
+  #modif-description{
+    width: 60px;
+    top: 60%;
+    right: 1%;
+  }
+  .portfolio-etudiant{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .portfolio-etudiant .row{
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+  .show-creation{
+    position: absolute;
+    z-index: 50;
+    display: none;
+  }
+  .show-img{
+    max-width: 300px !important;
+    max-height: 400px !important;
+    margin: 0 auto;
+  }
+  .rect-2{
+    width: 350px !important;
+    height: 450px !important;
+  }
+  .rect2{
+    left: 250px !important;
+  }
+  .rect1{
+    display: none;
+  }
+  .filtre-random{
+    border-bottom: 0px !important;
+    a{
+      display: none;
+    }
+    #random{
+      display: block;
+      width: 50px;
+    }
+  }
+  .pictogrammes{
+    right: -10px !important;
+    img{
+      width: 60px !important;
+    }
+  }
+  
+}
+
+
+/*    FIN      SINGLE ETUDIANT SMARTPHONE */
+
+
 
 
 .portfolio-etudiant{
@@ -185,15 +340,14 @@ display: flex;
   margin-bottom: 50px;;
 }
 
-.recherche{
-  margin: 20px;;
-}
+
 .filtre-random{
   margin: 15px 155px 15px 0px;
     padding: 0px;
     text-align: left;
     color: $prime-color;
     border-bottom: 2px $prime-color solid;
+    display: inline-flex;
 }
 
 .travaux{
@@ -236,35 +390,6 @@ display: flex;
   position: absolute;
   left: -10px;
 top: -25px;
-}
-
-.fab{
-  font-size: 50px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-  color: $prime-color;
-  margin-left: 15px;
-}
-
-.fa-basketball-ball{
-  font-size: 50px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-  color: $prime-color;
-  margin-left: 15px;
-}
-
-.picto-cv{
-  height: 50px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin-left: 15px;
-  img{vertical-align: bottom;}
 }
 
 .pictogrammes{

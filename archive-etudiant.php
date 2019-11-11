@@ -2,19 +2,19 @@
 
 <div class="container archive-etudiants">
         <div class="row justify-content-center recherche">
-                <div class="col-2 col-lg-6 filtre">
+                <div class="col-3 col-lg-6 filtre">
                         <form class="form-inline my-2 my-lg-0">
                                 <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
                                 <button id="search" class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
                         </form> <!--form search-->
                 </div>
-                <div class="col filtre cat">
+                <div class="col-3 col-lg-2 filtre cat">
                     a-z
                 </div>
-                <div class="col filtre cat">
+                <div class="col-3 col-lg-2 filtre cat">
                     categorie
                 </div>
-                <div class="col filtre cat">
+                <div class="col-3 col-lg-2 filtre cat">
                     cycle
                 </div>
         </div><!--row recherche-->
