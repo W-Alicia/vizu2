@@ -3,7 +3,7 @@
 <div class="container">
 
 <img src="img/picto-debouche.svg" alt="picto-debouche" class="picto-debouche"></a>
-<h2 class="titredeb">DÉBOUCHÉS</h2><i class="fa fa-chevron-down"></i>
+<h2 class="titredeb">DÉBOUCHÉS</h2><i class="fas fa-chevron-down"></i>
 <div id="accordion" class="accordion1">
   <div class="card">
     <div class="card-header" id="headingOne">
