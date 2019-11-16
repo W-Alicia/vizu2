@@ -9,7 +9,7 @@
     <div class="card-header" id="headingOne">
       <h5 class="mb-0">
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        DÉBOUCHÉ #1
+        DÉBOUCHÉ 1
         </button>
       </h5>
     </div>
@@ -24,7 +24,7 @@
     <div class="card-header" id="headingTwo">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        DÉBOUCHÉ #2
+        DÉBOUCHÉ 2
         </button>
       </h5>
     </div>
@@ -38,7 +38,7 @@
     <div class="card-header" id="headingThree">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        DÉBOUCHÉ #3
+        DÉBOUCHÉ 3
         </button>
       </h5>
     </div>
@@ -56,7 +56,7 @@
     <div class="card-header" id="headingFour">
       <h5 class="mb-0">
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-          DÉBOUCHÉ #4
+          DÉBOUCHÉ 4
         </button>
       </h5>
     </div>
@@ -71,7 +71,7 @@
     <div class="card-header" id="headingFive">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-        DÉBOUCHÉ #5
+        DÉBOUCHÉ 5
         </button>
       </h5>
     </div>
@@ -85,7 +85,7 @@
     <div class="card-header" id="headingSix">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-        DÉBOUCHÉ #6
+        DÉBOUCHÉ 6
         </button>
       </h5>
     </div>

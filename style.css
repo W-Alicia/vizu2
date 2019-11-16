@@ -1141,7 +1141,7 @@ div.gallery img {
   float: left;
 }
 
-.accordion1 {
+.accordion2 {
   float: right;
 }
 
@@ -1152,6 +1152,18 @@ div.gallery img {
 
 .titredeb {
   margin-left: 11%;
+}
+
+.container {
+  margin-top: 8%;
+}
+
+h5 {
+  text-align: center;
+}
+
+.btn-link {
+  font-size: 21px;
 }
 
 body, html {
@@ -1412,7 +1424,7 @@ div.gallery img {
   float: left;
 }
 
-.accordion1 {
+.accordion2 {
   float: right;
 }
 
@@ -1423,6 +1435,18 @@ div.gallery img {
 
 .titredeb {
   margin-left: 11%;
+}
+
+.container {
+  margin-top: 8%;
+}
+
+h5 {
+  text-align: center;
+}
+
+.btn-link {
+  font-size: 21px;
 }
 
 /* MENU     MENU    MENU    MENU    MENU */
