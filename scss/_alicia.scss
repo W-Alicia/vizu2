@@ -238,4 +238,19 @@ div.gallery {
 
 #accordion {
   background-color: $prime-color;
+  width:50%;
+}
+
+#collapseOne.collapse.show {
+  background-color: white;
+}
+.collapse-show {
+  background-color: white;
+}
+
+.card-body {
+  background-color: white;}
+
+  .btn-link {
+    color: #$bg-color;
 }

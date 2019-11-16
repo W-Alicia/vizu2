@@ -1108,6 +1108,19 @@ div.gallery img {
 
 #accordion {
   background-color: #BA3941;
+  width: 50%;
+}
+
+#collapseOne.collapse.show {
+  background-color: white;
+}
+
+.collapse-show {
+  background-color: white;
+}
+
+.card-body {
+  background-color: white;
 }
 
 body, html {
@@ -1335,6 +1348,19 @@ div.gallery img {
 
 #accordion {
   background-color: #BA3941;
+  width: 50%;
+}
+
+#collapseOne.collapse.show {
+  background-color: white;
+}
+
+.collapse-show {
+  background-color: white;
+}
+
+.card-body {
+  background-color: white;
 }
 
 /* MENU     MENU    MENU    MENU    MENU */
