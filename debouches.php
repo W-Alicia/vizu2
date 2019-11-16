@@ -22,7 +22,7 @@
   </div>
   <div class="card">
     <div class="card-header" id="headingTwo">
-      <h5 class="mb-0">
+      <h5 class="mb-0"><i class="fas fa-chevron-down"></i>
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
         DÉBOUCHÉ 2
         </button>
@@ -36,7 +36,7 @@
   </div>
   <div class="card">
     <div class="card-header" id="headingThree">
-      <h5 class="mb-0">
+      <h5 class="mb-0"><i class="fas fa-chevron-down"></i>
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
         DÉBOUCHÉ 3
         </button>
@@ -48,13 +48,65 @@
       </div>
     </div>
   </div>
+
+  <div class="card">
+    <div class="card-header" id="headingFour">
+      <h5 class="mb-0"><i class="fas fa-chevron-down"></i>
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        DÉBOUCHÉ 4
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordion">
+      <div class="card-body">
+      CECI EST UN DÉBOUCHÉ CECI EST UN DÉBOUCHÉ CECI EST UN DÉBOUCHÉ
+      </div>
+    </div>
+  </div>
+
+
+  <div class="card">
+    <div class="card-header" id="headingFive">
+      <h5 class="mb-0"><i class="fas fa-chevron-down"></i>
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+        DÉBOUCHÉ 5
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseFive" class="collapse show" aria-labelledby="headingFive" data-parent="#accordion">
+      <div class="card-body">
+      CECI EST UN DÉBOUCHÉ CECI EST UN DÉBOUCHÉ CECI EST UN DÉBOUCHÉ
+      </div>
+    </div>
+  </div>
+
+
+  <div class="card">
+    <div class="card-header" id="headingSix">
+      <h5 class="mb-0"><i class="fas fa-chevron-down"></i>
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+        DÉBOUCHÉ 1
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseSix" class="collapse show" aria-labelledby="headingSix" data-parent="#accordion">
+      <div class="card-body">
+      CECI EST UN DÉBOUCHÉ CECI EST UN DÉBOUCHÉ CECI EST UN DÉBOUCHÉ
+      </div>
+    </div>
+  </div>
+
+
 </div>
 
 
 <div id="accordion" class="accordion2">
   <div class="card">
     <div class="card-header" id="headingFour">
-      <h5 class="mb-0">
+      <h5 class="mb-0"><i class="fas fa-chevron-down"></i>
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
           DÉBOUCHÉ 4
         </button>
@@ -69,7 +121,7 @@
   </div>
   <div class="card">
     <div class="card-header" id="headingFive">
-      <h5 class="mb-0">
+      <h5 class="mb-0"><i class="fas fa-chevron-down"></i>
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
         DÉBOUCHÉ 5
         </button>
@@ -83,7 +135,7 @@
   </div>
   <div class="card">
     <div class="card-header" id="headingSix">
-      <h5 class="mb-0">
+      <h5 class="mb-0"><i class="fas fa-chevron-down"></i>
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
         DÉBOUCHÉ 6
         </button>
