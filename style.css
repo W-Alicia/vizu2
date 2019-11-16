@@ -1102,62 +1102,12 @@ div.gallery img {
   float: left;
 }
 
-.dropdown {
-  list-style: none;
-  background: #BA3941;
-  padding: 10px;
-  display: inline-block;
-}
-
-.dropdown .nav-link {
-  color: #fff;
-  text-decoration: none;
-}
-
-.dropdown .dropdown-menu a {
-  color: #111110;
-  text-decoration: none;
-}
-
-.dropdown .btn {
-  background: #BA3941;
-  color: #111110;
-}
-
-.dropdown-menu .dropdown-item {
-  display: inline-block;
-  width: 100%;
-  padding: 10px 5px;
+.card {
   background-color: #BA3941;
 }
 
-.dropdown-item {
+#accordion {
   background-color: #BA3941;
-}
-
-.dropdown-item.active, .dropdown-item:active {
-  background-color: #BA3941;
-}
-
-.btn-primary {
-  border-color: #BA3941;
-}
-
-.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #BA3941;
-  border-color: #BA3941;
-}
-
-.btn-primary:hover {
-  color: #fff;
-  background-color: #BA3941;
-  border-color: #BA3941;
-}
-
-.btn-primary.dropdown-toggle:focus {
-  -webkit-box-shadow: #BA3941;
-          box-shadow: #BA3941;
 }
 
 body, html {
@@ -1379,62 +1329,12 @@ div.gallery img {
   float: left;
 }
 
-.dropdown {
-  list-style: none;
-  background: #BA3941;
-  padding: 10px;
-  display: inline-block;
-}
-
-.dropdown .nav-link {
-  color: #fff;
-  text-decoration: none;
-}
-
-.dropdown .dropdown-menu a {
-  color: #111110;
-  text-decoration: none;
-}
-
-.dropdown .btn {
-  background: #BA3941;
-  color: #111110;
-}
-
-.dropdown-menu .dropdown-item {
-  display: inline-block;
-  width: 100%;
-  padding: 10px 5px;
+.card {
   background-color: #BA3941;
 }
 
-.dropdown-item {
+#accordion {
   background-color: #BA3941;
-}
-
-.dropdown-item.active, .dropdown-item:active {
-  background-color: #BA3941;
-}
-
-.btn-primary {
-  border-color: #BA3941;
-}
-
-.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #BA3941;
-  border-color: #BA3941;
-}
-
-.btn-primary:hover {
-  color: #fff;
-  background-color: #BA3941;
-  border-color: #BA3941;
-}
-
-.btn-primary.dropdown-toggle:focus {
-  -webkit-box-shadow: #BA3941;
-          box-shadow: #BA3941;
 }
 
 /* MENU     MENU    MENU    MENU    MENU */

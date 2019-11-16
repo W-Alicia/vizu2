@@ -232,32 +232,10 @@ div.gallery {
   $prime-color : #BA3941;
   
 
-  .dropdown {list-style: none; background: #BA3941; padding: 10px; display: inline-block;}
-  .dropdown .nav-link {color:#fff; text-decoration: none;}
-  .dropdown .dropdown-menu a{color:  $bg-color; text-decoration: none;}
-  .dropdown .btn {background: #BA3941; color:  $bg-color;}
-  .dropdown-menu .dropdown-item {display: inline-block; width: 100%; padding: 10px 5px;   background-color: $prime-color;}
-  .dropdown-item {
-    background-color:  $prime-color;
-  }
-  .dropdown-item.active, .dropdown-item:active {
-    background-color:   $prime-color;
-  }
-  .btn-primary {
-    border-color:   $prime-color;
-  }
-  .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
-    color: #fff;
-    background-color: $prime-color;
-    border-color: $prime-color;
-}
-
-.btn-primary:hover {
-  color: #fff;
+.card {
   background-color: $prime-color;
-  border-color:$prime-color;
 }
 
-.btn-primary.dropdown-toggle:focus {
-  box-shadow: $prime-color;
+#accordion {
+  background-color: $prime-color;
 }
