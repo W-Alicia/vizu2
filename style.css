@@ -1166,6 +1166,11 @@ h5 {
   font-size: 21px;
 }
 
+.fas {
+  margin-top: 3%;
+  float: right;
+}
+
 body, html {
   background-color: #111110;
   margin: 0px;
@@ -1447,6 +1452,11 @@ h5 {
 
 .btn-link {
   font-size: 21px;
+}
+
+.fas {
+  margin-top: 3%;
+  float: right;
 }
 
 /* MENU     MENU    MENU    MENU    MENU */

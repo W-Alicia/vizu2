@@ -3,11 +3,11 @@
 <div class="container">
 
 <img src="img/picto-debouche.svg" alt="picto-debouche" class="picto-debouche"></a>
-<h2 class="titredeb">DÉBOUCHÉS</h2><i class="fas fa-chevron-down"></i>
+<h2 class="titredeb">DÉBOUCHÉS</h2>
 <div id="accordion" class="accordion1">
   <div class="card">
     <div class="card-header" id="headingOne">
-      <h5 class="mb-0">
+      <h5 class="mb-0"><i class="fas fa-chevron-down"></i>
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
         DÉBOUCHÉ 1
         </button>
