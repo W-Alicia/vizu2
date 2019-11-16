@@ -3,20 +3,20 @@
 <div class="container">
 
 <img src="img/picto-debouche.svg" alt="picto-debouche" class="picto-debouche"></a>
-<h2 class="titredeb">DÉBOUCHÉS</h2>
+<h2 class="titredeb">TÉMOIGNAGES</h2>
 <div id="accordion" class="accordion1">
   <div class="card">
     <div class="card-header" id="headingOne">
       <h5 class="mb-0"><i class="fas fa-caret-down" data-toggle="collapse" data-target="#collapseOne"></i>
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        DÉBOUCHÉ 1
+       <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        TÉMOIGNAGE 1
         </button>
       </h5>
     </div>
 
     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
       <div class="card-body">
-      CECI EST UN DÉBOUCHÉ CECI EST UN DÉBOUCHÉ CECI EST UN DÉBOUCHÉ
+      CECI EST UN TÉMOIGNAGE CECI EST UN TÉMOIGNAGE CECI EST UN TÉMOIGNAGE
       </div>
     </div>
   </div>
@@ -24,7 +24,7 @@
     <div class="card-header" id="headingTwo">
       <h5 class="mb-0"><i class="fas fa-caret-down" data-toggle="collapse" data-target="#collapseTwo"></i>
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        DÉBOUCHÉ 2
+        TÉMOIGNAGE 2
         </button>
       </h5>
     </div>
@@ -38,7 +38,7 @@
     <div class="card-header" id="headingThree">
       <h5 class="mb-0"><i class="fas fa-caret-down" data-toggle="collapse" data-target="#collapseThree"></i>
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        DÉBOUCHÉ 3
+        TÉMOIGNAGE 3
         </button>
       </h5>
     </div>
@@ -53,14 +53,14 @@
     <div class="card-header" id="headingFour">
       <h5 class="mb-0"><i class="fas fa-caret-down" data-toggle="collapse" data-target="#collapseFour"></i>
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-        DÉBOUCHÉ 4
+        TÉMOIGNAGE 4
         </button>
       </h5>
     </div>
 
     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
       <div class="card-body">
-      CECI EST UN DÉBOUCHÉ CECI EST UN DÉBOUCHÉ CECI EST UN DÉBOUCHÉ
+      CECI EST UN TÉMOIGNAGE CECI EST UN TÉMOIGNAGE CECI EST UN TÉMOIGNAGE
       </div>
     </div>
   </div>
@@ -70,14 +70,14 @@
     <div class="card-header" id="headingFive">
       <h5 class="mb-0"><i class="fas fa-caret-down" data-toggle="collapse" data-target="#collapseFive"></i>
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-        DÉBOUCHÉ 5
+        TÉMOIGNAGE 5
         </button>
       </h5>
     </div>
 
     <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
       <div class="card-body">
-      CECI EST UN DÉBOUCHÉ CECI EST UN DÉBOUCHÉ CECI EST UN DÉBOUCHÉ
+      CECI EST UN TÉMOIGNAGE CECI EST UN TÉMOIGNAGE CECI EST UN TÉMOIGNAGE
       </div>
     </div>
   </div>
@@ -87,7 +87,7 @@
     <div class="card-header" id="headingSix">
       <h5 class="mb-0"><i class="fas fa-caret-down" data-toggle="collapse" data-target="#collapseSix"></i>
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-        DÉBOUCHÉ 6
+        TÉMOIGNAGE 6
         </button>
       </h5>
     </div>
@@ -108,14 +108,14 @@
     <div class="card-header" id="headingSeven">
       <h5 class="mb-0"><i class="fas fa-caret-down" data-toggle="collapse" data-target="#collapseSeven"></i>
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-          DÉBOUCHÉ 7
+        TÉMOIGNAGE 7
         </button>
       </h5>
     </div>
 
     <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
       <div class="card-body">
-      CECI EST UN DÉBOUCHÉ CECI EST UN DÉBOUCHÉ CECI EST UN DÉBOUCHÉ
+      CECI EST UN TÉMOIGNAGE CECI EST UN TÉMOIGNAGE CECI EST UN TÉMOIGNAGE
       </div>
     </div>
   </div>
@@ -123,7 +123,7 @@
     <div class="card-header" id="headingEight">
       <h5 class="mb-0"><i class="fas fa-caret-down" data-toggle="collapse" data-target="#collapseEight"></i>
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-        DÉBOUCHÉ 8
+        TÉMOIGNAGE 8
         </button>
       </h5>
     </div>
@@ -135,9 +135,9 @@
   </div>
   <div class="card">
     <div class="card-header" id="headingNine">
-      <h5 class="mb-0"><i class="fas fa-caret-down" data-toggle="collapse" data-target="#collapseThree"></i>
+      <h5 class="mb-0"><i class="fas fa-caret-down" data-toggle="collapse" data-target="#collapseNine"></i>
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-        DÉBOUCHÉ 9
+        TÉMOIGNAGE 9
         </button>
       </h5>
     </div>

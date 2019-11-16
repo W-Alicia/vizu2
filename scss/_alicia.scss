@@ -293,6 +293,9 @@ h5 {
   font-size: 21px;
 }
 
-i.fas.fa-chevron-down{
+i.fas.fa-caret-down{
 margin-top: 3%;
-  float: right;}
+  float: right;
+cursor: pointer;
+width: 3%;
+}
