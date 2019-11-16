@@ -295,19 +295,19 @@ display: flex;
     z-index: 50;
     display: none;
   }
-  .show-img{
+  .single-etudiant .show-img{
     max-width: 300px !important;
     max-height: 400px !important;
     margin: 0 auto;
   }
-  .rect-2{
+  .single-etudiant .rect-2{
     width: 350px !important;
     height: 450px !important;
   }
-  .rect2{
+  .single-etudiant .rect2{
     left: 250px !important;
   }
-  .rect1{
+  .single-etudiant .rect1{
     display: none;
   }
   .filtre-random{
@@ -497,9 +497,231 @@ top: -25px;
   }
 
 }
-
-
-
-
 /*FIN NEWS   FIN NEWS    FIN NEWS    FIN NEWS  */
 
+
+
+/* ADD NEWS   ADD NEWS    ADD NEWS    ADD NEWS   */
+
+
+.add-news{
+  margin-top: 50px;
+  .show-news{
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .show-img{
+    position: absolute;
+    border: 1px white solid;
+    width: 450px !important;
+    height: 450px !important;
+    display: flex;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .info-news{
+    position: absolute;
+    padding: 30px;
+    width: 450px;
+    align-self: center;
+    h4{
+      color: white;
+      font-size: 5.5rem;
+      text-align: center;
+      margin: 0 !important;
+    }
+    h5{
+      color: white;
+      font-size: 3.3rem;
+      text-align: center;
+      margin: 0 !important;
+    }
+    p{
+      margin-top: 30px;
+      color: white;
+    }
+  }
+  .rect-2{
+    stroke-width: 2 !important;
+    stroke-dasharray: 15 10;
+    fill: none;
+  }
+  .rect-1{
+    stroke-width: 2 !important;
+    stroke-dasharray: 10 15;
+    fill: none;
+  }
+
+  .rect2{
+    position: absolute;
+    left: -10px;
+    top: -25px;
+  }
+  .rect1{
+    position: relative;
+    left: -50px;
+    top: -55px;
+  }
+
+  .description-event{
+    margin-top: 10px;
+    width: 480px;
+    position: relative;
+    top: -120px;
+  }
+  .tag-event{
+    display: inline-flex;
+  }
+  h5{
+    color: $prime-color;
+    margin-right: 10px;
+    font-size: 1rem;
+  }
+  .date-event{
+    text-align: right;
+    h5{
+      margin-right: 0px !important;
+    }
+  }
+  .lien-event{
+    width: 90%;
+    left: -25px;
+    position: relative;
+    margin-top: 10px;
+    top: -125px;
+    a{
+      color: $prime-color;
+    }
+  }
+  .custom-select{
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid $prime-color;
+    border-radius: 0px;
+  }
+  .custom-select::placeholder{
+    color: white;
+    font-size: 1rem;
+  }
+  .filter-news{
+    border-left: 1px solid $prime-color;
+    max-height: 555px;
+  }
+  form{
+    padding-left: 25px;
+  }
+  .form-control{
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid $prime-color;
+    border-radius: 0px;
+  }
+  .form-control::placeholder{
+    color: white;
+    font-size: 1rem;
+  }
+
+  label{
+    color: white;
+  }
+  .baseline{
+    border: none;
+    border-bottom: 1px solid $prime-color;
+  }
+  #comment{
+    border: none;
+    border-right: 1px solid $prime-color;
+    border-bottom: 1px solid $prime-color;
+  }
+  #artiste{
+    border: none;
+  }
+.btn-go{
+  background-color: $prime-color;
+  color: white;
+  border-radius: 1rem;
+  width: 100px;
+}
+
+
+}/*add-news*/
+
+/* ADD NEWS SMARTPHONE    ADD NEWS SMARTPHONE */
+@media screen and (max-width: 900px){
+.add-news{
+  .show-img {
+      border: 1px 
+      white solid;
+      width: 230px !important;
+      height: 230px !important;
+  }
+  .show-news{
+    margin-bottom: 0px;
+    justify-items: center;
+    display: grid;
+    max-height: 555px;
+  }
+  .info-news{
+    width: 230px !important;
+    height: 230px !important;
+    padding: 20px;
+      form{margin-bottom: 30px;}
+      h4{font-size: 3.5rem;}
+      h5{font-size: 2rem;}
+      p{margin-top: 10px;}
+  }
+  .rect1{
+    width: 310px !important;
+    height: 310px !important;
+    top: -35px;
+    left: 0px;
+    .rect-1{
+      width: 310px !important;
+      height: 310px !important;
+    }
+  }
+  .rect2{
+    width: 270px !important;
+    height: 270px !important;
+    top: -15px;
+    left: 55px;
+    .rect-2{
+      width: 270px !important;
+      height: 270px !important;
+    }
+  }
+  .lien-event{
+    display: none;
+  }
+  .description-event{
+    top: -88px;
+    width: 260px;
+    .date-event{
+      display: none;
+    }
+  }
+  .filter-news{
+    margin-bottom: 20px;
+    max-height: none;
+    border: 0px;
+    form{
+      border-left: 1px solid #BA3941;
+      height: 545px;
+      padding-left: 35px;
+    }
+    .rowcomment{
+      padding-right: 15px;
+    }
+    .text-center .btn-go{
+      margin-bottom: 20px;
+    }
+  }
+}/*fin add news*/
+}/*fin media screen*/
+
+/* FIN    FIN   ADD NEWS SMARTPHONE  */

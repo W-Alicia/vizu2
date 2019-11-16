@@ -96,7 +96,7 @@
 
       <div class="row d-flex flex-column pictogrammes">
         <div class="col-2">
-          <img src="img/picto-plus.png" alt="ajouter">
+          <a href="add-news.php"><img src="img/picto-plus.png" alt="ajouter"></a>
         </div>
       </div><!--row-->
 

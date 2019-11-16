@@ -25,7 +25,7 @@
             <li><a href="archive-etudiant.php">Portfolios</a></li>
             <li><a href="archive-projet.php">Projets</a></li>
             <li><a href="#">Filières</a></li>
-            <li><a href="#">Events</a></li>
+            <li><a href="archive-news.php">Events</a></li>
           </ul>
         </nav>
       </div>
