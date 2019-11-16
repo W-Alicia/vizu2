@@ -1,24 +1,19 @@
 <?php require("header.php") ?>
 
-<div class="dropdown-container">
-    <div class="dropdown-title">
-        <h2 class="debouche">DÉBOUCHÉ</h2><i class="fa fa-chevron-down"></i></div>
-    <div class="dropdown-text">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quia, reiciendis facere sed alias adipisci quidem saepe architecto numquam.</p>
-    </div>
+
+
+<div class="dropdown">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Link 1</a>
+    <a class="dropdown-item" href="#">Link 2</a>
+    <a class="dropdown-item" href="#">Link 3</a>
+  </div>
 </div>
-<div class="dropdown-container">
-    <div class="dropdown-title">
-        <h2 class="debouche">DÉBOUCHÉ</h2><i class="fa fa-chevron-down"></i></div>
-    <div class="dropdown-text">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quia, reiciendis facere sed alias adipisci quidem saepe architecto numquam.</p>
-    </div>
-</div>
-<div class="dropdown-container">
-    <div class="dropdown-title">
-        <h2 class="debouche">DÉBOUCHÉ</h2><i class="fa fa-chevron-down"></i></div>
-    <div class="dropdown-text">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quia, reiciendis facere sed alias adipisci quidem saepe architecto numquam.</p>
-    </div>
-</div>
+
+
+
  <?php require("footer.php") ?>
+
