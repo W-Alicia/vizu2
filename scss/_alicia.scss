@@ -27,6 +27,8 @@ header{
     float: left;
     margin-left: 5%;
     background-image: url(img/creation.svg);
+    background-position: center;
+    background-size: cover;
 }
 
 .container.etudiants{
@@ -224,4 +226,60 @@ div.gallery {
   .arrow {
       float:left;
   }
+
+
+  $bg-color : #111110;
+  $prime-color : #BA3941;
   
+*{
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;}
+\:root{
+	font-size: 14px;}
+
+.debouche{
+	margin: 0px;
+	font-size: 1.5rem;
+	text-align: center;}
+
+p{
+	margin: 0px;
+	font-size: 14px;}
+body{
+	background:  $bg-color;
+	margin: 0px;
+	color:  $bg-color;}
+.dropdown-container{
+	max-width: 400px;
+	background:  $prime-color;
+	margin-left: auto;
+	margin-right: auto;}
+.dropdown-container:first-child{
+	margin-top: 6rem;}
+.dropdown-text{
+	display: none;
+	border-bottom: 2px solid  $bg-color;
+	background: white;
+	padding: 15px 10px;
+	text-align: justify;
+	overflow: hidden;}
+.dropdown-text p{
+	position: relative;
+	left: 100%;
+	transition: all 0.3s ease-in-out;
+	transform: scale(0);
+	font-size: 15px;}
+.dropdown-title{
+	color: #111110;
+	cursor: pointer;
+	padding: 15px 10px;
+	border-bottom: 2px solid  $bg-color;}
+i.fa{
+	float: right;}
+.dropdown-title:after{
+	content: "";
+	display: block;
+	clear: both;}
+.dropdown-text.open p{
+	left: 0px;
+	transform: scale(1);}

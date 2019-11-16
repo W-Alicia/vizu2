@@ -911,6 +911,8 @@ header .logo {
   float: left;
   margin-left: 5%;
   background-image: url(img/creation.svg);
+  background-position: center;
+  background-size: cover;
 }
 
 .container.etudiants {
@@ -1098,6 +1100,86 @@ div.gallery img {
 
 .arrow {
   float: left;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+\:root {
+  font-size: 14px;
+}
+
+.debouche {
+  margin: 0px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+p {
+  margin: 0px;
+  font-size: 14px;
+}
+
+body {
+  background: #111110;
+  margin: 0px;
+  color: #111110;
+}
+
+.dropdown-container {
+  max-width: 400px;
+  background: #BA3941;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dropdown-container:first-child {
+  margin-top: 6rem;
+}
+
+.dropdown-text {
+  display: none;
+  border-bottom: 2px solid #111110;
+  background: white;
+  padding: 15px 10px;
+  text-align: justify;
+  overflow: hidden;
+}
+
+.dropdown-text p {
+  position: relative;
+  left: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  font-size: 15px;
+}
+
+.dropdown-title {
+  color: #111110;
+  cursor: pointer;
+  padding: 15px 10px;
+  border-bottom: 2px solid #111110;
+}
+
+i.fa {
+  float: right;
+}
+
+.dropdown-title:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.dropdown-text.open p {
+  left: 0px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 body, html {
@@ -1128,6 +1210,8 @@ header .logo {
   float: left;
   margin-left: 5%;
   background-image: url(img/creation.svg);
+  background-position: center;
+  background-size: cover;
 }
 
 .container.etudiants {
@@ -1315,6 +1399,86 @@ div.gallery img {
 
 .arrow {
   float: left;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+\:root {
+  font-size: 14px;
+}
+
+.debouche {
+  margin: 0px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+p {
+  margin: 0px;
+  font-size: 14px;
+}
+
+body {
+  background: #111110;
+  margin: 0px;
+  color: #111110;
+}
+
+.dropdown-container {
+  max-width: 400px;
+  background: #BA3941;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dropdown-container:first-child {
+  margin-top: 6rem;
+}
+
+.dropdown-text {
+  display: none;
+  border-bottom: 2px solid #111110;
+  background: white;
+  padding: 15px 10px;
+  text-align: justify;
+  overflow: hidden;
+}
+
+.dropdown-text p {
+  position: relative;
+  left: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  font-size: 15px;
+}
+
+.dropdown-title {
+  color: #111110;
+  cursor: pointer;
+  padding: 15px 10px;
+  border-bottom: 2px solid #111110;
+}
+
+i.fa {
+  float: right;
+}
+
+.dropdown-title:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.dropdown-text.open p {
+  left: 0px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 /* MENU     MENU    MENU    MENU    MENU */
