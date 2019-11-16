@@ -62,48 +62,44 @@
 
       <div class="row">
           <div class="container">
-              <div class="row  travaux">
-                <div class="col">
+              <div class="row travaux">
+                <div class="col-7 col-lg-4">
                   1
                 </div>
-                <div class="col-2">
+                <div class="col-4 col-lg">
                   2
                 </div>
-                <div class="col">
+                <div class="col-6 col-lg-4">
                   3
                 </div>
-              </div><!--row-->
-              <div class="row  travaux">
-                <div class="col-3">
-                  1
+              
+                <div class="col-5 col-lg-3">
+                  4
                 </div>
-                <div class="col">
-                  2
+                <div class="col-3 col-lg">
+                  5
                 </div>
-                <div class="col-3">
-                  3
+                <div class="col-8 col-lg-3">
+                  6
                 </div>
-              </div><!--row-->
-              <div class="row  travaux">
-                <div class="col-5">
-                  1
+            
+                <div class="col-5 col-lg-5">
+                  7
                 </div>
-                <div class="col">
-                  2
+                <div class="col-6 col-lg">
+                  8
                 </div>
-                <div class="col-2">
-                  3
+                <div class="col-7 col-lg-3">
+                  9
                 </div>
-              </div><!--row-->
-              <div class="row  travaux">
-                <div class="col-3">
-                  1
+                <div class="col-4 col-lg-3">
+                  10
                 </div>
-                <div class="col-3">
-                  2
+                <div class="col-3 col-lg-3">
+                  11
                 </div>
-                <div class="col">
-                  3
+                <div class="col-8 col-lg">
+                  12
                 </div>
               </div><!--row-->
             </div><!--container  travaux-->
