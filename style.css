@@ -1173,6 +1173,10 @@ i.fas.fa-caret-down {
   width: 3%;
 }
 
+.line {
+  text-decoration: line-through;
+}
+
 body, html {
   background-color: #111110;
   margin: 0px;
@@ -1461,6 +1465,10 @@ i.fas.fa-caret-down {
   float: right;
   cursor: pointer;
   width: 3%;
+}
+
+.line {
+  text-decoration: line-through;
 }
 
 /* MENU     MENU    MENU    MENU    MENU */
