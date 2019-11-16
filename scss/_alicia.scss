@@ -238,7 +238,9 @@ div.gallery {
 
 #accordion {
   background-color: $prime-color;
-  width:50%;
+  width:49%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
 }
 
 #collapseOne.collapse.show {
@@ -252,9 +254,29 @@ div.gallery {
   background-color: white;}
 
   .btn-link {
-    color: #$bg-color;
+    color: $bg-color;
 }
 
 .btn-link:hover {
-  color: #$bg-color;
+  color: $bg-color;
+}
+
+.picto-debouche {
+  width: 170px;
+}
+.accordion1 {
+  float: left;
+}
+.accordion1 {
+  float: right;
+}
+
+
+.card {
+
+    border: 10px solid $bg-color;
+    border-radius: 0em;
+}
+.titredeb {
+  margin-left: 11%;
 }
