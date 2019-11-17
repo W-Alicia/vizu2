@@ -9,13 +9,16 @@
 
    
 <header>
-    <img src="img/logo.svg" alt="logovizu" class="logo">
-      <div class="button_container" id="toggle">
-        <span class="top"></span>
-        <span class="middle"></span>
-        <span class="bottom"></span>
-      </div>
-      
+  <div id="nav" class="d-flex  align-content-center">
+    <a id="about-link" class="vertical-text" href="about.php">ABOUT</a>
+    <a href="home.php" class="justify-self-center"><img src="img/logo.svg" alt="logovizu" class="logo"></a>
+    <div class="button_container" id="toggle">
+      <span class="top"></span>
+      <span class="middle"></span>
+      <span class="bottom"></span>
+    </div>
+  </div>  
+
       <div class="overlay" id="overlay">
         <nav class="overlay-menu">
           <ul>
@@ -23,8 +26,8 @@
             <li><a href="#">Vizuthèque</a></li>
             <li><a href="archive-etudiant.php">Portfolios</a></li>
             <li><a href="archive-projet.php">Projets</a></li>
-            <li><a href="#">Filières</a></li>
-            <li><a href="#">Events</a></li>
+            <li><a href="sections.php">Filières</a></li>
+            <li><a href="#">News</a></li>
           </ul>
         </nav>
       </div>
