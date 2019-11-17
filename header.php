@@ -9,7 +9,7 @@
 
    
 <header>
-<li class="about"><a href="#" class="apropos">About</a></li>
+<li class="about"><a href="about.php" class="apropos">About</a></li>
     <a href="home.php"><img src="img/logo.svg" alt="logovizu" class="logo"></a>
       <div class="button_container" id="toggle">
         <span class="top"></span>
@@ -24,8 +24,8 @@
             <li><a href="#">Vizuthèque</a></li>
             <li><a href="archive-etudiant.php">Portfolios</a></li>
             <li><a href="archive-projet.php">Projets</a></li>
-            <li><a href="#">Filières</a></li>
-            <li><a href="archive-news.php">Events</a></li>
+            <li><a href="sections.php">Filières</a></li>
+            <li><a href="archive-news.php">News</a></li>
           </ul>
         </nav>
       </div>

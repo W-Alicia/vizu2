@@ -22,13 +22,17 @@ header{
     }
 }
 
-.container.gauche{
-    max-width: 860px;
-    float: left;
-    margin-left: 5%;
-    background-image: url(img/creation.svg);
-    background-position: center;
-    background-size: cover;
+.arrow2 {
+  float: left;
+  margin-top: 8%;
+}
+
+.container.gauche {
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  float: left;
+  margin-right: 11%;
 }
 
 .container.etudiants{
@@ -196,31 +200,42 @@ h3 {
 
 
 
-
-.container.droite{
-    background-repeat: no-repeat;
-    margin-top: 16%;
-    position: inherit;
-    
+.container.droite {
+  background-repeat: no-repeat;
+  margin-top: 10%;
+  position: inherit;
+  padding-top: 8%;
+  width: auto;
+  display: inline-block;
+  max-width: 52%;
 }
+
 
 
 .textdesc {
     color: white;
-    font-size: 18px;
+    font-size: 22px;
     margin-top: 7%;
+    border-left: solid 1px $prime-color;
+    border-bottom: solid 1px $prime-color;
+    border-right: solid 1px $prime-color;
+    padding: 2%
 }
 div.gallery {
     margin: 5px;
     float: left;
     width: 450px;
     margin-left: 10%;
+    border: 1px solid grey;
+    padding: 5%;
   }
   
   
   div.gallery img {
     width: 100%;
     height: auto;
+    border: 1px solid grey;
+    padding: 7%;
   }
 
   .arrow {
@@ -302,4 +317,9 @@ width: 3%;
 
 .line {
   text-decoration: line-through;
+}
+
+
+#text {
+  border: 7px solid prime-color;
 }
