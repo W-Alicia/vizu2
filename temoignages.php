@@ -1,5 +1,5 @@
 <?php require("header.php") ?>
-<img src="img/arrow.svg" alt="arrow" class="arrow" width="75px">
+<a href="single-section.php"><img src="img/arrow.svg" alt="arrow" class="arrow2" width="75px"></a>
 <div class="container">
 
 <img src="img/picto-debouche.svg" alt="picto-debouche" class="picto-debouche"></a>
