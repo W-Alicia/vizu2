@@ -1967,6 +1967,10 @@ i.fas.fa-caret-down {
   z-index: 50;
 }
 
+.add {
+  margin-left: 75%;
+}
+
 body, html {
   background-color: #111110;
   margin: 0px;
@@ -2350,6 +2354,10 @@ i.fas.fa-caret-down {
   right: 230px;
   /*position where enlarged image should offset horizontally */
   z-index: 50;
+}
+
+.add {
+  margin-left: 75%;
 }
 
 /* MENU     MENU    MENU    MENU    MENU */

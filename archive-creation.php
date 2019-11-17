@@ -49,10 +49,9 @@
 
 
 
-</div> <!--container etudiants-->
+</div> 
 
-
-
+<a href="add-ressource.php"><img src="img/add.svg" alt="add" class="add" width="200px"></a>
 
 
 <?php require("footer.php") ?>
