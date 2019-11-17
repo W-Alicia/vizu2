@@ -1,5 +1,6 @@
 <?php require("header.php") ?>
 
+<img src="img/arrow.svg" alt="arrow" class="arrow" width="75px">
 
 <div class="container add-ressource">
     <div class="row">
