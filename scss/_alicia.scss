@@ -215,12 +215,14 @@ div.gallery {
     float: left;
     width: 450px;
     margin-left: 10%;
+    border: 7px solid red;
   }
   
   
   div.gallery img {
     width: 100%;
     height: auto;
+    border: 5px solid green;
   }
 
   .arrow {
