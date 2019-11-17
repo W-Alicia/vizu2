@@ -1317,6 +1317,7 @@ header .logo {
   width: auto;
   float: left;
   margin-right: 11%;
+  margin-left: 5%;
 }
 
 .container.etudiants {
@@ -1482,7 +1483,7 @@ h3 {
   background-repeat: no-repeat;
   margin-top: 10%;
   position: inherit;
-  padding-top: 8%;
+  padding-top: 6%;
   width: auto;
   display: inline-block;
   max-width: 52%;
@@ -1512,6 +1513,20 @@ div.gallery img {
   height: auto;
   border: 1px solid grey;
   padding: 7%;
+}
+
+div.gallery1 {
+  margin: 5px;
+  float: left;
+  width: 450px;
+  margin-left: 10%;
+}
+
+div.gallery1 img {
+  width: 100%;
+  height: auto;
+  margin-top: 18%;
+  position: relative;
 }
 
 .arrow {
@@ -1595,6 +1610,18 @@ i.fas.fa-caret-down {
 
 #text {
   border: 7px solid prime-color;
+}
+
+.rect3 {
+  position: absolute;
+  left: 117px;
+  top: 200px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  stroke-width: 2 !important;
+  stroke-width: 2 !important;
+  stroke-dasharray: 15 10;
+  margin-left: 5%;
 }
 
 body, html {
@@ -1631,6 +1658,7 @@ header .logo {
   width: auto;
   float: left;
   margin-right: 11%;
+  margin-left: 5%;
 }
 
 .container.etudiants {
@@ -1796,7 +1824,7 @@ h3 {
   background-repeat: no-repeat;
   margin-top: 10%;
   position: inherit;
-  padding-top: 8%;
+  padding-top: 6%;
   width: auto;
   display: inline-block;
   max-width: 52%;
@@ -1826,6 +1854,20 @@ div.gallery img {
   height: auto;
   border: 1px solid grey;
   padding: 7%;
+}
+
+div.gallery1 {
+  margin: 5px;
+  float: left;
+  width: 450px;
+  margin-left: 10%;
+}
+
+div.gallery1 img {
+  width: 100%;
+  height: auto;
+  margin-top: 18%;
+  position: relative;
 }
 
 .arrow {
@@ -1909,6 +1951,18 @@ i.fas.fa-caret-down {
 
 #text {
   border: 7px solid prime-color;
+}
+
+.rect3 {
+  position: absolute;
+  left: 117px;
+  top: 200px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  stroke-width: 2 !important;
+  stroke-width: 2 !important;
+  stroke-dasharray: 15 10;
+  margin-left: 5%;
 }
 
 /* MENU     MENU    MENU    MENU    MENU */
