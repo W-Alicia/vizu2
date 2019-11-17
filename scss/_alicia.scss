@@ -369,18 +369,17 @@ width: 3%;
   }
   
   .thumbnail:hover img{
-  border: 1px solid blue;
+  border: 1px solid $prime-color;
   }
   
   .thumbnail span{ /*CSS for enlarged image*/
   position: absolute;
-  background-color: lightyellow;
   padding: 5px;
   left: -1000px;
-  border: 1px dashed gray;
   visibility: hidden;
-  color: black;
+  color: $prime-color;
   text-decoration: none;
+  font-size: 15px;
   }
   
   .thumbnail span img{ /*CSS for enlarged image*/
@@ -393,4 +392,8 @@ width: 3%;
   top: 0;
   right: 230px; /*position where enlarged image should offset horizontally */
   z-index: 50;
+  }
+
+  .add {
+    margin-left: 75%;
   }
