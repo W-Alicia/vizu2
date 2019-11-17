@@ -22,11 +22,17 @@ header{
     }
 }
 
+.arrow2 {
+  float: left;
+  margin-top: 8%;
+}
+
+
 .container.gauche{
-    max-width: 860px;
-    float: left;
-    background-position: center;
-    background-size: cover;
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  display: inline-block;
 }
 
 .container.etudiants{
@@ -196,13 +202,15 @@ h3 {
 
 
 .container.droite{
-    background-repeat: no-repeat;
-    margin-top: 5%;
-    position: inherit;
-    padding-top: 8%;
-    float: right;
-    width: auto;
+  background-repeat: no-repeat;
+  margin-top: 5%;
+  position: inherit;
+  padding-top: 8%;
+  width: auto;
+  display: inline-block;
+  margin-right: 6%;
 }
+
 
 
 .textdesc {
