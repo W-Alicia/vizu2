@@ -198,7 +198,7 @@ h3 {
 
 .container.droite{
     background-repeat: no-repeat;
-    margin-top: 16%;
+    margin-top: 5%;
     position: inherit;
     
 }
@@ -210,13 +210,16 @@ h3 {
     margin-top: 7%;
     border-left: solid 1px $prime-color;
     margin-left: 59%;
+    border-bottom: solid 1px $bg-color;
+    border-right: solid 1px $bg-color;
+    padding: 2%
 }
 div.gallery {
     margin: 5px;
     float: left;
     width: 450px;
     margin-left: 10%;
-    border: 1px solid grey
+    border: 1px solid grey;
     padding: 5%;
   }
   

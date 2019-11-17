@@ -1162,7 +1162,7 @@ h3 {
 
 .container.droite {
   background-repeat: no-repeat;
-  margin-top: 16%;
+  margin-top: 5%;
   position: inherit;
 }
 
@@ -1172,6 +1172,9 @@ h3 {
   margin-top: 7%;
   border-left: solid 1px #BA3941;
   margin-left: 59%;
+  border-bottom: solid 1px #111110;
+  border-right: solid 1px #111110;
+  padding: 2%;
 }
 
 div.gallery {
@@ -1179,14 +1182,14 @@ div.gallery {
   float: left;
   width: 450px;
   margin-left: 10%;
-  border: 7px solid red;
+  border: 1px solid grey;
   padding: 5%;
 }
 
 div.gallery img {
   width: 100%;
   height: auto;
-  border: 5px solid green;
+  border: 1px solid grey;
   padding: 7%;
 }
 
@@ -1465,7 +1468,7 @@ h3 {
 
 .container.droite {
   background-repeat: no-repeat;
-  margin-top: 16%;
+  margin-top: 5%;
   position: inherit;
 }
 
@@ -1475,6 +1478,9 @@ h3 {
   margin-top: 7%;
   border-left: solid 1px #BA3941;
   margin-left: 59%;
+  border-bottom: solid 1px #111110;
+  border-right: solid 1px #111110;
+  padding: 2%;
 }
 
 div.gallery {
@@ -1482,14 +1488,14 @@ div.gallery {
   float: left;
   width: 450px;
   margin-left: 10%;
-  border: 7px solid red;
+  border: 1px solid grey;
   padding: 5%;
 }
 
 div.gallery img {
   width: 100%;
   height: auto;
-  border: 5px solid green;
+  border: 1px solid grey;
   padding: 7%;
 }
 
