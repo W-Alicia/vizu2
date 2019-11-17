@@ -996,7 +996,6 @@ header .logo {
 .container.gauche {
   max-width: 860px;
   float: left;
-  margin-left: 5%;
   background-position: center;
   background-size: cover;
 }
@@ -1164,6 +1163,9 @@ h3 {
   background-repeat: no-repeat;
   margin-top: 5%;
   position: inherit;
+  padding-top: 8%;
+  float: right;
+  width: auto;
 }
 
 .textdesc {
@@ -1171,9 +1173,8 @@ h3 {
   font-size: 22px;
   margin-top: 7%;
   border-left: solid 1px #BA3941;
-  margin-left: 59%;
-  border-bottom: solid 1px #111110;
-  border-right: solid 1px #111110;
+  border-bottom: solid 1px #BA3941;
+  border-right: solid 1px #BA3941;
   padding: 2%;
 }
 
@@ -1302,7 +1303,6 @@ header .logo {
 .container.gauche {
   max-width: 860px;
   float: left;
-  margin-left: 5%;
   background-position: center;
   background-size: cover;
 }
@@ -1470,6 +1470,9 @@ h3 {
   background-repeat: no-repeat;
   margin-top: 5%;
   position: inherit;
+  padding-top: 8%;
+  float: right;
+  width: auto;
 }
 
 .textdesc {
@@ -1477,9 +1480,8 @@ h3 {
   font-size: 22px;
   margin-top: 7%;
   border-left: solid 1px #BA3941;
-  margin-left: 59%;
-  border-bottom: solid 1px #111110;
-  border-right: solid 1px #111110;
+  border-bottom: solid 1px #BA3941;
+  border-right: solid 1px #BA3941;
   padding: 2%;
 }
 
