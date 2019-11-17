@@ -24,7 +24,7 @@
             <li><a href="archive-ressource.php">Vizuthèque</a></li>
             <li><a href="archive-etudiant.php">Portfolios</a></li>
             <li><a href="archive-projet.php">Projets</a></li>
-            <li><a href="sections.php">Filières</a></li>
+            <li><a href="archive-section.php">Filières</a></li>
             <li><a href="archive-news.php">News</a></li>
           </ul>
         </nav>
