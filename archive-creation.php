@@ -17,114 +17,34 @@
         </div><!--row recherche-->
 
         <div class="row justify-content-center etudiants">
-            <div  class="col-3 etu">
+
                
-                <img src="img/un.jpg" alt="Avatar" class="image">
-                  <div class="overlay2"> <img src="img/un.jpg" alt="Avatar" class="image">
-                    <div class="text">Bla bla bla</div>
-  </div>
-       </div>
+            <div class="gallerycontainer">
+
+<a class="thumbnail" href="#thumb"><img src="img/un.jpg" width="100px" height="66px" border="0" /><span><img src="img/un.jpg" /><br />Simply beautiful.</span></a>
+
+<a class="thumbnail" href="#thumb"><img src="img/deux.jpg" width="100px" height="66px" border="0" /><span><img src="img/deux.jpg" /><br />So real, it's unreal. Or is it?</span></a>
+
+<br />
+
+<a class="thumbnail" href="#thumb"><img src="img/trois.jpg" width="100px" height="75px" border="0" /><span><img src="img/trois.jpg" /><br />Sushi for dinner anyone?</span></a> 
+
+<a class="thumbnail" href="#thumb"><img src="img/quatre.jpg" width="100px" height="70px" border="0" /><span><img src="img/quatre.jpg" /><br />Run wild with horses.</span></a>
+
+<br />
+
+<a class="thumbnail" href="#thumb"><img src="img/quatre.jpg" width="100px" height="75px" border="0" /><span><img src="img/quatre.jpg" /><br />Sushi for dinner anyone?</span></a> 
+
+<a class="thumbnail" href="#thumb"><img src="img/cinq.jpg" width="100px" height="70px" border="0" /><span><img src="img/cinq.jpg" /><br />Run wild with horses.</span></a>
 
 
+<a class="thumbnail" href="#thumb"><img src="img/six.jpg" width="100px" height="75px" border="0" /><span><img src="img/six.jpg" /><br />Sushi for dinner anyone?</span></a> 
 
-            <div  class="col-3 etu">
-             
-                <img src="img/deux.jpg" alt="Avatar" class="image">
-                  <div class="overlay2"> <img src="img/deux.jpg" alt="Avatar" class="image">
-                     <div class="text">Hello World</div>
-  </div>
-      </div>
+<a class="thumbnail" href="#thumb"><img src="img/sept.jpg" width="100px" height="70px" border="0" /><span><img src="img/sept.jpg" /><br />Run wild with horses.</span></a>
 
-
-      <div  class="col-3 etu">
-             
-             <img src="img/trois.jpg" alt="Avatar" class="image">
-               <div class="overlay2"> <img src="img/trois.jpg" alt="Avatar" class="image">
-                  <div class="text">Hello World</div>
 </div>
-   </div>
 
 
-   <div  class="col-3 etu">
-             
-             <img src="img/quatre.jpg" alt="Avatar" class="image">
-               <div class="overlay2"> <img src="img/quatre.jpg" alt="Avatar" class="image">
-                  <div class="text">Hello World</div>
-</div>
-   </div>
-
-   <div  class="col-3 etu">
-             
-             <img src="img/cinq.jpg" alt="Avatar" class="image">
-               <div class="overlay2"> <img src="img/cinq.jpg" alt="Avatar" class="image">
-                  <div class="text">Hello World</div>
-</div>
-   </div>
-
-   <div  class="col-3 etu">
-             
-             <img src="img/six.jpg" alt="Avatar" class="image">
-               <div class="overlay2"> <img src="img/six.jpg" alt="Avatar" class="image">
-                  <div class="text">Hello World</div>
-</div>
-   </div>
-
-   <div  class="col-3 etu">
-             
-             <img src="img/sept.jpg" alt="Avatar" class="image">
-               <div class="overlay2"> <img src="img/sept.jpg" alt="Avatar" class="image">
-                  <div class="text">Hello World</div>
-</div>
-   </div>
-
-   <div  class="col-3 etu">
-             
-             <img src="img/huit.jpg" alt="Avatar" class="image">
-               <div class="overlay2"> <img src="img/huit.jpg" alt="Avatar" class="image">
-                  <div class="text">Hello World</div>
-</div>
-   </div>
-
-   <div  class="col-3 etu">
-             
-             <img src="img/neuf.jpg" alt="Avatar" class="image">
-               <div class="overlay2"> <img src="img/neuf.jpg" alt="Avatar" class="image">
-                  <div class="text">Hello World</div>
-</div>
-   </div>
-
-   <div  class="col-3 etu">
-             
-             <img src="img/dix.jpg" alt="Avatar" class="image">
-               <div class="overlay2"> <img src="img/dix.jpg" alt="Avatar" class="image">
-                  <div class="text">Hello World</div>
-</div>
-   </div>
-
-   <div  class="col-3 etu">
-             
-             <img src="img/onze.jpg" alt="Avatar" class="image">
-               <div class="overlay2"> <img src="img/onze.jpg" alt="Avatar" class="image">
-                  <div class="text">Hello World</div>
-</div>
-   </div>
-
-   <div  class="col-3 etu">
-             
-             <img src="img/douze.jpg" alt="Avatar" class="image">
-               <div class="overlay2"> <img src="img/douze.jpg" alt="Avatar" class="image">
-                  <div class="text">Hello World</div>
-</div>
-   </div>
-
-
-
-
-
-
-
-
-        </div> <!--row etu-->
 </div> <!--container etudiants-->
 
 
