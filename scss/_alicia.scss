@@ -27,12 +27,12 @@ header{
   margin-top: 8%;
 }
 
-
-.container.gauche{
+.container.gauche {
   background-position: center;
   background-size: cover;
   width: auto;
-  display: inline-block;
+  float: left;
+  margin-right: 11%;
 }
 
 .container.etudiants{
@@ -200,15 +200,14 @@ h3 {
 
 
 
-
-.container.droite{
+.container.droite {
   background-repeat: no-repeat;
-  margin-top: 5%;
+  margin-top: 10%;
   position: inherit;
   padding-top: 8%;
   width: auto;
   display: inline-block;
-  margin-right: 6%;
+  max-width: 52%;
 }
 
 
