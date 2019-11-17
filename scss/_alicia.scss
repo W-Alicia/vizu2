@@ -33,6 +33,7 @@ header{
   width: auto;
   float: left;
   margin-right: 11%;
+  margin-left: 5%;
 }
 
 .container.etudiants{
@@ -252,6 +253,7 @@ div.gallery {
     width: 100%;
     height: auto;
     margin-top: 18%;
+    position: relative;
   }
 
   .arrow {
@@ -348,4 +350,6 @@ width: 3%;
   stroke-width: 2 !important;
   stroke-width: 2 !important;
   stroke-dasharray: 15 10;
+  margin-left: 5%;
+  
 }
