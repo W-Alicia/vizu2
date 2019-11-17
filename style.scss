@@ -169,6 +169,7 @@
     transform: translateY(0px);
     -webkit-transition: -webkit-transform .2s,opacity .2s;
     transition: transform .2s,opacity .2s;
+  }
 }
 .main-menu .nav li.delay-1{-webkit-transition-delay:0.1s; -moz-transition-delay:0.1s; -ms-transition-delay:0.1s; -o-transition-delay:0.1s; transition-delay:0.1s; }
 .main-menu .nav li.delay-2{-webkit-transition-delay:0.2s; -moz-transition-delay:0.2s; -ms-transition-delay:0.2s; -o-transition-delay:0.2s; transition-delay:0.2s; }
@@ -191,28 +192,29 @@
 .nav-open #nav-icon3 span:nth-child(3){-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg)}
 .nav-open #nav-icon3 span:nth-child(4){top:9px;width:0;left:50%}
 
-.flex-center{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;height:100%}
+.flex-center{
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack:center;
+  -webkit-justify-content:center;
+  -ms-flex-pack:center;
+  justify-content:center;
+  -webkit-box-align:center;
+  -webkit-align-items:center;
+  -ms-flex-align:center;
+  align-items:center;
+  height:100%
 
-    left: 0;
+    
   
 }
 
-/* FIN MENU     FIN MENU    FIN MENU    FIN MENU */
-
-
 img {
-    vertical-align: middle;
-    border-style: none;
+  vertical-align: middle;
+  border-style: none;
 }
-
-
-
-body, html{
-    background-color: $bg-color;
-    margin: 0px;
-    padding: 0px;
-}
-
 
 :root {
   scrollbar-color: $prime-color $bg-color;
@@ -222,13 +224,31 @@ body, html{
 
 
 header{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    .logo{
-        height: 100px;
-        display: block;
-      margin: 0 auto;
-    }
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: fixed;
+  z-index: 9999;
+  background-color: $bg-color;
+  #nav {
+    height: 100px;
+    
+  }
+  .logo{
+    height: 100px;
+    position: fixed;
+    right: 50%;
+  }
+  #about-link{
+    color: $prime-color;
+    writing-mode: sideways-lr;
+    position: fixed;
+    top: 5%;
+    left: 2%;
+  }
 }
 
+/* FIN MENU     FIN MENU    FIN MENU    FIN MENU */
+div.container-fluid {
+  padding-top: 160px;
 
+}

@@ -3,7 +3,42 @@ $prime-color : #BA3941;
 
 body {
     background: $bg-color;
-  }
-  h1 {
-      color: $prime-color;
-  }
+}
+
+h1 {
+    color: #FFF;
+    text-transform: uppercase;
+    text-shadow: -3px 0px $prime-color;
+}
+
+
+#accueil, #sections {
+    height: 90vh;
+    width: 90vw;
+    .row{
+        height: 100%;
+    }
+    .element{
+        display: inline-block;
+
+        .vertical-text {
+            writing-mode: sideways-lr;
+        }
+        .icon {
+            height: 35vh;
+            width: 6vw;
+            border-radius: 40% / 5%;
+            background-color: $prime-color;
+        }
+    }
+}
+#about {
+    p{
+        color: $prime-color;
+    }
+    .photo-de-classe{
+        height: 60vh;
+        background-color: $prime-color;
+        border-radius: 10% / 5%;
+    }
+}

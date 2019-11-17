@@ -1,4 +1,5 @@
 <?php require("header.php") ?>
+
 <img src="img/arrow.svg" alt="arrow" class="arrow" width="75px">
 <div class="container">
 
@@ -152,3 +153,4 @@
 
  <?php require("footer.php") ?>
 
+>>>>>>> 12f21a1420f74346a7ef53a1d372a791b22f1523
