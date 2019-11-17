@@ -12,7 +12,7 @@
 <h3>2019</h3></h2>
 <h4>Auteur</h4>
 <hr>
-<p class="textdesc">
+<p>
 Lorem ipsum dolor sit amet consectetur adipisicing elit.
 Itaque sed architecto aperiam deserunt id, blanditiis alias nihil voluptatem, neque velit soluta rerum, placeat aliquam nostrum dolore aut molestiae natus. Numquam.</p>
 </div>
