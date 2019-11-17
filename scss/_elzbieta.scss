@@ -696,8 +696,9 @@ top: -25px;
 .btn-go{
   background-color: $prime-color;
   color: white;
-  border-radius: 1rem;
+  border-radius: 2rem;
   width: 100px;
+  box-shadow: 5px 5px 8px black;
 }
 
 
@@ -818,4 +819,229 @@ top: -25px;
     h3{margin-bottom: 40px;}
   }
 } /* fin smartphone single section*/
+
+
+/* ADD PROJET     ADD PROJET */
+.add-projet{
+  .show-new-projet{
+    justify-content: center;
+    display: flex;
+  }
+  .show-img{
+    border: 2px white solid;
+    width: 350px !important;
+    height: 450px !important;
+    position: absolute;
+    display: flex;
+    margin-top: 50px;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .nom-auteur{
+    align-items: end;
+    display: flex;
+    margin-top: 50px;
+    position: relative;
+    top: -15px;
+    left: -110px;
+    color: white;
+  }
+  .new-img{
+    max-height: 220px;
+    max-width: 260px;
+    margin: 0 auto;
+  }
+  .add-img{
+    position: absolute;
+    left: 50px;
+    top: 80px;
+    :hover{
+      cursor: pointer;
+    }
+    span{
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      margin-right: 15px;
+    }
+  }
+  .custom-file-label{
+    background-color: $prime-color;
+      color: white;
+      width: 160px;
+      text-align: center;
+      border: 0px;
+      border-radius: 2rem;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.671);
+  }
+  .custom-file-label::after{
+    display: none;
+  }
+  .description{
+    padding-left: 0px;
+    padding-right: 40px;
+  }
+ 
+    h4 {
+      color: white;
+      font-size: 4.5rem;
+      text-align: center;
+      margin: 0 !important;
+    }
+    p {color: white; font-size: 0.9rem;}
+  
+  .filter-projet{
+    border-left: 1px solid#BA3941;
+    height: 545px;
+    padding-left: 35px;
+  }
+  .custom-select{
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid $prime-color;
+    border-radius: 0px;
+  }
+  .custom-select::placeholder{
+    color: white;
+    font-size: 1rem;
+  }
+  .filter-news{
+    border-left: 1px solid $prime-color;
+    max-height: 555px;
+  }
+  form{
+    padding-left: 25px;
+  }
+  .form-control{
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid $prime-color;
+    border-radius: 0px;
+  }
+  .form-control::placeholder{
+    color: white;
+    font-size: 1rem;
+  }
+
+  label{
+    color: white;
+  }
+  .baseline{
+    border: none;
+    border-bottom: 1px solid $prime-color;
+  }
+  #comment{
+    border: none;
+    border-right: 1px solid $prime-color;
+    border-bottom: 1px solid $prime-color;
+  }
+  #artiste{
+    border: none;
+  }
+  #titre-projet{
+    border: none;
+  }
+  .btn-go{
+    background-color: $prime-color;
+    color: white;
+    border-radius: 2rem;
+    width: 100px;
+    box-shadow: 5px 5px 8px black;
+    margin-bottom: 50px;
+  }
+  .rect1{left: 60px; top:0px;}
+  .rect2{left: 85px; top:25px;}
+  .color1{
+    background-color: rgb(255, 102, 161);
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .color2{
+    background-color: rgb(121, 218, 218);
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .color3{
+    background-color: pink;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+}/* fin container add projet*/
+
+/* SMARTPHONE ADD PROJECT*/
+@media screen and (max-width: 900px){
+.add-projet{
+  margin-top: 90px !important;
+  .show-new-projet{
+    min-height: 500px;
+  }
+  .show-img{
+    width: 230px !important;
+    height: 330px !important;
+  }
+  h4{font-size: 3rem;}
+  p{font-size: 0.6rem;
+    margin-top: 10px;
+  }
+  .new-img{
+    max-height: 140px;
+    max-width: 180px;
+  }
+  .custom-file-label{width: 120px;}
+  .add-img{
+    left: 29px;
+    top: 55px;
+    span{margin-right: 0px;}
+  }
+  .nom-auteur{
+    top: -95px;
+    left: -55px;
+  }
+  .description{padding-right: 25px;}
+  .rect1{
+    width: 310px;
+    height: 410px;
+    left: 30px;
+    top: 10px;
+    .rect-1{
+      width: 310px;
+      height: 410px;
+    }
+  }
+  .rect2{
+    width: 270px;
+    height: 370px;
+    left: 50px;
+    top: 30px;
+    .rect-2{
+      width: 270px;
+      height: 370px;
+    }
+  }
+  .filter-projet{
+    border-left: none;
+    padding-left: 15px;
+    form{
+      border-left: 1px solid $prime-color;
+      height: 550px;
+      padding-left: 35px;
+    }
+    .rowcomment {
+      padding-right: 15px;
+  }
+  }
+}
+}/*fin smartphone add project*/
 
