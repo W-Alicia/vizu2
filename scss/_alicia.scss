@@ -204,7 +204,7 @@ h3 {
   background-repeat: no-repeat;
   margin-top: 10%;
   position: inherit;
-  padding-top: 8%;
+  padding-top: 6%;
   width: auto;
   display: inline-block;
   max-width: 52%;
@@ -236,6 +236,22 @@ div.gallery {
     height: auto;
     border: 1px solid grey;
     padding: 7%;
+  }
+
+
+
+  div.gallery1 {
+    margin: 5px;
+    float: left;
+    width: 450px;
+    margin-left: 10%;
+  }
+  
+  
+  div.gallery1 img {
+    width: 100%;
+    height: auto;
+    margin-top: 18%;
   }
 
   .arrow {
@@ -322,4 +338,14 @@ width: 3%;
 
 #text {
   border: 7px solid prime-color;
+}
+
+.rect3 {
+  position: absolute;
+  left: 117px;
+  top: 200px;
+  transform: rotate(45deg);
+  stroke-width: 2 !important;
+  stroke-width: 2 !important;
+  stroke-dasharray: 15 10;
 }
