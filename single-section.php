@@ -30,10 +30,4 @@
 
 
 
-
-
-
-
-
-
 <?php require("footer.php") ?>

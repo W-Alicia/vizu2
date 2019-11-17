@@ -12,12 +12,16 @@ header{
         color: $prime-color;
       }
     }
+    a:hover{
+      text-decoration: none !important;
+    }
     .logo{
         height: 100px;
         display: block;
       margin: 0 auto;
     }
 }
+
 
 .apropos::after{
     content: '';
@@ -27,6 +31,114 @@ header{
   background: $prime-color;
   margin: 30px 0px 0px -45px;
   }
+
+.footer-element{
+  margin-left:20px;
+  margin-bottom: 40px;
+  margin-top: 20px !important;
+  padding-top: 0px;
+  max-width: 90%;
+  a{
+    color: $prime-color;
+  }
+  a:hover{
+    text-decoration: none !important;
+  }
+  a::after{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background: 
+    #BA3941;
+    margin: 30px 0px 0px -50px;
+}
+}
+
+/*LOGIN   LOGIN*/
+.login-page{
+  h3{
+    margin-bottom: 30px;
+  }
+  .visiteur h3::after{
+    content: '';
+    position: absolute;
+    width: 115px;
+    height: 2px;
+    background: 
+    #BA3941;
+    margin: 40px 0px 0px -115px;
+  }
+  .etu-picto-white{
+    margin: 0 auto;
+  }
+  .etu-picto {
+    border: 3px 
+    #BA3941 solid;
+    border-radius: 1rem;
+    max-width: 200px;
+    height: 200px;
+    padding: 0px;
+    margin: 0 auto;
+}
+.perso h3::after{
+  content: '';
+  position: absolute;
+  width: 205px;
+  height: 2px;
+  background: 
+  #BA3941;
+  margin: 40px 0px 0px -205px;
+}
+.ajouter{
+  img{
+    width: 200px;
+    padding-top: 65px;
+    margin: 0 auto;
+    display: flex;
+  }
+}
+.formulaire{
+  border-radius: 1rem;
+  background-color: #111110;;
+  box-shadow: 5px 5px 8px black;
+  height: 195px;
+margin-top: 20px;
+}
+.form-group {
+  margin-bottom: 1rem;
+  max-width: 300px;
+  margin: 0 auto;
+  padding-top: 20px;
+  label{
+    color: white;
+  }
+  ::placeholder{
+    color: $prime-color;
+  }
+}
+  .baseline {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0px;
+}
+.form-control{color: $prime-color;}
+.btn-go {
+  background-color: 
+#BA3941;
+color:
+white;
+border-radius: 2rem;
+width: 100px;
+-webkit-box-shadow: 5px 5px 8px black;
+box-shadow: 5px 5px 8px
+  black;
+  margin-top: 20px;
+}
+}
+/* fin login */
+
 
 .container.archive-etudiants{
     background-color: $bg-color;
@@ -813,7 +925,6 @@ top: -25px;
 /* SINGLE SECTION      SINGLE SECTION */
 .single-section{
   margin-top: 50px !important;
-  margin-bottom: 50px !important;
   max-width: 1000px;
   h1{
     display: block;
