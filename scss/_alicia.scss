@@ -377,8 +377,9 @@ width: 3%;
   padding: 5px;
   left: -1000px;
   visibility: hidden;
-  color: black;
+  color: $prime-color;
   text-decoration: none;
+  font-size: 15px;
   }
   
   .thumbnail span img{ /*CSS for enlarged image*/

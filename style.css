@@ -1648,8 +1648,9 @@ i.fas.fa-caret-down {
   padding: 5px;
   left: -1000px;
   visibility: hidden;
-  color: black;
+  color: #BA3941;
   text-decoration: none;
+  font-size: 15px;
 }
 
 .thumbnail span img {
@@ -2032,8 +2033,9 @@ i.fas.fa-caret-down {
   padding: 5px;
   left: -1000px;
   visibility: hidden;
-  color: black;
+  color: #BA3941;
   text-decoration: none;
+  font-size: 15px;
 }
 
 .thumbnail span img {

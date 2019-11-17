@@ -1,6 +1,6 @@
 <?php require("header.php") ?>
-<div class="container gauche">
-<img src="img/creation.svg" alt="Avatar" class="imagecrea" width="1100px">
+
+
 </div>
 <div class="container etudiants">
         <div class="row justify-content-center recherche">
@@ -47,8 +47,6 @@
 <a class="thumbnail" href="#thumb"><img src="img/onze.jpg" width="150px" height="150px" border="0" /><span><img src="img/onze.jpg" /><br />Run wild with horses.</span></a>
 <a class="thumbnail" href="#thumb"><img src="img/douze.jpg" width="150px" height="150px" border="0" /><span><img src="img/douze.jpg" /><br />Sushi for dinner anyone?</span></a> 
 
-
-</div>
 
 
 </div> <!--container etudiants-->
