@@ -124,6 +124,11 @@ header{
   display: inline-flex;
   margin-top: 30px;
 }
+.etu-single .travaux{
+  column-gap: 20px;
+  overflow-y: scroll;
+  width: 100%;
+}
 
 .etu-picto-white{
   border: 2px white solid;
@@ -371,10 +376,17 @@ display: flex;
     border-bottom: 2px $prime-color solid;
     display: inline-flex;
 }
-
+.all-travaux{
+  margin-top: 25px !important;
+  padding-right: 0px;
+}
 .travaux{
   column-gap: 20px;
+  height: 550px;
+  overflow-y: scroll;
+  width: 100%;
 }
+
 
     .travaux>div{
         border: 2px $prime-color solid;
@@ -419,7 +431,7 @@ top: -25px;
 .pictogrammes{
   width: 90px;
   position: absolute;
-  right: -40px;
+  right: 5px;
   bottom: 60px;
   img{
     width: 80px;
@@ -430,8 +442,15 @@ top: -25px;
 /* NEWS   NEWS    NEWS    NEWS  */
 
 .archive-news{
+  margin-bottom: 50px;
   .show-news{
     margin-top: 155px;
+  }
+  .travaux{
+    column-gap: 20px;
+    height: 470px;
+    overflow-y: scroll;
+    width: 100%;
   }
   .show-img{
     border: 1px white solid;

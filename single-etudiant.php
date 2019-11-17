@@ -61,7 +61,7 @@
       </div><!--row-->
 
       <div class="row">
-          <div class="container">
+          <div class="container all-travaux">
               <div class="row travaux">
                 <div class="col-7 col-lg-4">
                   1

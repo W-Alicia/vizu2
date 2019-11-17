@@ -16,7 +16,11 @@
                     <h3 class="text-uppercase text-center">débouchés</h3>
                 </div>
                 <div class="col-12 col-lg-4">
+<<<<<<< HEAD
                     <a href="archive-creation.php"><img src="img/picto-projet.svg" alt="projets"></a>
+=======
+                    <a href="archive-projet.php"><img src="img/picto-projet.svg" alt="debouches"></a>
+>>>>>>> a53004a8289a037df281b501463f57aeb3a2907d
                     <h3 class="text-uppercase text-center">projets</h3>
                 </div>
                 <div class="col-12 col-lg-4">
