@@ -581,10 +581,15 @@ h5.nom-etudiant {
   left: -25px;
   position: relative;
   margin-top: 10px;
+  text-align: left;
 }
 
 .archive-news .lien-event a {
   color: #BA3941;
+}
+
+.archive-news .lien-event h5 {
+  text-align: left;
 }
 
 .archive-news .filtre-random {
@@ -741,10 +746,15 @@ h5.nom-etudiant {
   position: relative;
   margin-top: 10px;
   top: -125px;
+  text-align: left;
 }
 
 .add-news .lien-event a {
   color: #BA3941;
+}
+
+.add-news .lien-event h5 {
+  text-align: left;
 }
 
 .add-news .custom-select {
@@ -866,9 +876,6 @@ h5.nom-etudiant {
   .add-news .info-news h4 {
     font-size: 3.5rem;
   }
-  .add-news .info-news h5 {
-    font-size: 2rem;
-  }
   .add-news .info-news p {
     margin-top: 10px;
   }
@@ -893,7 +900,7 @@ h5.nom-etudiant {
     height: 270px !important;
   }
   .add-news .lien-event {
-    display: none;
+    display: none !important;
   }
   .add-news .description-event {
     top: -88px;

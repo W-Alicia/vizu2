@@ -499,8 +499,12 @@ top: -25px;
     left: -25px;
     position: relative;
     margin-top: 10px;
+    text-align: left;
     a{
       color: $prime-color;
+    }
+    h5{
+      text-align: left;
     }
   }
   .filtre-random {
@@ -644,8 +648,12 @@ top: -25px;
     position: relative;
     margin-top: 10px;
     top: -125px;
+    text-align: left;
     a{
       color: $prime-color;
+    }
+    h5{
+      text-align: left;
     }
   }
   .custom-select{
@@ -725,7 +733,6 @@ top: -25px;
     padding: 20px;
       form{margin-bottom: 30px;}
       h4{font-size: 3.5rem;}
-      h5{font-size: 2rem;}
       p{margin-top: 10px;}
   }
   .rect1{
@@ -748,9 +755,12 @@ top: -25px;
       height: 270px !important;
     }
   }
+
   .lien-event{
-    display: none;
+    display: none !important;
   }
+
+ 
   .description-event{
     top: -88px;
     width: 260px;
