@@ -834,8 +834,10 @@ h5.nom-etudiant {
 .add-news .btn-go {
   background-color: #BA3941;
   color: white;
-  border-radius: 1rem;
+  border-radius: 2rem;
   width: 100px;
+  -webkit-box-shadow: 5px 5px 8px black;
+          box-shadow: 5px 5px 8px black;
 }
 
 /*add-news*/
@@ -970,6 +972,317 @@ h5.nom-etudiant {
 }
 
 /* fin smartphone single section*/
+/* ADD PROJET     ADD PROJET */
+.add-projet .show-new-projet {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.add-projet .show-img {
+  border: 2px white solid;
+  width: 350px !important;
+  height: 450px !important;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+}
+
+.add-projet .show-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.add-projet .nom-auteur {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  position: relative;
+  top: -15px;
+  left: -110px;
+  color: white;
+}
+
+.add-projet .new-img {
+  max-height: 220px;
+  max-width: 260px;
+  margin: 0 auto;
+}
+
+.add-projet .add-img {
+  position: absolute;
+  left: 50px;
+  top: 80px;
+}
+
+.add-projet .add-img :hover {
+  cursor: pointer;
+}
+
+.add-projet .add-img span {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.add-projet .custom-file-label {
+  background-color: #BA3941;
+  color: white;
+  width: 160px;
+  text-align: center;
+  border: 0px;
+  border-radius: 2rem;
+  -webkit-box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.671);
+          box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.671);
+}
+
+.add-projet .custom-file-label::after {
+  display: none;
+}
+
+.add-projet .description {
+  padding-left: 0px;
+  padding-right: 40px;
+}
+
+.add-projet h4 {
+  color: white;
+  font-size: 4.5rem;
+  text-align: center;
+  margin: 0 !important;
+}
+
+.add-projet p {
+  color: white;
+  font-size: 0.9rem;
+}
+
+.add-projet .filter-projet {
+  border-left: 1px solid #BA3941;
+  height: 545px;
+  padding-left: 35px;
+}
+
+.add-projet .custom-select {
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #BA3941;
+  border-radius: 0px;
+}
+
+.add-projet .custom-select::-webkit-input-placeholder {
+  color: white;
+  font-size: 1rem;
+}
+
+.add-projet .custom-select:-ms-input-placeholder {
+  color: white;
+  font-size: 1rem;
+}
+
+.add-projet .custom-select::-ms-input-placeholder {
+  color: white;
+  font-size: 1rem;
+}
+
+.add-projet .custom-select::placeholder {
+  color: white;
+  font-size: 1rem;
+}
+
+.add-projet .filter-news {
+  border-left: 1px solid #BA3941;
+  max-height: 555px;
+}
+
+.add-projet form {
+  padding-left: 25px;
+}
+
+.add-projet .form-control {
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #BA3941;
+  border-radius: 0px;
+}
+
+.add-projet .form-control::-webkit-input-placeholder {
+  color: white;
+  font-size: 1rem;
+}
+
+.add-projet .form-control:-ms-input-placeholder {
+  color: white;
+  font-size: 1rem;
+}
+
+.add-projet .form-control::-ms-input-placeholder {
+  color: white;
+  font-size: 1rem;
+}
+
+.add-projet .form-control::placeholder {
+  color: white;
+  font-size: 1rem;
+}
+
+.add-projet label {
+  color: white;
+}
+
+.add-projet .baseline {
+  border: none;
+  border-bottom: 1px solid #BA3941;
+}
+
+.add-projet #comment {
+  border: none;
+  border-right: 1px solid #BA3941;
+  border-bottom: 1px solid #BA3941;
+}
+
+.add-projet #artiste {
+  border: none;
+}
+
+.add-projet #titre-projet {
+  border: none;
+}
+
+.add-projet .btn-go {
+  background-color: #BA3941;
+  color: white;
+  border-radius: 2rem;
+  width: 100px;
+  -webkit-box-shadow: 5px 5px 8px black;
+          box-shadow: 5px 5px 8px black;
+  margin-bottom: 50px;
+}
+
+.add-projet .rect1 {
+  left: 60px;
+  top: 0px;
+}
+
+.add-projet .rect2 {
+  left: 85px;
+  top: 25px;
+}
+
+.add-projet .color1 {
+  background-color: #ff66a1;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.add-projet .color2 {
+  background-color: #79dada;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.add-projet .color3 {
+  background-color: pink;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+/* fin container add projet*/
+/* SMARTPHONE ADD PROJECT*/
+@media screen and (max-width: 900px) {
+  .add-projet {
+    margin-top: 90px !important;
+  }
+  .add-projet .show-new-projet {
+    min-height: 500px;
+  }
+  .add-projet .show-img {
+    width: 230px !important;
+    height: 330px !important;
+  }
+  .add-projet h4 {
+    font-size: 3rem;
+  }
+  .add-projet p {
+    font-size: 0.6rem;
+    margin-top: 10px;
+  }
+  .add-projet .new-img {
+    max-height: 140px;
+    max-width: 180px;
+  }
+  .add-projet .custom-file-label {
+    width: 120px;
+  }
+  .add-projet .add-img {
+    left: 29px;
+    top: 55px;
+  }
+  .add-projet .add-img span {
+    margin-right: 0px;
+  }
+  .add-projet .nom-auteur {
+    top: -95px;
+    left: -55px;
+  }
+  .add-projet .description {
+    padding-right: 25px;
+  }
+  .add-projet .rect1 {
+    width: 310px;
+    height: 410px;
+    left: 30px;
+    top: 10px;
+  }
+  .add-projet .rect1 .rect-1 {
+    width: 310px;
+    height: 410px;
+  }
+  .add-projet .rect2 {
+    width: 270px;
+    height: 370px;
+    left: 50px;
+    top: 30px;
+  }
+  .add-projet .rect2 .rect-2 {
+    width: 270px;
+    height: 370px;
+  }
+  .add-projet .filter-projet {
+    border-left: none;
+    padding-left: 15px;
+  }
+  .add-projet .filter-projet form {
+    border-left: 1px solid #BA3941;
+    height: 550px;
+    padding-left: 35px;
+  }
+  .add-projet .filter-projet .rowcomment {
+    padding-right: 15px;
+  }
+}
+
+/*fin smartphone add project*/
 body, html {
   background-color: #111110;
   margin: 0px;
