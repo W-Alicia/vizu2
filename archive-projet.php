@@ -1,6 +1,6 @@
 <?php require("header.php") ?>
 
-<div class="container etudiants">
+<div class="container justify-content-center archive-projets">
         <div class="row justify-content-center recherche">
                 <div class="col-6 filtre">
                         <form class="form-inline my-2 my-lg-0">
@@ -19,7 +19,7 @@
                 </div>
         </div><!--row recherche-->
 
-        <div class="row etudiants">
+        <div class="row projets">
             
             <div  class="col-6 col-md-4 col-lg-3 etu">
                 <a>
@@ -81,7 +81,66 @@
                     </div>
                 </a>    
             </div>
-           
+            <div  class="col-6 col-md-4 col-lg-3 etu">
+                <a>
+                    <div class="etu-info">
+                        <h5>Projet</h5>
+                    </div>
+                    <div class="etu-picto">
+                    <img src="img/picto-logo.svg" alt="pictogramme">
+                    </div>
+                </a>    
+            </div>
+            <div  class="col-6 col-md-4 col-lg-3 etu">
+                <a>
+                    <div class="etu-info">
+                        <h5>Projet</h5>
+                    </div>
+                    <div class="etu-picto">
+                    <img src="img/picto-logo.svg" alt="pictogramme">
+                    </div>
+                </a>    
+            </div>
+            <div  class="col-6 col-md-4 col-lg-3 etu">
+                <a>
+                    <div class="etu-info">
+                        <h5>Projet</h5>
+                    </div>
+                    <div class="etu-picto">
+                    <img src="img/picto-logo.svg" alt="pictogramme">
+                    </div>
+                </a>    
+            </div>
+            <div  class="col-6 col-md-4 col-lg-3 etu">
+                <a>
+                    <div class="etu-info">
+                        <h5>Projet</h5>
+                    </div>
+                    <div class="etu-picto">
+                    <img src="img/picto-logo.svg" alt="pictogramme">
+                    </div>
+                </a>    
+            </div>
+            <div  class="col-6 col-md-4 col-lg-3 etu">
+                <a>
+                    <div class="etu-info">
+                        <h5>Projet</h5>
+                    </div>
+                    <div class="etu-picto">
+                    <img src="img/picto-logo.svg" alt="pictogramme">
+                    </div>
+                </a>    
+            </div>
+            <div  class="col-6 col-md-4 col-lg-3 etu">
+                <a>
+                    <div class="etu-info">
+                        <h5>Projet</h5>
+                    </div>
+                    <div class="etu-picto">
+                    <img src="img/picto-logo.svg" alt="pictogramme">
+                    </div>
+                </a>    
+            </div>
             
             
             
