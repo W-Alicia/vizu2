@@ -1,4 +1,34 @@
-.container.etudiants{
+header{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .about{
+      transform: rotate(-90deg);
+      transform-origin: top left;
+      list-style: none;
+      margin-top: 45px;
+      margin-left: 30px;
+      position: absolute;
+      a{
+        color: $prime-color;
+      }
+    }
+    .logo{
+        height: 100px;
+        display: block;
+      margin: 0 auto;
+    }
+}
+
+.apropos::after{
+    content: '';
+  position: absolute;
+  width: 45px;
+  height: 2px;
+  background: $prime-color;
+  margin: 30px 0px 0px -45px;
+  }
+
+.container.archive-etudiants{
     background-color: $bg-color;
     max-width: 960px;
 }
@@ -42,204 +72,708 @@
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  max-width: 80px;
+  max-width: 90px;
   margin-left: 50px;
+  margin-right: 0px;
 }
 
+#random{
+  width: 30px;
+  display: none;
+}
 
 
 .etu{
     margin-top: 40px;
-
-    
-.etu-picto{
-    border: 2px $prime-color solid;
-    border-radius: 1rem;
-    max-width: 200px;
-    height: 200px;
-    padding: 0px;
+  .etu-picto{
+      border: 2px $prime-color solid;
+      border-radius: 1rem;
+      max-width: 200px;
+      width: 100%;
+      max-height: 200px;
+      height: 100%;
+      padding: 0px;
+  }
+  .etu-info{
+      max-width: 200px;
+      text-align: center;
+      text-transform: uppercase;
+      color: white;
+      margin-top: 20px;
+  }
+}
+/* smartphone etudiants*/
+@media screen and (max-width: 900px){
+.archive-etudiants{
+  .etu-picto{
+    width: 150px !important;
+    height: 150px !important;
+  }
+  .cat{
+    margin-left: 0px;
+  }
 }
 
-.etu-info{
-    max-width: 200px;
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
-    margin-top: 20px;
-}
-}
+}/* fin smartphone etudiants*/
+
+
 
 /* SINGLE ETUDANT     SINGLE ETUDANT    SINGLE ETUDANT    SINGLE ETUDANT */
 
 .etu-single{
-    display: inline-flex;
-    margin-top: 30px;
-  }
-  
-  .etu-picto-white{
-    border: 2px white solid;
-    border-radius: 1rem;
-    max-width: 200px;
-    max-height: 200px;
-    padding: 0px;
-  }
-  
-  h4.nom-etudiant{
-    display: block;
-    color: #FFF;
-    text-decoration: none;
-    overflow: hidden;
-    text-transform: uppercase;
-    text-shadow: -3px 0px $prime-color;
-  }
-  
-  p.mail-etudiant{
-    color: white;
+  display: inline-flex;
+  margin-top: 30px;
+}
+
+.etu-picto-white{
+  border: 2px white solid;
+  border-radius: 1rem;
+  max-width: 200px;
+  max-height: 200px;
+  padding: 0px;
+}
+
+h4.nom-etudiant{
+  display: block;
+  color: #FFF;
+  text-decoration: none;
+  overflow: hidden;
+  text-transform: uppercase;
+  text-shadow: -3px 0px $prime-color;
+  font-size: 2.9rem;
+}
+
+
+
+p.mail-etudiant{
+  color: white;
+  font-size: 1.5rem;
+}
+
+p.description-etu{
+  color: white;
+  font-size: 1.2rem;
+  max-width: 500px;
+  text-align: left;
+}
+
+.etu-section{
+  margin-left: 30px;
+  h5{
     font-size: 1.5rem;
+    color: white;;
   }
-  
-  p.description-etu{
-    color: white;
-    font-size: 1.2rem;
-    max-width: 500px;
-    text-align: left;
-  }
-  
-  .etu-section{
-    margin-left: 30px;
-    h5{
-      font-size: 1.5rem;
-      color: white;;
-    }
-  }
-  
-  .icon-media{
-    height: 200px;
-    justify-content: end;
+}
+
+.icon-media{
+  height: 100px;
+  justify-content: end;
   display: flex;
+  align-items: end;
+  margin-bottom: 50px;
+}
+
+.description-etudiant{
+  align-items: end;
+display: flex;
+}
+
+.description-etudiant:after{
+  content: '';
+  position: absolute;
+  width: 70%;
+  height: 2px;
+  background: #BA3941;
+  right: 0;
+  bottom: 0;
+  margin-right: 15px;
+}
+
+
+#modif-description{
+  width: 70px;
+  position: absolute;
+  right: -45px;
+  top: 190px;
+}
+#modif-picto{
+  width: 70px;
+  position: absolute;
+  right: -40px;
+  top: 155px;
+}
+
+
+.fab{
+  font-size: 50px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: $prime-color;
+  margin-left: 15px;
+}
+
+.fa-basketball-ball{
+  font-size: 50px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: $prime-color;
+  margin-left: 15px;
+}
+
+.picto-cv{
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 15px;
+  img{vertical-align: bottom;}
+}
+
+.scroll-crea{
+  position: fixed;
+  height: 600px;
+  overflow: scroll;
+}
+
+
+
+/* SINGLE ETUDIANT SMARTPHONE */
+
+@media screen and (max-width: 900px) {
+  .single-etudiant .row{
+    justify-content: center;
   }
-  
-  .description-etudiant:after{
-    content: '';
-    position: absolute;
-    width: 70%;
-    height: 2px;
-    background: #BA3941;
-    right: 0;
-    bottom: 0;
-    margin-right: 15px;
+  .single-etudiant{
+    padding-left: 20px;
+    padding-right: 20px;
   }
-  
-  
+  h4.nom-etudiant{
+    font-size: 2.6rem;
+    text-align: center;
+  }
+  .etu-section h5{
+    font-size: 1.4rem;
+  }
+  p.mail-etudiant{
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  .icon-media{
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 0px;
+    justify-content: center;
+    margin-top: 30px;
+    padding-right: 40px;
+  }
+  .fab{
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+  .picto-cv{
+    height: 35px;
+  }
+  .etu-picto-white{
+    height: 100%;
+    width: 100%;
+  }
+  .etu-single{
+    align-self: center;
+  }
+  .description-etudiant{
+    margin-top: 50px;
+    padding-right: 40px;
+  }
+  p.description-etu{
+    font-size: 0.9rem;
+  }
+  #modif-picto {
+    width: 60px;
+    top: 70%;
+}
   #modif-description{
-    width: 70px;
-    position: absolute;
-    right: -45px;
-    top: 115px;
+    width: 60px;
+    top: 60%;
+    right: 1%;
   }
-  #modif-picto{
-    width: 70px;
-    position: absolute;
-    right: -40px;
-    top: 155px;
-  }
-  
-  
-  
-  
   .portfolio-etudiant{
-    margin-top: 100px;
-    margin-bottom: 50px;;
+    padding-left: 20px;
+    padding-right: 20px;
   }
-  
-  .recherche{
-    margin: 20px;;
+  .portfolio-etudiant .row{
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+  .show-creation{
+    position: absolute;
+    z-index: 50;
+    display: none;
+  }
+  .single-etudiant .show-img{
+    max-width: 300px !important;
+    max-height: 400px !important;
+    margin: 0 auto;
+  }
+  .single-etudiant .rect-2{
+    width: 350px !important;
+    height: 450px !important;
+  }
+  .single-etudiant .rect2{
+    left: 250px !important;
+  }
+  .single-etudiant .rect1{
+    display: none;
   }
   .filtre-random{
-    margin: 15px 155px 15px 0px;
-      padding: 0px;
-      text-align: left;
-      color: $prime-color;
-      border-bottom: 2px $prime-color solid;
-  }
-  
-  .travaux{
-    column-gap: 20px;
-    margin-bottom: 20px;;
-  }
-  
-  .travaux>div{
-      border: 2px $prime-color solid;
-      border-radius: 1rem;
-      padding: 0px;
-      height: 150px;
+    border-bottom: 0px !important;
+    margin-right: 0px !important;
+    a{
+      display: none;
     }
+    #random{
+      display: block;
+      width: 50px;
+    }
+  }
+  .pictogrammes{
+    right: -10px !important;
+    img{
+      width: 60px !important;
+    }
+  }
+  .cat{
+    margin-left: 0px !important;
+  }
   
+}
+
+
+/*    FIN      SINGLE ETUDIANT SMARTPHONE */
+
+
+
+
+.portfolio-etudiant{
+  margin-top: 100px;
+  margin-bottom: 50px;;
+}
+
+
+.filtre-random{
+  margin: 15px 155px 15px 0px;
+    padding: 0px;
+    text-align: left;
+    color: $prime-color;
+    border-bottom: 2px $prime-color solid;
+    display: inline-flex;
+}
+
+.travaux{
+  column-gap: 20px;
+}
+
+    .travaux>div{
+        border: 2px $prime-color solid;
+        border-radius: 1rem;
+        padding: 0px;
+        height: 150px;
+        margin-bottom: 20px;
+      }
+
+      
+.portfolio-etudiant{
     .show-img{
-      border: 2px white solid;
-      width: 350px;
-      height: 450px;
+        border: 2px white solid;
+        width: 350px !important;
+        height: 450px !important;
+      }
+
+    .show-creation{
+      margin-top: 155px;
     }
-  
-  .show-creation{
+}
+
+.recherche{
+  margin-bottom: 20px;
+}
+  h5.nom-etudiant{
+    color: white;
+  }
+
+.rect1{
+    position: absolute;
+  left: -35px;
+  top: -50px;
+}
+
+.rect2{
+  position: absolute;
+  left: -10px;
+top: -25px;
+}
+
+.pictogrammes{
+  width: 90px;
+  position: absolute;
+  right: -40px;
+  bottom: 60px;
+  img{
+    width: 80px;
+  }
+}
+
+
+/* NEWS   NEWS    NEWS    NEWS  */
+
+.archive-news{
+  .show-news{
     margin-top: 155px;
   }
-  
-  
-  .recherche{
-    margin-bottom: 20px;
+  .show-img{
+    border: 1px white solid;
+    width: 350px !important;
+    height: 350px !important;
+    display: flex;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
   }
-    h5.nom-etudiant{
+  .info-news{
+    position: absolute;
+    padding: 30px;
+    width: 350px;
+    align-self: center;
+    h4{
+      color: white;
+      font-size: 5.5rem;
+      text-align: center;
+      margin: 0 !important;
+    }
+    h5{
+      color: white;
+      font-size: 3.3rem;
+      text-align: center;
+      margin: 0 !important;
+    }
+    p{
+      margin-top: 30px;
       color: white;
     }
-  
-  .rect1{
-      position: absolute;
-    left: -35px;
-    top: -50px;
   }
-  
+  .rect-2{
+    stroke-width: 2 !important;
+    stroke-dasharray: 15 10;
+    fill: none;
+  }
+  .rect-1{
+    stroke-width: 2 !important;
+    stroke-dasharray: 10 15;
+    fill: none;
+  }
+  .description-event{
+    margin-top: 10px;
+  }
+  .tag-event{
+    display: inline-flex;
+  }
+  h5{
+    color: $prime-color;
+    margin-right: 10px;
+    font-size: 1rem;
+  }
+  .date-event{
+    max-width: 145px;
+    text-align: right;
+    h5{
+      margin-right: 0px !important;
+    }
+  }
+  .lien-event{
+    width: 90%;
+    left: -25px;
+    position: relative;
+    margin-top: 10px;
+    a{
+      color: $prime-color;
+    }
+  }
+  .filtre-random {
+    margin: 15px 110px 15px 0px;
+    padding: 0px;
+    text-align: left;
+    color: #BA3941;
+    border-bottom: 2px
+    #BA3941 solid;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .cat{
+    max-width: 90px;
+  }
+
+}
+/*FIN NEWS   FIN NEWS    FIN NEWS    FIN NEWS  */
+
+
+
+/* NEWS SMARTPHONE    NEWS SMARTPHONE  */
+@media screen and (max-width: 900px){
+.archive-news{
+  .show-news{
+    display: none;
+  }
+  .recherche{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .travaux{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .filtre-random{
+    margin-right: 0px;
+  }
+  .cat{
+    margin-left: 0px;
+  }
+
+
+}/* fin archive news */
+}/* fin smartphone news */
+
+
+/* FIN FIN NEWS SMARTPHONE    FIN FIN NEWS SMARTPHONE  */
+
+
+
+/* ADD NEWS   ADD NEWS    ADD NEWS    ADD NEWS   */
+
+
+.add-news{
+  margin-top: 50px;
+  .show-news{
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .show-img{
+    position: absolute;
+    border: 1px white solid;
+    width: 450px !important;
+    height: 450px !important;
+    display: flex;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .info-news{
+    position: absolute;
+    padding: 30px;
+    width: 450px;
+    align-self: center;
+    h4{
+      color: white;
+      font-size: 5.5rem;
+      text-align: center;
+      margin: 0 !important;
+    }
+    h5{
+      color: white;
+      font-size: 3.3rem;
+      text-align: center;
+      margin: 0 !important;
+    }
+    p{
+      margin-top: 30px;
+      color: white;
+    }
+  }
+  .rect-2{
+    stroke-width: 2 !important;
+    stroke-dasharray: 15 10;
+    fill: none;
+  }
+  .rect-1{
+    stroke-width: 2 !important;
+    stroke-dasharray: 10 15;
+    fill: none;
+  }
+
   .rect2{
     position: absolute;
     left: -10px;
-  top: -25px;
+    top: -25px;
   }
-  
-  .fab{
-    font-size: 50px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+  .rect1{
+    position: relative;
+    left: -50px;
+    top: -55px;
+  }
+
+  .description-event{
+    margin-top: 10px;
+    width: 480px;
+    position: relative;
+    top: -120px;
+  }
+  .tag-event{
+    display: inline-flex;
+  }
+  h5{
     color: $prime-color;
-    margin-left: 15px;
+    margin-right: 10px;
+    font-size: 1rem;
   }
-  
-  .fa-basketball-ball{
-    font-size: 50px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-    color: $prime-color;
-    margin-left: 15px;
-  }
-  
-  .picto-cv{
-    height: 50px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin-left: 15px;
-    img{vertical-align: bottom;}
-  }
-  
-  .pictogrammes{
-    width: 90px;
-    position: absolute;
-    right: -40px;
-    bottom: 60px;
-    img{
-      width: 80px;
+  .date-event{
+    text-align: right;
+    h5{
+      margin-right: 0px !important;
     }
   }
+  .lien-event{
+    width: 90%;
+    left: -25px;
+    position: relative;
+    margin-top: 10px;
+    top: -125px;
+    a{
+      color: $prime-color;
+    }
+  }
+  .custom-select{
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid $prime-color;
+    border-radius: 0px;
+  }
+  .custom-select::placeholder{
+    color: white;
+    font-size: 1rem;
+  }
+  .filter-news{
+    border-left: 1px solid $prime-color;
+    max-height: 555px;
+  }
+  form{
+    padding-left: 25px;
+  }
+  .form-control{
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid $prime-color;
+    border-radius: 0px;
+  }
+  .form-control::placeholder{
+    color: white;
+    font-size: 1rem;
+  }
+
+  label{
+    color: white;
+  }
+  .baseline{
+    border: none;
+    border-bottom: 1px solid $prime-color;
+  }
+  #comment{
+    border: none;
+    border-right: 1px solid $prime-color;
+    border-bottom: 1px solid $prime-color;
+  }
+  #artiste{
+    border: none;
+  }
+.btn-go{
+  background-color: $prime-color;
+  color: white;
+  border-radius: 1rem;
+  width: 100px;
+}
+
+
+}/*add-news*/
+
+/* ADD NEWS SMARTPHONE    ADD NEWS SMARTPHONE */
+@media screen and (max-width: 900px){
+.add-news{
+  .show-img {
+      border: 1px 
+      white solid;
+      width: 230px !important;
+      height: 230px !important;
+  }
+  .show-news{
+    margin-bottom: 0px;
+    justify-items: center;
+    display: grid;
+    max-height: 555px;
+  }
+  .info-news{
+    width: 230px !important;
+    height: 230px !important;
+    padding: 20px;
+      form{margin-bottom: 30px;}
+      h4{font-size: 3.5rem;}
+      h5{font-size: 2rem;}
+      p{margin-top: 10px;}
+  }
+  .rect1{
+    width: 310px !important;
+    height: 310px !important;
+    top: -35px;
+    left: 0px;
+    .rect-1{
+      width: 310px !important;
+      height: 310px !important;
+    }
+  }
+  .rect2{
+    width: 270px !important;
+    height: 270px !important;
+    top: -15px;
+    left: 55px;
+    .rect-2{
+      width: 270px !important;
+      height: 270px !important;
+    }
+  }
+  .lien-event{
+    display: none;
+  }
+  .description-event{
+    top: -88px;
+    width: 260px;
+    .date-event{
+      display: none;
+    }
+  }
+  .filter-news{
+    margin-bottom: 20px;
+    max-height: none;
+    border: 0px;
+    form{
+      border-left: 1px solid #BA3941;
+      height: 545px;
+      padding-left: 35px;
+    }
+    .rowcomment{
+      padding-right: 15px;
+    }
+    .text-center .btn-go{
+      margin-bottom: 20px;
+    }
+  }
+}/*fin add news*/
+}/*fin media screen*/
+
+/* FIN    FIN   ADD NEWS SMARTPHONE  */

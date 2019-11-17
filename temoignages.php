@@ -1,110 +1,22 @@
 <?php require("header.php") ?>
-<<<<<<< HEAD
-
-<div id="faq" class="container-fluid">
-    <div class="row d-flex justify-content-center ">
-        <div class="col-4 ">
-            <h1>FAQ<span>UOI</span></h1>
-             
-            <div id="accordion" role="tablist" aria-multiselectable="true">
-                <div class="card">
-                    <h5 class="card-header" role="tab" id="headingOne">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="d-block">
-                            <i class="fa fa-chevron-down pull-right"></i> Question 1
-                        </a>
-                    </h5>
-
-                    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
-                        <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                            moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                            shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                            proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                            aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <h5 class="card-header" role="tab" id="headingTwo">
-                        <a class="collapsed d-block" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            <i class="fa fa-chevron-down pull-right"></i> Question 2
-                        </a>
-                    </h5>
-                    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-                        <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                            moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                            shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                            proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                            aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <h5 class="card-header" role="tab" id="headingThree">
-                        <a class="collapsed d-block" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            <i class="fa fa-chevron-down pull-right"></i> Question 3
-                        </a>
-                    </h5>
-                    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
-                        <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                            moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                            shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                            proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                            aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <h5 class="card-header" role="tab" id="headingFour">
-                        <a class="collapsed d-block" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            <i class="fa fa-chevron-down pull-right"></i> Question 4
-                        </a>
-                    </h5>
-                    <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
-                        <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                            moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                            shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                            proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                            aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-                        
-
-<?php require("footer.php") ?>
-=======
 <img src="img/arrow.svg" alt="arrow" class="arrow" width="75px">
 <div class="container">
 
 <img src="img/picto-debouche.svg" alt="picto-debouche" class="picto-debouche"></a>
-<h2 class="titredeb">FAQ<h2 class="line">UOI<h2>?</h2></p></h2>
+<h2 class="titredeb">TÉMOIGNAGES</h2>
 <div id="accordion" class="accordion1">
   <div class="card">
     <div class="card-header" id="headingOne">
       <h5 class="mb-0"><i class="fas fa-caret-down" data-toggle="collapse" data-target="#collapseOne"></i>
        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        QUESTION ?
+        TÉMOIGNAGE 1
         </button>
       </h5>
     </div>
 
     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
       <div class="card-body">
-      CECI EST UNE RÉPONSE CECI EST UNE RÉPONSE CECI EST UNE RÉPONSE 
+      CECI EST UN TÉMOIGNAGE CECI EST UN TÉMOIGNAGE CECI EST UN TÉMOIGNAGE
       </div>
     </div>
   </div>
@@ -112,7 +24,7 @@
     <div class="card-header" id="headingTwo">
       <h5 class="mb-0"><i class="fas fa-caret-down" data-toggle="collapse" data-target="#collapseTwo"></i>
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        QUESTION ?
+        TÉMOIGNAGE 2
         </button>
       </h5>
     </div>
@@ -126,7 +38,7 @@
     <div class="card-header" id="headingThree">
       <h5 class="mb-0"><i class="fas fa-caret-down" data-toggle="collapse" data-target="#collapseThree"></i>
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        QUESTION ?
+        TÉMOIGNAGE 3
         </button>
       </h5>
     </div>
@@ -141,14 +53,14 @@
     <div class="card-header" id="headingFour">
       <h5 class="mb-0"><i class="fas fa-caret-down" data-toggle="collapse" data-target="#collapseFour"></i>
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-        QUESTION ?
+        TÉMOIGNAGE 4
         </button>
       </h5>
     </div>
 
     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
       <div class="card-body">
-      CECI EST UNE RÉPONSE CECI EST UNE RÉPONSE CECI EST UNE RÉPONSE 
+      CECI EST UN TÉMOIGNAGE CECI EST UN TÉMOIGNAGE CECI EST UN TÉMOIGNAGE
       </div>
     </div>
   </div>
@@ -158,14 +70,14 @@
     <div class="card-header" id="headingFive">
       <h5 class="mb-0"><i class="fas fa-caret-down" data-toggle="collapse" data-target="#collapseFive"></i>
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-        QUESTION ?
+        TÉMOIGNAGE 5
         </button>
       </h5>
     </div>
 
     <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
       <div class="card-body">
-      CECI EST UNE RÉPONSE CECI EST UNE RÉPONSE CECI EST UNE RÉPONSE E
+      CECI EST UN TÉMOIGNAGE CECI EST UN TÉMOIGNAGE CECI EST UN TÉMOIGNAGE
       </div>
     </div>
   </div>
@@ -175,14 +87,14 @@
     <div class="card-header" id="headingSix">
       <h5 class="mb-0"><i class="fas fa-caret-down" data-toggle="collapse" data-target="#collapseSix"></i>
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-        QUESTION ?
+        TÉMOIGNAGE 6
         </button>
       </h5>
     </div>
 
     <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
       <div class="card-body">
-      CECI EST UNE RÉPONSE CECI EST UNE RÉPONSE CECI EST UNE RÉPONSE 
+      CECI EST UN DÉBOUCHÉ CECI EST UN DÉBOUCHÉ CECI EST UN DÉBOUCHÉ
       </div>
     </div>
   </div>
@@ -196,14 +108,14 @@
     <div class="card-header" id="headingSeven">
       <h5 class="mb-0"><i class="fas fa-caret-down" data-toggle="collapse" data-target="#collapseSeven"></i>
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-        QUESTION ?
+        TÉMOIGNAGE 7
         </button>
       </h5>
     </div>
 
     <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
       <div class="card-body">
-      CECI EST UNE RÉPONSE CECI EST UNE RÉPONSE CECI EST UNE RÉPONSE 
+      CECI EST UN TÉMOIGNAGE CECI EST UN TÉMOIGNAGE CECI EST UN TÉMOIGNAGE
       </div>
     </div>
   </div>
@@ -211,7 +123,7 @@
     <div class="card-header" id="headingEight">
       <h5 class="mb-0"><i class="fas fa-caret-down" data-toggle="collapse" data-target="#collapseEight"></i>
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-        QUESTION ?
+        TÉMOIGNAGE 8
         </button>
       </h5>
     </div>
@@ -225,7 +137,7 @@
     <div class="card-header" id="headingNine">
       <h5 class="mb-0"><i class="fas fa-caret-down" data-toggle="collapse" data-target="#collapseNine"></i>
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-        QUESTION ?
+        TÉMOIGNAGE 9
         </button>
       </h5>
     </div>
@@ -240,4 +152,3 @@
 
  <?php require("footer.php") ?>
 
->>>>>>> 12f21a1420f74346a7ef53a1d372a791b22f1523
