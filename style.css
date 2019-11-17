@@ -883,6 +883,55 @@ h5.nom-etudiant {
 
 /*fin media screen*/
 /* FIN    FIN   ADD NEWS SMARTPHONE  */
+/* SINGLE SECTION      SINGLE SECTION */
+.single-section {
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  max-width: 1000px;
+}
+
+.single-section h1 {
+  display: block;
+  color: #FFF;
+  text-decoration: none;
+  overflow: hidden;
+  text-transform: uppercase;
+  text-shadow: -3px 0px #BA3941;
+  margin-bottom: 20px;
+}
+
+.single-section p {
+  color: white;
+}
+
+.single-section h3 {
+  display: block;
+  color: #FFF;
+  text-decoration: none;
+  overflow: hidden;
+  text-transform: uppercase;
+  text-shadow: -2px 0px #BA3941;
+}
+
+/* fin container single section*/
+@media screen and (max-width: 900px) {
+  .arrow {
+    position: absolute;
+  }
+  .single-section {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .single-section .display-3 {
+    font-size: 3.5rem;
+    margin-top: 50px;
+  }
+  .single-section h3 {
+    margin-bottom: 40px;
+  }
+}
+
+/* fin smartphone single section*/
 body, html {
   background-color: #111110;
   margin: 0px;
