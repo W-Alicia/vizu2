@@ -1,6 +1,6 @@
 <?php require("header.php") ?>
 
-<img src="img/arrow.svg" alt="arrow" class="arrow" width="75px">
+<a href="archive-section.php"><img src="img/arrow.svg" alt="arrow" class="arrow" width="75px"></a>
 
 <div class="container single-section">
     <div class="row">

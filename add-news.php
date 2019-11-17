@@ -3,7 +3,7 @@
 
 <div class="container add-news">
     <div class="row">
-        <div class="col-12 col-lg-6 show-news">
+        <div class="col-12 col-lg-6 show-news text-uppercase">
             <div class="show-img">
                 <img src="img/huit.jpg" alt="image">
                 <div class="info-news">
@@ -17,7 +17,7 @@
             <svg width="550" height="570" class="rect1">
                 <rect class="rect-1" width="550" height="570" style="fill:rgba(0, 0, 0, 0); stroke-width:3;stroke:rgb(255, 255, 255)" />
             </svg>
-            <div class="row description-event">
+            <div class="row description-event ">
                 <div class="col-6 tag-event">
                     <h5>#bozar</h5>
                     <h5>#expo</h5>
