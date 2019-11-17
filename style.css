@@ -177,6 +177,13 @@ header .logo {
   margin-top: 30px;
 }
 
+.etu-single .travaux {
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  overflow-y: scroll;
+  width: 100%;
+}
+
 .etu-picto-white {
   border: 2px white solid;
   border-radius: 1rem;
@@ -436,9 +443,17 @@ p.description-etu {
   display: inline-flex;
 }
 
+.all-travaux {
+  margin-top: 25px !important;
+  padding-right: 0px;
+}
+
 .travaux {
   -webkit-column-gap: 20px;
           column-gap: 20px;
+  height: 550px;
+  overflow-y: scroll;
+  width: 100%;
 }
 
 .travaux > div {
@@ -482,7 +497,7 @@ h5.nom-etudiant {
 .pictogrammes {
   width: 90px;
   position: absolute;
-  right: -40px;
+  right: 5px;
   bottom: 60px;
 }
 
@@ -491,8 +506,20 @@ h5.nom-etudiant {
 }
 
 /* NEWS   NEWS    NEWS    NEWS  */
+.archive-news {
+  margin-bottom: 50px;
+}
+
 .archive-news .show-news {
   margin-top: 155px;
+}
+
+.archive-news .travaux {
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  height: 470px;
+  overflow-y: scroll;
+  width: 100%;
 }
 
 .archive-news .show-img {

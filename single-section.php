@@ -12,15 +12,15 @@
         <div class="col-12">
             <div class="row">
                 <div class="col-12 col-lg-4">
-                    <a href="#"><img src="img/picto-debouche.svg" alt="debouches"></a>
+                    <a href="debouches.php"><img src="img/picto-debouche.svg" alt="debouches"></a>
                     <h3 class="text-uppercase text-center">débouchés</h3>
                 </div>
                 <div class="col-12 col-lg-4">
-                    <a href="#"><img src="img/picto-projet.svg" alt="debouches"></a>
+                    <a href="archive-projet.php"><img src="img/picto-projet.svg" alt="debouches"></a>
                     <h3 class="text-uppercase text-center">projets</h3>
                 </div>
                 <div class="col-12 col-lg-4">
-                    <a href="#"><img src="img/picto-temoignage.svg" alt="debouches"></a>
+                    <a href="temoignages.php"><img src="img/picto-temoignage.svg" alt="temoignages"></a>
                     <h3 class="text-uppercase text-center">témoignages</h3>
                 </div>
             </div>
