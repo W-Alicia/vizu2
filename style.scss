@@ -1,12 +1,7 @@
 @import url(c:\xampp\htdocs\theme-vizu-static\scss\bootstrap.min.css);
 @import "scss/kanny";
 @import "scss/elzbieta";
-
-
 @import "scss/alicia";
-
-
-
 @import "scss/alicia";
 
 /* MENU     MENU    MENU    MENU    MENU */
@@ -206,9 +201,6 @@
   -ms-flex-align:center;
   align-items:center;
   height:100%
-
-    
-  
 }
 
 img {
@@ -222,33 +214,5 @@ img {
   height: auto;
 }
 
-
-header{
-  margin-top: 30px;
-  margin-bottom: 30px;
-  position: fixed;
-  z-index: 9999;
-  background-color: $bg-color;
-  #nav {
-    height: 100px;
-    
-  }
-  .logo{
-    height: 100px;
-    position: fixed;
-    right: 50%;
-  }
-  #about-link{
-    color: $prime-color;
-    writing-mode: sideways-lr;
-    position: fixed;
-    top: 5%;
-    left: 2%;
-  }
-}
-
 /* FIN MENU     FIN MENU    FIN MENU    FIN MENU */
-div.container-fluid {
-  padding-top: 160px;
 
-}

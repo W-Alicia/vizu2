@@ -10,6 +10,10 @@ header{
       position: absolute;
       a{
         color: $prime-color;
+        &:hover {
+          color: #FFF;
+          text-decoration: none;
+        }
       }
     }
     .logo{

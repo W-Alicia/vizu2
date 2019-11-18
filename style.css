@@ -10,7 +10,7 @@ h1 {
 }
 
 #accueil, #sections {
-  height: 90vh;
+  height: 80vh;
   width: 90vw;
 }
 
@@ -35,6 +35,51 @@ h1 {
   background-color: #BA3941;
 }
 
+#accueil .element .pop1, #sections .element .pop1 {
+  background: url(img/cinq.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+#accueil .element .pop2, #sections .element .pop2 {
+  background: url(img/dix.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+#accueil .element .pop3, #sections .element .pop3 {
+  background: url(img/huit.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+#accueil .element .pop4, #sections .element .pop4 {
+  background: url(img/ress.png) no-repeat left center;
+  background-size: cover;
+}
+
+#accueil .element .pop5, #sections .element .pop5 {
+  background: url(img/trois.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+#accueil .element .pop6, #sections .element .pop6 {
+  background: url(img/un.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+#accueil .element .pip1, #sections .element .pip1 {
+  background: url(img/ress.png) no-repeat left center;
+  background-size: cover;
+}
+
+#accueil .element .pip2, #sections .element .pip2 {
+  background: url(img/ress.png) no-repeat center center;
+  background-size: cover;
+}
+
+#accueil .element .pip3, #sections .element .pip3 {
+  background: url(img/ress.png) no-repeat right center;
+  background-size: cover;
+}
+
 #about p {
   color: #BA3941;
 }
@@ -43,6 +88,12 @@ h1 {
   height: 60vh;
   background-color: #BA3941;
   border-radius: 10% / 5%;
+}
+
+#ressourses .recherche {
+  position: fixed;
+  width: 100vw;
+  top: 14vh;
 }
 
 header {
@@ -63,6 +114,11 @@ header .about {
 
 header .about a {
   color: #BA3941;
+}
+
+header .about a:hover {
+  color: #FFF;
+  text-decoration: none;
 }
 
 header .logo {
@@ -2717,36 +2773,5 @@ img {
   height: auto;
 }
 
-header {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  position: fixed;
-  z-index: 9999;
-  background-color: #111110;
-}
-
-header #nav {
-  height: 100px;
-}
-
-header .logo {
-  height: 100px;
-  position: fixed;
-  right: 50%;
-}
-
-header #about-link {
-  color: #BA3941;
-  -webkit-writing-mode: sideways-lr;
-      -ms-writing-mode: sideways-lr;
-          writing-mode: sideways-lr;
-  position: fixed;
-  top: 5%;
-  left: 2%;
-}
-
 /* FIN MENU     FIN MENU    FIN MENU    FIN MENU */
-div.container-fluid {
-  padding-top: 160px;
-}
 /*# sourceMappingURL=style.css.map */
