@@ -16,11 +16,7 @@
                     <h3 class="text-uppercase text-center">débouchés</h3>
                 </div>
                 <div class="col-12 col-lg-4">
-
                     <a href="archive-creation.php"><img src="img/picto-projet.svg" alt="projets"></a>
-
-                    <a href="archive-projet.php"><img src="img/picto-projet.svg" alt="debouches"></a>
-
                     <h3 class="text-uppercase text-center">projets</h3>
                 </div>
                 <div class="col-12 col-lg-4">

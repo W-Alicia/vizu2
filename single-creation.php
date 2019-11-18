@@ -1,5 +1,6 @@
 <?php require("header.php") ?>
 <a href="add-projet.php"><img src="img/arrow.svg" alt="arrow" class="arrow2" width="75px"></a>
+
 <div class="container gauche">
 
 <div class="gallery">
@@ -18,4 +19,6 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit.
 Itaque sed architecto aperiam deserunt id, blanditiis alias nihil voluptatem, neque velit soluta rerum, placeat aliquam nostrum dolore aut molestiae natus. Numquam.</p>
 </div>
 </div>
+
+
 <?php require("footer.php") ?>

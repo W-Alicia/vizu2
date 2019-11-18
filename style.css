@@ -121,6 +121,10 @@ header .about a:hover {
   text-decoration: none;
 }
 
+header a:hover {
+  text-decoration: none !important;
+}
+
 header .logo {
   height: 100px;
   display: block;
@@ -180,8 +184,7 @@ header .logo {
 }
 
 .login-page .etu-picto {
-  border: 3px 
- #BA3941 solid;
+  border: 3px  #BA3941 solid;
   border-radius: 1rem;
   max-width: 200px;
   height: 200px;
@@ -260,8 +263,7 @@ header .logo {
   border-radius: 2rem;
   width: 100px;
   -webkit-box-shadow: 5px 5px 8px black;
-  box-shadow: 5px 5px 8px
- black;
+  box-shadow: 5px 5px 8px black;
   margin-top: 20px;
 }
 
@@ -810,8 +812,7 @@ h5.nom-etudiant {
   padding: 0px;
   text-align: left;
   color: #BA3941;
-  border-bottom: 2px
- #BA3941 solid;
+  border-bottom: 2px #BA3941 solid;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -1068,8 +1069,7 @@ h5.nom-etudiant {
 /* ADD NEWS SMARTPHONE    ADD NEWS SMARTPHONE */
 @media screen and (max-width: 900px) {
   .add-news .show-img {
-    border: 1px 
- white solid;
+    border: 1px  white solid;
     width: 230px !important;
     height: 230px !important;
   }
@@ -1091,8 +1091,12 @@ h5.nom-etudiant {
   .add-news .info-news h4 {
     font-size: 3.5rem;
   }
+  .add-news .info-news h5 {
+    font-size: 2rem;
+  }
   .add-news .info-news p {
     margin-top: 10px;
+    font-size: 0.9rem;
   }
   .add-news .rect1 {
     width: 310px !important;
@@ -2050,9 +2054,12 @@ div.gallery1 img {
   background-color: #BA3941;
 }
 
+.all-accordion {
+  width: 100%;
+  margin: 0 auto;
+}
+
 #accordion {
-  background-color: #BA3941;
-  width: 49%;
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
 }
@@ -2079,14 +2086,6 @@ div.gallery1 img {
 
 .picto-debouche {
   width: 170px;
-}
-
-.accordion1 {
-  float: left;
-}
-
-.accordion2 {
-  float: right;
 }
 
 .card {
@@ -2189,6 +2188,15 @@ i.fas.fa-caret-down {
   font-size: 38px;
 }
 
+/* smartphone page temoignages*/
+@media screen and (max-width: 900px) {
+  .page-temoignages h2 {
+    font-size: 2rem;
+  }
+  /*fin container*/
+}
+
+/*fin tempoignages*/
 body, html {
   background-color: #111110;
   margin: 0px;
@@ -2443,9 +2451,12 @@ div.gallery1 img {
   background-color: #BA3941;
 }
 
+.all-accordion {
+  width: 100%;
+  margin: 0 auto;
+}
+
 #accordion {
-  background-color: #BA3941;
-  width: 49%;
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
 }
@@ -2472,14 +2483,6 @@ div.gallery1 img {
 
 .picto-debouche {
   width: 170px;
-}
-
-.accordion1 {
-  float: left;
-}
-
-.accordion2 {
-  float: right;
 }
 
 .card {
@@ -2582,6 +2585,15 @@ i.fas.fa-caret-down {
   font-size: 38px;
 }
 
+/* smartphone page temoignages*/
+@media screen and (max-width: 900px) {
+  .page-temoignages h2 {
+    font-size: 2rem;
+  }
+  /*fin container*/
+}
+
+/*fin tempoignages*/
 /* MENU     MENU    MENU    MENU    MENU */
 .button_container {
   position: fixed;

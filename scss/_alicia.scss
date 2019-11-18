@@ -268,10 +268,12 @@ div.gallery {
 .card {
   background-color: $prime-color;
 }
+.all-accordion{
+  width: 100%;
+  margin: 0 auto;
+}
 
 #accordion {
-  background-color: $prime-color;
-  width:49%;
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
 }
@@ -296,12 +298,6 @@ div.gallery {
 
 .picto-debouche {
   width: 170px;
-}
-.accordion1 {
-  float: left;
-}
-.accordion2 {
-  float: right;
 }
 
 
@@ -400,4 +396,19 @@ width: 3%;
 
   .txt1 {
     font-size: 38px;
+  
   }
+/* smartphone page temoignages*/
+  @media screen and (max-width: 900px){
+    .page-temoignages{
+      h2{font-size: 2rem;}
+
+
+
+
+
+
+
+
+    }/*fin container*/
+  }/*fin tempoignages*/
