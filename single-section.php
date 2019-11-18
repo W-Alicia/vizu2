@@ -34,10 +34,4 @@
 
 
 
-
-
-
-
-
-
 <?php require("footer.php") ?>

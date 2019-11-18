@@ -1,3 +1,9 @@
+<div class="container footer-element">
+
+        <a href="login.php">LOG IN</a>
+
+</div>
+
 <script type="text/javascript" src="js/menu.js"><script>
 
 
