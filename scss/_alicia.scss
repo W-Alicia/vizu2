@@ -241,20 +241,20 @@ div.gallery {
 
 
 
-  div.gallery1 {
-    margin: 5px;
-    float: left;
-    width: 450px;
-    margin-left: 10%;
-  }
+  // div.gallery1 {
+  //   margin: 5px;
+  //   float: left;
+  //   width: 450px;
+  //   margin-left: 10%;
+  // }
   
   
-  div.gallery1 img {
-    width: 100%;
-    height: auto;
-    margin-top: 18%;
-    position: relative;
-  }
+  // div.gallery1 img {
+  //   width: 100%;
+  //   height: auto;
+  //   margin-top: 18%;
+  //   position: relative;
+  // }
 
   .arrow {
       float:left;
@@ -340,14 +340,12 @@ width: 3%;
 
 .rect3 {
   position: absolute;
-  left: 117px;
-  top: 200px;
+  left: 25px;
+  top: 17px;
   transform: rotate(45deg);
   stroke-width: 2 !important;
   stroke-width: 2 !important;
   stroke-dasharray: 15 10;
-  margin-left: 5%;
-  
 }
 
 .gallerycontainer{
@@ -417,5 +415,13 @@ width: 3%;
   @media screen and (max-width: 900px){
     .page-faq{
       h2{font-size: 2rem;}
+    }/*fin container*/
+  }/*fin tempoignages*/
+
+    
+  /* smartphone page faq*/
+  @media screen and (max-width: 900px){
+    .page-single-ressource{
+      .text-bottom{margin-top: 15%;}
     }/*fin container*/
   }/*fin tempoignages*/

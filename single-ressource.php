@@ -5,15 +5,15 @@
 <div class="container page-single-ressource">
 <div class="row">
 <div class="col-12 col-lg-6">
-<div class="gallery1"><svg width="500" height="510" class="rect3">
-                <rect class="rect-2" width="500" height="510" style="fill:rgba(0, 0, 0, 0); stroke-width:3;stroke:rgb(255, 255, 255)"></rect>
+<svg width="430" height="430" class="rect3">
+                <rect class="rect-2" width="430" height="430" style="fill:rgba(0, 0, 0, 0); stroke-width:3;stroke:rgb(255, 255, 255)"></rect>
             </svg>
     <img src="img/ress.png" alt="un" width="450px" height="450px">
     <h4>Professeur</h4><h4>#2D</h4>
 </div><!--col-->
-</div><!--gallery-->
 
-<div class="col-12 col-lg-6">
+
+<div class="col-12 col-lg-6 text-bottom">
 <h2>TITRE
 <h3>2019</h3></h2>
 <h4>EL GRAND CHAMACO</h4>
