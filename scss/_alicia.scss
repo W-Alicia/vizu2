@@ -179,6 +179,9 @@ header{
 position: fixed;
 }
 
+
+
+
 h2 {
     display: inline;
     position: relative;
@@ -199,6 +202,11 @@ h3 {
     font-family: 'Poppins', sans-serif;
 }
 
+.rectcrea {
+  position: absolute;
+  left: -8px;
+  top: -81px;
+}
 
 
 // .container.droite {
@@ -419,9 +427,9 @@ width: 3%;
   }/*fin tempoignages*/
 
     
-  /* smartphone page faq*/
+  /* smartphone page single ressource*/
   @media screen and (max-width: 900px){
-    .page-single-ressource{
-      .text-bottom{margin-top: 15%;}
+    .single-ressource{
+      .col-12.col-lg-6.text-bottom{margin-top: 15%;}
     }/*fin container*/
   }/*fin tempoignages*/

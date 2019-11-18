@@ -1987,6 +1987,12 @@ h3 {
   font-family: 'Poppins', sans-serif;
 }
 
+.rectcrea {
+  position: absolute;
+  left: -8px;
+  top: -81px;
+}
+
 .textdesc {
   color: white;
   font-size: 22px;
@@ -2181,9 +2187,9 @@ i.fas.fa-caret-down {
 }
 
 /*fin tempoignages*/
-/* smartphone page faq*/
+/* smartphone page single ressource*/
 @media screen and (max-width: 900px) {
-  .page-single-ressource .text-bottom {
+  .single-ressource .col-12.col-lg-6.text-bottom {
     margin-top: 15%;
   }
   /*fin container*/
@@ -2377,6 +2383,12 @@ h3 {
   font-family: 'Poppins', sans-serif;
 }
 
+.rectcrea {
+  position: absolute;
+  left: -8px;
+  top: -81px;
+}
+
 .textdesc {
   color: white;
   font-size: 22px;
@@ -2571,9 +2583,9 @@ i.fas.fa-caret-down {
 }
 
 /*fin tempoignages*/
-/* smartphone page faq*/
+/* smartphone page single ressource*/
 @media screen and (max-width: 900px) {
-  .page-single-ressource .text-bottom {
+  .single-ressource .col-12.col-lg-6.text-bottom {
     margin-top: 15%;
   }
   /*fin container*/

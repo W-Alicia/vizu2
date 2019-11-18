@@ -2,12 +2,12 @@
 
 <a href="single-ressource.php"><img src="img/arrow.svg" alt="arrow" class="arrow2" width="75px"></a>
 
-<div class="container page-single-ressource">
+<div class="container single-ressource">
 <div class="row">
 <div class="col-12 col-lg-6">
 <svg width="430" height="430" class="rect3">
                 <rect class="rect-2" width="430" height="430" style="fill:rgba(0, 0, 0, 0); stroke-width:3;stroke:rgb(255, 255, 255)"></rect>
-            </svg>
+</svg><!--svg-->
     <img src="img/ress.png" alt="un" width="450px" height="450px">
     <h4>Professeur</h4><h4>#2D</h4>
 </div><!--col-->
