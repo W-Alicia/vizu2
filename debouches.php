@@ -3,7 +3,7 @@
 
 <a href="single-section.php"><img src="img/arrow.svg" alt="arrow" class="arrow2" width="75px"></a>
 
-<div class="container page-temoignages">
+<div class="container page-debouches">
 <div class="row all-accordion">
 <a href="#"><img src="img/picto-debouche.svg" alt="picto-debouche" class="picto-debouche"></a>
 <h2 class="titredeb">DÉBOUCHÉS</h2>

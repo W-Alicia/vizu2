@@ -2197,6 +2197,24 @@ i.fas.fa-caret-down {
 }
 
 /*fin tempoignages*/
+/* smartphone page debouches*/
+@media screen and (max-width: 900px) {
+  .page-debouches h2 {
+    font-size: 2rem;
+  }
+  /*fin container*/
+}
+
+/*fin tempoignages*/
+/* smartphone page faq*/
+@media screen and (max-width: 900px) {
+  .page-faq h2 {
+    font-size: 2rem;
+  }
+  /*fin container*/
+}
+
+/*fin tempoignages*/
 body, html {
   background-color: #111110;
   margin: 0px;
@@ -2588,6 +2606,24 @@ i.fas.fa-caret-down {
 /* smartphone page temoignages*/
 @media screen and (max-width: 900px) {
   .page-temoignages h2 {
+    font-size: 2rem;
+  }
+  /*fin container*/
+}
+
+/*fin tempoignages*/
+/* smartphone page debouches*/
+@media screen and (max-width: 900px) {
+  .page-debouches h2 {
+    font-size: 2rem;
+  }
+  /*fin container*/
+}
+
+/*fin tempoignages*/
+/* smartphone page faq*/
+@media screen and (max-width: 900px) {
+  .page-faq h2 {
     font-size: 2rem;
   }
   /*fin container*/
