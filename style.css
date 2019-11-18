@@ -116,14 +116,9 @@ header .about a {
   color: #BA3941;
 }
 
-<<<<<<< HEAD
 header .about a:hover {
   color: #FFF;
   text-decoration: none;
-=======
-header a:hover {
-  text-decoration: none !important;
->>>>>>> 9f4e6df4eedbd754045312409a16fbd4f35699b1
 }
 
 header .logo {
@@ -185,7 +180,8 @@ header .logo {
 }
 
 .login-page .etu-picto {
-  border: 3px  #BA3941 solid;
+  border: 3px 
+ #BA3941 solid;
   border-radius: 1rem;
   max-width: 200px;
   height: 200px;
@@ -264,7 +260,8 @@ header .logo {
   border-radius: 2rem;
   width: 100px;
   -webkit-box-shadow: 5px 5px 8px black;
-  box-shadow: 5px 5px 8px black;
+  box-shadow: 5px 5px 8px
+ black;
   margin-top: 20px;
 }
 
@@ -813,7 +810,8 @@ h5.nom-etudiant {
   padding: 0px;
   text-align: left;
   color: #BA3941;
-  border-bottom: 2px #BA3941 solid;
+  border-bottom: 2px
+ #BA3941 solid;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -1070,7 +1068,8 @@ h5.nom-etudiant {
 /* ADD NEWS SMARTPHONE    ADD NEWS SMARTPHONE */
 @media screen and (max-width: 900px) {
   .add-news .show-img {
-    border: 1px  white solid;
+    border: 1px 
+ white solid;
     width: 230px !important;
     height: 230px !important;
   }
