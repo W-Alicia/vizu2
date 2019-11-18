@@ -1982,7 +1982,7 @@ h2 {
   letter-spacing: 4px;
   color: white;
   font-size: 80px;
-  text-shadow: 5px 3px 0px #BA3941;
+  text-shadow: -5px 3px 0px #BA3941;
 }
 
 h4 {
@@ -2379,7 +2379,7 @@ h2 {
   letter-spacing: 4px;
   color: white;
   font-size: 80px;
-  text-shadow: 5px 3px 0px #BA3941;
+  text-shadow: -5px 3px 0px #BA3941;
 }
 
 h4 {
