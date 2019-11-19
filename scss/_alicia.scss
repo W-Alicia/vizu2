@@ -27,14 +27,14 @@ header{
   margin-top: 8%;
 }
 
-.container.gauche {
-  background-position: center;
-  background-size: cover;
-  width: auto;
-  float: left;
-  margin-right: 11%;
-  margin-left: 5%;
-}
+// .container.gauche {
+//   background-position: center;
+//   background-size: cover;
+//   width: auto;
+//   float: left;
+//   margin-right: 11%;
+//   margin-left: 5%;
+// }
 
 .container.etudiants{
     background-color: $bg-color;
@@ -179,6 +179,9 @@ header{
 position: fixed;
 }
 
+
+
+
 h2 {
     display: inline;
     position: relative;
@@ -186,7 +189,7 @@ h2 {
     letter-spacing: 4px;
     color:white;
     font-size: 80px;
-    text-shadow:  5px 3px 0px $prime-color;
+    text-shadow:  -5px 3px 0px $prime-color;
 }
 
 h4 {
@@ -199,17 +202,22 @@ h3 {
     font-family: 'Poppins', sans-serif;
 }
 
-
-
-.container.droite {
-  background-repeat: no-repeat;
-  margin-top: 10%;
-  position: inherit;
-  padding-top: 6%;
-  width: auto;
-  display: inline-block;
-  max-width: 52%;
+.rectcrea {
+  position: absolute;
+  left: -8px;
+  top: -81px;
 }
+
+
+// .container.droite {
+//   background-repeat: no-repeat;
+//   margin-top: 10%;
+//   position: inherit;
+//   padding-top: 6%;
+//   width: auto;
+//   display: inline-block;
+//   max-width: 52%;
+// }
 
 
 
@@ -241,20 +249,20 @@ div.gallery {
 
 
 
-  div.gallery1 {
-    margin: 5px;
-    float: left;
-    width: 450px;
-    margin-left: 10%;
-  }
+  // div.gallery1 {
+  //   margin: 5px;
+  //   float: left;
+  //   width: 450px;
+  //   margin-left: 10%;
+  // }
   
   
-  div.gallery1 img {
-    width: 100%;
-    height: auto;
-    margin-top: 18%;
-    position: relative;
-  }
+  // div.gallery1 img {
+  //   width: 100%;
+  //   height: auto;
+  //   margin-top: 18%;
+  //   position: relative;
+  // }
 
   .arrow {
       float:left;
@@ -340,14 +348,12 @@ width: 3%;
 
 .rect3 {
   position: absolute;
-  left: 117px;
-  top: 200px;
+  left: 25px;
+  top: 17px;
   transform: rotate(45deg);
   stroke-width: 2 !important;
   stroke-width: 2 !important;
   stroke-dasharray: 15 10;
-  margin-left: 5%;
-  
 }
 
 .gallerycontainer{
@@ -402,13 +408,28 @@ width: 3%;
   @media screen and (max-width: 900px){
     .page-temoignages{
       h2{font-size: 2rem;}
+    }/*fin container*/
+  }/*fin tempoignages*/
 
+  /* smartphone page debouches*/
+  @media screen and (max-width: 900px){
+    .page-debouches{
+      h2{font-size: 2rem;}
+    }/*fin container*/
+  }/*fin tempoignages*/
 
+  
+  /* smartphone page faq*/
+  @media screen and (max-width: 900px){
+    .page-faq{
+      h2{font-size: 2rem;}
+    }/*fin container*/
+  }/*fin tempoignages*/
 
-
-
-
-
-
+    
+  /* smartphone page single ressource*/
+  @media screen and (max-width: 900px){
+    .single-ressource{
+      .col-12.col-lg-6.text-bottom{margin-top: 15%;}
     }/*fin container*/
   }/*fin tempoignages*/

@@ -1871,15 +1871,6 @@ header .logo {
   margin-top: 8%;
 }
 
-.container.gauche {
-  background-position: center;
-  background-size: cover;
-  width: auto;
-  float: left;
-  margin-right: 11%;
-  margin-left: 5%;
-}
-
 .container.etudiants {
   background-color: #111110;
   max-width: 960px;
@@ -2025,7 +2016,7 @@ h2 {
   letter-spacing: 4px;
   color: white;
   font-size: 80px;
-  text-shadow: 5px 3px 0px #BA3941;
+  text-shadow: -5px 3px 0px #BA3941;
 }
 
 h4 {
@@ -2039,14 +2030,10 @@ h3 {
   font-family: 'Poppins', sans-serif;
 }
 
-.container.droite {
-  background-repeat: no-repeat;
-  margin-top: 10%;
-  position: inherit;
-  padding-top: 6%;
-  width: auto;
-  display: inline-block;
-  max-width: 52%;
+.rectcrea {
+  position: absolute;
+  left: -8px;
+  top: -81px;
 }
 
 .textdesc {
@@ -2073,20 +2060,6 @@ div.gallery img {
   height: auto;
   border: 1px solid grey;
   padding: 7%;
-}
-
-div.gallery1 {
-  margin: 5px;
-  float: left;
-  width: 450px;
-  margin-left: 10%;
-}
-
-div.gallery1 img {
-  width: 100%;
-  height: auto;
-  margin-top: 18%;
-  position: relative;
 }
 
 .arrow {
@@ -2169,14 +2142,13 @@ i.fas.fa-caret-down {
 
 .rect3 {
   position: absolute;
-  left: 117px;
-  top: 200px;
+  left: 25px;
+  top: 17px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   stroke-width: 2 !important;
   stroke-width: 2 !important;
   stroke-dasharray: 15 10;
-  margin-left: 5%;
 }
 
 .gallerycontainer {
@@ -2240,6 +2212,33 @@ i.fas.fa-caret-down {
 }
 
 /*fin tempoignages*/
+/* smartphone page debouches*/
+@media screen and (max-width: 900px) {
+  .page-debouches h2 {
+    font-size: 2rem;
+  }
+  /*fin container*/
+}
+
+/*fin tempoignages*/
+/* smartphone page faq*/
+@media screen and (max-width: 900px) {
+  .page-faq h2 {
+    font-size: 2rem;
+  }
+  /*fin container*/
+}
+
+/*fin tempoignages*/
+/* smartphone page single ressource*/
+@media screen and (max-width: 900px) {
+  .single-ressource .col-12.col-lg-6.text-bottom {
+    margin-top: 15%;
+  }
+  /*fin container*/
+}
+
+/*fin tempoignages*/
 body, html {
   background-color: #111110;
   margin: 0px;
@@ -2266,15 +2265,6 @@ header .logo {
 .arrow2 {
   float: left;
   margin-top: 8%;
-}
-
-.container.gauche {
-  background-position: center;
-  background-size: cover;
-  width: auto;
-  float: left;
-  margin-right: 11%;
-  margin-left: 5%;
 }
 
 .container.etudiants {
@@ -2422,7 +2412,7 @@ h2 {
   letter-spacing: 4px;
   color: white;
   font-size: 80px;
-  text-shadow: 5px 3px 0px #BA3941;
+  text-shadow: -5px 3px 0px #BA3941;
 }
 
 h4 {
@@ -2436,14 +2426,10 @@ h3 {
   font-family: 'Poppins', sans-serif;
 }
 
-.container.droite {
-  background-repeat: no-repeat;
-  margin-top: 10%;
-  position: inherit;
-  padding-top: 6%;
-  width: auto;
-  display: inline-block;
-  max-width: 52%;
+.rectcrea {
+  position: absolute;
+  left: -8px;
+  top: -81px;
 }
 
 .textdesc {
@@ -2470,20 +2456,6 @@ div.gallery img {
   height: auto;
   border: 1px solid grey;
   padding: 7%;
-}
-
-div.gallery1 {
-  margin: 5px;
-  float: left;
-  width: 450px;
-  margin-left: 10%;
-}
-
-div.gallery1 img {
-  width: 100%;
-  height: auto;
-  margin-top: 18%;
-  position: relative;
 }
 
 .arrow {
@@ -2566,14 +2538,13 @@ i.fas.fa-caret-down {
 
 .rect3 {
   position: absolute;
-  left: 117px;
-  top: 200px;
+  left: 25px;
+  top: 17px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   stroke-width: 2 !important;
   stroke-width: 2 !important;
   stroke-dasharray: 15 10;
-  margin-left: 5%;
 }
 
 .gallerycontainer {
@@ -2632,6 +2603,33 @@ i.fas.fa-caret-down {
 @media screen and (max-width: 900px) {
   .page-temoignages h2 {
     font-size: 2rem;
+  }
+  /*fin container*/
+}
+
+/*fin tempoignages*/
+/* smartphone page debouches*/
+@media screen and (max-width: 900px) {
+  .page-debouches h2 {
+    font-size: 2rem;
+  }
+  /*fin container*/
+}
+
+/*fin tempoignages*/
+/* smartphone page faq*/
+@media screen and (max-width: 900px) {
+  .page-faq h2 {
+    font-size: 2rem;
+  }
+  /*fin container*/
+}
+
+/*fin tempoignages*/
+/* smartphone page single ressource*/
+@media screen and (max-width: 900px) {
+  .single-ressource .col-12.col-lg-6.text-bottom {
+    margin-top: 15%;
   }
   /*fin container*/
 }
