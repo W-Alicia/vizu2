@@ -61,6 +61,7 @@ header{
 
 /*LOGIN   LOGIN*/
 .login-page{
+  margin-top: 50px !important;
   h3{
     margin-bottom: 30px;
   }
@@ -80,10 +81,18 @@ header{
     border: 3px 
     #BA3941 solid;
     border-radius: 1rem;
-    max-width: 200px;
-    height: 200px;
+    max-width: 150px;
+    height: 150px;
     padding: 0px;
     margin: 0 auto;
+}
+.etu-picto-white {
+  border: 2px 
+  white solid;
+  border-radius: 1rem;
+  max-width: 150px;
+  max-height: 150px;
+  padding: 0px;
 }
 .perso h3::after{
   content: '';
@@ -94,10 +103,21 @@ header{
   #BA3941;
   margin: 40px 0px 0px -205px;
 }
+.ajouter h6::after{
+  content: '';
+  position: absolute;
+  width: 140px;
+  height: 2px;
+  background: 
+  #BA3941;
+  margin: 25px 0px 0px -140px;
+}
+.ajouter h6{display: none; 
+  color: $prime-color;}
 .ajouter{
   img{
-    width: 200px;
-    padding-top: 65px;
+    width: 170px;
+    padding-top: 60px;
     margin: 0 auto;
     display: flex;
   }
@@ -106,14 +126,14 @@ header{
   border-radius: 1rem;
   background-color: #111110;;
   box-shadow: 5px 5px 8px black;
-  height: 195px;
-margin-top: 20px;
+  height: 175px;
+  margin-top: 20px;
 }
 .form-group {
   margin-bottom: 1rem;
-  max-width: 300px;
+  max-width: 260px;
   margin: 0 auto;
-  padding-top: 20px;
+  padding-top: 10px;
   label{
     color: white;
   }
@@ -124,24 +144,38 @@ margin-top: 20px;
   .baseline {
     background-color: rgba(0, 0, 0, 0);
     border: none;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid $prime-color;
     border-radius: 0px;
 }
 .form-control{color: $prime-color;}
 .btn-go {
-  background-color: 
-#BA3941;
-color:
-white;
-border-radius: 2rem;
-width: 100px;
--webkit-box-shadow: 5px 5px 8px black;
-box-shadow: 5px 5px 8px
-  black;
+  background-color: #BA3941;
+  color:white;
+  border-radius: 2rem;
+  width: 100px;
+  box-shadow: 5px 5px 8px black;
   margin-top: 20px;
 }
 }
+
 /* fin login */
+
+/* smartphone login*/
+@media screen and (max-width: 900px){
+.login-page{
+  .visiteur{
+    margin-bottom: 50px;
+  }
+  .ajouter{
+    h6{display: block;}
+    img{display: none;}
+    }
+    .perso{
+      margin-bottom: 15px;
+    }
+}
+
+}/* fin smartphone login*/
 
 
 .container.archive-etudiants{
