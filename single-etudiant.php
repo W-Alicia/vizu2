@@ -8,7 +8,7 @@
       <p class="mail-etudiant">tatianaolivier@contact.com</p>
     </div><!--nom et mail-->
     
-    <div class="col-4 col-lg-6 icon-media">
+    <div class="col-4 col-lg-6 d-flex icon-media">
         <a href="#" class="fab fa-behance"></a>
         <a href="#" class="fas fa-basketball-ball"></a>
         <a href="#" class="fab fa-facebook-f"></a>
@@ -27,8 +27,8 @@
       </div><!--etu section-->
     </div><!--picto et section-->
           
-    <div class="col-12 col-lg-6 description-etudiant">
-        <p class="description-etu">J’adore les pandas et les grands palmiers. Les lasanges sont vraiment cool. J’aime l’illustration et le design.</p>
+    <div class="col-12 col-lg-6 d-flex flex-column description-etudiant">
+        <p class="description-etu align-bottom mt-auto">J’adore les pandas et les grands palmiers. Les lasanges sont vraiment cool. J’aime l’illustration et le design.</p>
         <input type="image" id="modif-description" alt="modification" src="img/picto-modif.png">
     </div><!--paragraph description-->
 
