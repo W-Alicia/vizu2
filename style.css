@@ -3089,5 +3089,29 @@ img {
   height: auto;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #111110;
+}
+
+::-webkit-scrollbar-track-piece {
+  background: #111110;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #BA3941;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #BA3941;
+}
+
 /* FIN MENU     FIN MENU    FIN MENU    FIN MENU */
 /*# sourceMappingURL=style.css.map */

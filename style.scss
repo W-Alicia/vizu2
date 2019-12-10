@@ -214,5 +214,18 @@ img {
   height: auto;
 }
 
+/* width */
+::-webkit-scrollbar {width: 10px;}
+  
+  /* Track */
+  ::-webkit-scrollbar-track {background: $bg-color;}
+  ::-webkit-scrollbar-track-piece {background: $bg-color;}
+  /* Handle */
+  ::-webkit-scrollbar-thumb {background: $prime-color;}
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {background: $prime-color;}
+
+
 /* FIN MENU     FIN MENU    FIN MENU    FIN MENU */
 
