@@ -59,6 +59,26 @@ h1 {
         }
     }
 }
+//Mobile Accueil + Filière
+@media screen and (max-width: 900px){
+    #accueil, #sections {
+        .element{
+            
+            flex-direction: column;
+            
+            h1 {transform: scale(0.5);}
+            .vertical-text {writing-mode: horizontal-tb;}
+            a {align-self: center;}
+            .icon {
+                height: 20vw;
+                width: 35vh;
+                border-radius: 5% / 40%;
+                background-color: $prime-color; 
+            }
+        }
+    }
+    #accueil .element {height: 23vh;}
+}
 
 // Page About
 #about {
@@ -71,13 +91,62 @@ h1 {
         border-radius: 10% / 5%;
     }
 }
+//Mobile About
+@media screen and (max-width: 900px){
+    #about {
+        p{
+            font-size: 0.7em;
+        }
+        .photo-de-classe{
+            height: 29vh;
+            background-color: $prime-color;
+            border-radius: 10% / 5%;
+        }
+        .petit {
+            height: 14vh;
+            display: inline-block;
+        }
+    }
+}
 
 //Page Vizuthèque 
-
 #ressourses {
     .recherche{
         position: fixed;
         width: 100vw;
         top: 14vh;
+        
     }
+    .left {height: 100%;}
+    .travaux div {overflow: hidden;
+        img {width: 100%;}
+    }
+}
+.ressourse {
+    height: 72vh;
+    padding-top: 30px;
+}
+
+//Page Projets
+.archive-projets{
+    .projets {
+        overflow: scroll;
+        height:59vh;  
+    }
+}
+//Mobile Projets
+@media screen and (max-width: 900px){
+    .archive-projets{
+        .projets {
+        
+            height:415px;  
+        }
+        .form-inline {justify-content: center;}
+        .etu-picto{
+        width: 150px !important;
+        height: 150px !important;
+        }
+     
+    }
+    
 }

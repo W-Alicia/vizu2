@@ -2,7 +2,7 @@
 
 <div class="container justify-content-center archive-projets">
         <div class="row justify-content-center recherche">
-                <div class="col-6 filtre">
+                <div class="col-12 col-md-6 filtre">
                         <form class="form-inline my-2 my-lg-0">
                                 <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
                                 <button id="search" class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>

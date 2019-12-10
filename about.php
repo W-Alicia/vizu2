@@ -2,7 +2,7 @@
 
 <div id="about" class="container-fluid">
     <div class="row d-flex justify-content-center ">
-        <div class="col-8">
+        <div class="col-11 col-md-8">
             <h1 class="d-flex justify-content-center ">QUIQUOIWHAT?</h1>
             <p>
                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
@@ -13,9 +13,9 @@
                 aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. 
             </p>
             <div class="d-flex justify-content-around">
-                <div class="photo-de-classe col-xl-3 "></div>
-                <div class="photo-de-classe col-xl-3 "></div>
-                <div class="photo-de-classe col-xl-3 "></div>
+                <div class="photo-de-classe col-5 col-xl-3 "></div>
+                <div class="photo-de-classe col-5 col-xl-3 petit"></div>
+                <div class="photo-de-classe col-5 col-xl-3 petit"></div>
             </div>
         </div>
     </div>
