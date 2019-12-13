@@ -2407,6 +2407,13 @@ i.fas.fa-caret-down {
   .page-debouches h2 {
     font-size: 2rem;
   }
+  .page-debouches .picto-debouche {
+    position: relative;
+  }
+  .page-debouches .titredeb {
+    position: absolute;
+    font-size: 4em;
+  }
   /*fin container*/
 }
 
@@ -2802,6 +2809,13 @@ i.fas.fa-caret-down {
 @media screen and (max-width: 900px) {
   .page-debouches h2 {
     font-size: 2rem;
+  }
+  .page-debouches .picto-debouche {
+    position: relative;
+  }
+  .page-debouches .titredeb {
+    position: absolute;
+    font-size: 4em;
   }
   /*fin container*/
 }

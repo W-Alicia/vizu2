@@ -415,6 +415,13 @@ width: 3%;
   @media screen and (max-width: 900px){
     .page-debouches{
       h2{font-size: 2rem;}
+      .picto-debouche{
+        position: relative;
+      }
+      .titredeb {
+        position: absolute;
+        font-size: 4em;
+      }
     }/*fin container*/
   }/*fin tempoignages*/
 
