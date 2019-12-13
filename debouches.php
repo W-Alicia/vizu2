@@ -5,8 +5,8 @@
 
 <div class="container page-debouches">
 <div class="row all-accordion">
-<a href="#"><img src="img/picto-debouche.svg" alt="picto-debouche" class="picto-debouche"></a>
-<h2 class="titredeb">DÉBOUCHÉS</h2>
+<a href="#" class="position-absolute"><img src="img/picto-debouche.svg" alt="picto-debouche" class="picto-debouche"></a>
+<h2 class="titre-page">DÉBOUCHÉS</h2>
 
 
 

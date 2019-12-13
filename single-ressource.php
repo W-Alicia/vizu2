@@ -14,8 +14,8 @@
 
 
 <div class="col-12 col-lg-6 text-bottom">
-<h2>TITRE
-<h3>2019</h3></h2>
+<h2 class="titre-page text-left justify-content-start">TITRE</h2>
+<h3>2019</h3>
 <h4>EL GRAND CHAMACO</h4>
 <h1>HTTPS://GRANDCHAMACO.COM</h1>
 

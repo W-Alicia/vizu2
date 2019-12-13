@@ -4,9 +4,12 @@
 <a href="single-section.php"><img src="img/arrow.svg" alt="arrow" class="arrow2" width="75px"></a>
 
 <div class="container page-temoignages">
+
+<a href="#" class="position-absolute"><img src="img/picto-debouche.svg" alt="picto-debouche" class="picto-debouche"></a>
+<h2 class="titre-page">TÉMOIGNAGES</h2>
+
 <div class="row all-accordion">
-<a href="#"><img src="img/picto-debouche.svg" alt="picto-debouche" class="picto-debouche"></a>
-<h2 class="titredeb">TÉMOIGNAGES</h2>
+
 
 
 

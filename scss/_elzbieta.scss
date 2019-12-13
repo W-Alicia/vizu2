@@ -334,12 +334,7 @@ header{
 
 h4.nom-etudiant{
   display: block;
-  color: #FFF;
-  text-decoration: none;
-  overflow: hidden;
-  text-transform: uppercase;
-  text-shadow: -3px 0px $prime-color;
-  font-size: 2.9rem;
+  text-align: left !important;
 }
 
 
@@ -449,8 +444,7 @@ p.description-etu{
     padding-right: 20px;
   }
   h4.nom-etudiant{
-    font-size: 2.6rem;
-    text-align: center;
+    text-align: center !important;
   }
   .etu-section h5{
     font-size: 1.4rem;

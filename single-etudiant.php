@@ -4,7 +4,7 @@
   <div class="row text-uppercase">
 
     <div class="col-12 col-lg-6">
-      <h4 class="nom-etudiant">Tatiana Olivier</h4>
+      <h4 class="titre-page nom-etudiant">Tatiana Olivier</h4>
       <p class="mail-etudiant">tatianaolivier@contact.com</p>
     </div><!--nom et mail-->
     

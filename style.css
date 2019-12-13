@@ -560,12 +560,7 @@ header .logo {
 
 h4.nom-etudiant {
   display: block;
-  color: #FFF;
-  text-decoration: none;
-  overflow: hidden;
-  text-transform: uppercase;
-  text-shadow: -3px 0px #BA3941;
-  font-size: 2.9rem;
+  text-align: left !important;
 }
 
 p.mail-etudiant {
@@ -675,8 +670,7 @@ p.description-etu {
     padding-right: 20px;
   }
   h4.nom-etudiant {
-    font-size: 2.6rem;
-    text-align: center;
+    text-align: center !important;
   }
   .etu-section h5 {
     font-size: 1.4rem;
@@ -2408,7 +2402,7 @@ i.fas.fa-caret-down {
 /* smartphone page temoignages*/
 @media screen and (max-width: 900px) {
   .page-temoignages h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
   /*fin container*/
 }
@@ -2417,7 +2411,7 @@ i.fas.fa-caret-down {
 /* smartphone page debouches*/
 @media screen and (max-width: 900px) {
   .page-debouches h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
   /*fin container*/
 }
@@ -2804,7 +2798,7 @@ i.fas.fa-caret-down {
 /* smartphone page temoignages*/
 @media screen and (max-width: 900px) {
   .page-temoignages h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
   /*fin container*/
 }
@@ -2813,7 +2807,7 @@ i.fas.fa-caret-down {
 /* smartphone page debouches*/
 @media screen and (max-width: 900px) {
   .page-debouches h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
   /*fin container*/
 }
@@ -2941,7 +2935,6 @@ i.fas.fa-caret-down {
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  font-size: 30px;
   text-align: center;
 }
 
@@ -2971,6 +2964,7 @@ i.fas.fa-caret-down {
   overflow: hidden;
   text-transform: uppercase;
   text-shadow: -3px 0px #BA3941;
+  font-size: 2.2rem;
 }
 
 .overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
@@ -2980,7 +2974,7 @@ i.fas.fa-caret-down {
 .overlay ul li a:after {
   content: '';
   position: absolute;
-  bottom: 20px;
+  bottom: 40px;
   left: 50%;
   width: 25%;
   -webkit-transform: translateX(-50%);
@@ -3184,4 +3178,31 @@ img {
 }
 
 /* FIN MENU     FIN MENU    FIN MENU    FIN MENU */
+/* TITRES POUR LES PAGES */
+.titre-page {
+  font-size: 3rem;
+  text-shadow: -3px 0px #BA3941;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 900px) {
+  .titre-page {
+    font-size: 2.2rem;
+  }
+  .overlay ul {
+    height: 85%;
+    width: 80%;
+  }
+}
+
+/* FIN TITRES  POUR LES PAGES */
 /*# sourceMappingURL=style.css.map */

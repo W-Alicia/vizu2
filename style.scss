@@ -96,7 +96,6 @@
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  font-size: 30px;
   text-align: center;
 }
 .overlay ul {
@@ -123,6 +122,7 @@
   overflow: hidden;
   text-transform: uppercase;
   text-shadow: -3px 0px $prime-color;
+  font-size: 2.2rem;
 }
 .overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
   width: 40%;
@@ -130,7 +130,7 @@
 .overlay ul li a:after {
   content: '';
   position: absolute;
-  bottom: 20px;
+  bottom: 40px;
   left: 50%;
   width: 25%;
   -webkit-transform: translateX(-50%);
@@ -159,7 +159,6 @@
   }
   100% {
     opacity: 1;
-
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
     -webkit-transition: -webkit-transform .2s,opacity .2s;
@@ -229,3 +228,28 @@ img {
 
 /* FIN MENU     FIN MENU    FIN MENU    FIN MENU */
 
+
+/* TITRES POUR LES PAGES */
+.titre-page{
+  font-size: 3rem;
+  text-shadow: -3px 0px $prime-color;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 900px){
+  .titre-page{
+    font-size: 2.2rem;
+  }
+  .overlay ul{
+    height: 85%;
+    width: 80%;
+  }
+}
+
+/* FIN TITRES  POUR LES PAGES */
+  

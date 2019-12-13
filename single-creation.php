@@ -14,8 +14,8 @@
 
 
 <div class="col-12 col-lg-6">
-<h2>TITRE
-<h3>2019</h3></h2>
+<h2 class="titre-page text-left justify-content-start">TITRE</h2>
+<h3>2019</h3>
 <h4>TATIANA OLIVIER</h4>
 <h1>@TATIANO</h1>
 
