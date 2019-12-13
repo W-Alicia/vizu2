@@ -62,11 +62,11 @@
 
       <div class="row">
           <div class="container all-travaux">
-              <div class="row travaux">
+              <div class="row justify-content-around travaux">
                 <div class="col-7 col-lg-4">
                   1
                 </div>
-                <div class="col-4 col-lg">
+                <div class="col-4 col-lg-3">
                   2
                 </div>
                 <div class="col-6 col-lg-4">
@@ -76,7 +76,7 @@
                 <div class="col-5 col-lg-3">
                   4
                 </div>
-                <div class="col-3 col-lg">
+                <div class="col-3 col-lg-5">
                   5
                 </div>
                 <div class="col-8 col-lg-3">
@@ -86,7 +86,7 @@
                 <div class="col-5 col-lg-5">
                   7
                 </div>
-                <div class="col-6 col-lg">
+                <div class="col-6 col-lg-3">
                   8
                 </div>
                 <div class="col-7 col-lg-3">
@@ -98,7 +98,7 @@
                 <div class="col-3 col-lg-3">
                   11
                 </div>
-                <div class="col-8 col-lg">
+                <div class="col-8 col-lg-5">
                   12
                 </div>
               </div><!--row-->

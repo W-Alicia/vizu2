@@ -573,7 +573,6 @@ p.description-etu{
   padding-right: 0px;
 }
 .travaux{
-  column-gap: 20px;
   height: 550px;
   overflow-y: scroll;
   width: 100%;
@@ -639,11 +638,14 @@ top: -25px;
     margin-top: 155px;
   }
   .travaux{
-    column-gap: 20px;
     height: 470px;
     overflow-y: scroll;
     width: 100%;
+    .offset-md-1 {
+      margin-left: 20px;
+    }
   }
+  
   .show-img{
     border: 1px white solid;
     width: 350px !important;
@@ -750,7 +752,7 @@ top: -25px;
   }
   .travaux{
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 0px;
   }
   .filtre-random{
     margin-right: 0px;
@@ -1081,7 +1083,7 @@ top: -25px;
   .nom-auteur{
     align-items: end;
     display: flex;
-    margin-top: 50px;
+    margin-top: auto;
     position: relative;
     top: -15px;
     left: -110px;
@@ -1129,7 +1131,11 @@ top: -25px;
       text-align: center;
       margin: 0 !important;
     }
-    p {color: white; font-size: 0.9rem;}
+    p {color: white; 
+      font-size: 0.9rem;
+      padding: 20px;
+      margin-bottom: 0px;
+    }
   
   .filter-projet{
     border-left: 1px solid#BA3941;
@@ -1200,6 +1206,9 @@ top: -25px;
 
   #titre-projet{
     border: none;
+  }
+  #titre-projet:focus{
+    box-shadow: none !important;
   }
   .btn-go{
     background-color: $prime-color;
@@ -1326,7 +1335,7 @@ top: -25px;
   .nom-auteur{
     align-items: end;
     display: flex;
-    margin-top: 50px;
+    margin-top: auto;
     position: relative;
     top: -15px;
     left: -110px;
@@ -1389,7 +1398,7 @@ top: -25px;
   }
   .filter-ressource{
     border-left: 1px solid $prime-color;
-    max-height: 555px;
+    max-height: 500px;
   }
   form{
     padding-left: 25px;
@@ -1429,6 +1438,9 @@ top: -25px;
   }
   #auteur{
     border: none;
+  }
+  #auteur:focus{
+    box-shadow: none !important;
   }
   #titre-projet{
     border: none;

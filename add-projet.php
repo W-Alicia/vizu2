@@ -22,16 +22,7 @@
                     </div>
                     
                     <div class="col-12">
-                        <div class="row">
-                            <div class=" col-3 col-lg-2">
-                                <div class="color1"></div>
-                                <div class="color2"></div>
-                                <div class="color3"></div>
-                            </div>
-                            <div class="col-9 col-lg-10 description">
-                                <p class="text-uppercase">description de ça. description de ça. description de ça. description de ça. description de ça. description de ça. description de ça. description de ça.</p>
-                            </div>
-                        </div>
+                        <p class="text-uppercase">description de ça. description de ça. description de ça. description de ça. description de ça. description de ça. description de ça. description de ça.</p>
                     </div>
                 </div><!--row-->
             </div><!--show img-->
@@ -95,15 +86,10 @@
                         <input type="text" class="form-control baseline" id="tag">
                     </div>
                 </div><!--form row--> 
-                <div class="form-group row">
-                    <label for="tag" class="col-form-label">Gamme de couleurs :</label>
-                    <div class="col">
-                        <input type="text" class="form-control baseline" id="couleurs">
-                    </div>
-                </div><!--form row-->
+            
                 <div class="form-group row rowcomment">
                     <label for="comment">description:</label>
-                    <textarea class="form-control" rows="3" id="comment"></textarea>
+                    <textarea class="form-control" rows="4" id="comment"></textarea>
                 </div><!--form row-->
                 <div class="text-center"><button type="submit" class="btn btn-go ">GO</button></div>
                 
