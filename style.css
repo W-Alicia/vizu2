@@ -2401,6 +2401,10 @@ i.fas.fa-caret-down {
   font-size: 38px;
 }
 
+.img1 {
+  border-radius: 34px;
+}
+
 /* smartphone page temoignages*/
 @media screen and (max-width: 900px) {
   .page-temoignages h2 {
@@ -2831,6 +2835,10 @@ i.fas.fa-caret-down {
 
 .txt1 {
   font-size: 38px;
+}
+
+.img1 {
+  border-radius: 34px;
 }
 
 /* smartphone page temoignages*/
