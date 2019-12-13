@@ -2212,7 +2212,9 @@ h2 {
 h4 {
   color: #BA3941;
   font-family: 'Poppins', sans-serif;
-  margin-top: 1%;
+  margin-top: 3%;
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 
 h3 {
@@ -2226,14 +2228,20 @@ h3 {
   top: -81px;
 }
 
+.leftres {
+  margin-left: 21%;
+}
+
 .textdesc {
   color: white;
   font-size: 22px;
-  margin-top: 7%;
+  margin-top: 11%;
   border-left: solid 1px #BA3941;
   border-bottom: solid 1px #BA3941;
   border-right: solid 1px #BA3941;
-  padding: 2%;
+  padding: 6%;
+  margin-left: 21%;
+  width: 100%;
 }
 
 div.gallery {
@@ -2396,7 +2404,16 @@ i.fas.fa-caret-down {
 /* smartphone page temoignages*/
 @media screen and (max-width: 900px) {
   .page-temoignages h2 {
-    font-size: 2rem;
+    font-size: 4rem;
+  }
+  .page-temoignages .picto-debouche {
+    position: relative;
+    bottom: 30px;
+  }
+  .page-temoignages .titredeb {
+    position: absolute;
+    font-size: 3rem;
+    top: 307px;
   }
   /*fin container*/
 }
@@ -2405,14 +2422,16 @@ i.fas.fa-caret-down {
 /* smartphone page debouches*/
 @media screen and (max-width: 900px) {
   .page-debouches h2 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .page-debouches .picto-debouche {
     position: relative;
+    bottom: 30px;
   }
   .page-debouches .titredeb {
     position: absolute;
     font-size: 4em;
+    top: 307px;
   }
   /*fin container*/
 }
@@ -2431,6 +2450,16 @@ i.fas.fa-caret-down {
 @media screen and (max-width: 900px) {
   .single-ressource .col-12.col-lg-6.text-bottom {
     margin-top: 15%;
+  }
+  .single-ressource .leftres {
+    margin-left: 0%;
+  }
+  .single-ressource .textdesc {
+    margin-left: 0%;
+  }
+  .single-ressource .container {
+    margin-top: 22%;
+    margin-right: 11%;
   }
   /*fin container*/
 }
@@ -2615,7 +2644,9 @@ h2 {
 h4 {
   color: #BA3941;
   font-family: 'Poppins', sans-serif;
-  margin-top: 1%;
+  margin-top: 3%;
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 
 h3 {
@@ -2629,14 +2660,20 @@ h3 {
   top: -81px;
 }
 
+.leftres {
+  margin-left: 21%;
+}
+
 .textdesc {
   color: white;
   font-size: 22px;
-  margin-top: 7%;
+  margin-top: 11%;
   border-left: solid 1px #BA3941;
   border-bottom: solid 1px #BA3941;
   border-right: solid 1px #BA3941;
-  padding: 2%;
+  padding: 6%;
+  margin-left: 21%;
+  width: 100%;
 }
 
 div.gallery {
@@ -2799,7 +2836,16 @@ i.fas.fa-caret-down {
 /* smartphone page temoignages*/
 @media screen and (max-width: 900px) {
   .page-temoignages h2 {
-    font-size: 2rem;
+    font-size: 4rem;
+  }
+  .page-temoignages .picto-debouche {
+    position: relative;
+    bottom: 30px;
+  }
+  .page-temoignages .titredeb {
+    position: absolute;
+    font-size: 3rem;
+    top: 307px;
   }
   /*fin container*/
 }
@@ -2808,14 +2854,16 @@ i.fas.fa-caret-down {
 /* smartphone page debouches*/
 @media screen and (max-width: 900px) {
   .page-debouches h2 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .page-debouches .picto-debouche {
     position: relative;
+    bottom: 30px;
   }
   .page-debouches .titredeb {
     position: absolute;
     font-size: 4em;
+    top: 307px;
   }
   /*fin container*/
 }
@@ -2834,6 +2882,16 @@ i.fas.fa-caret-down {
 @media screen and (max-width: 900px) {
   .single-ressource .col-12.col-lg-6.text-bottom {
     margin-top: 15%;
+  }
+  .single-ressource .leftres {
+    margin-left: 0%;
+  }
+  .single-ressource .textdesc {
+    margin-left: 0%;
+  }
+  .single-ressource .container {
+    margin-top: 22%;
+    margin-right: 11%;
   }
   /*fin container*/
 }

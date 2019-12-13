@@ -14,10 +14,13 @@
 
 
 <div class="col-12 col-lg-6 text-bottom">
-<h2>TITRE
-<h3>2019</h3></h2>
-<h4>EL GRAND CHAMACO</h4>
-<h1>HTTPS://GRANDCHAMACO.COM</h1>
+<h2 class="leftres">TITRE</h2>
+<span style="color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    margin-left: 4%;">2019</span>
+<h3 class="leftres">EL GRAND CHAMACO</h3>
+<a href="#"><h4 class="leftres">HTTPS://GRANDCHAMACO.COM/</h4></a>
 
 <p class="textdesc">
 Lorem ipsum dolor sit amet consectetur adipisicing elit.
