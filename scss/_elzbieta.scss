@@ -367,9 +367,6 @@ p.description-etu{
 
 .icon-media{
   height: 100px;
-  justify-content: end;
-  align-items: end;
-  display: flex;
   margin-bottom: 50px;
 }
 
@@ -873,14 +870,19 @@ top: -25px;
   .custom-select{
     color: white;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: $bg-color;
     border: 1px solid $prime-color;
     border-radius: 0px;
+  }
+  .custom-select:focus{
+    box-shadow: none !important;
+    border-color: white;
   }
   .custom-select::placeholder{
     color: white;
     font-size: 1rem;
   }
+  
   .filter-news{
     border-left: 1px solid $prime-color;
     max-height: 555px;
@@ -907,10 +909,19 @@ top: -25px;
     border: none;
     border-bottom: 1px solid $prime-color;
   }
+  .baseline:focus{
+    box-shadow: none !important;
+    border-bottom-color: white;
+  }
   #comment{
     border: none;
     border-right: 1px solid $prime-color;
     border-bottom: 1px solid $prime-color;
+  }
+  #comment:focus{
+    box-shadow: none !important;
+    border-bottom-color: white;
+    border-right-color: white;
   }
   #artiste{
     border: none;
@@ -921,6 +932,9 @@ top: -25px;
   border-radius: 2rem;
   width: 100px;
   box-shadow: 5px 5px 8px black;
+}
+#artiste:focus{
+  box-shadow: none !important;
 }
 
 
@@ -1125,9 +1139,13 @@ top: -25px;
   .custom-select{
     color: white;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: $bg-color;
     border: 1px solid $prime-color;
     border-radius: 0px;
+  }
+  .custom-select:focus{
+    box-shadow: none !important;
+    border-color: white;
   }
   .custom-select::placeholder{
     color: white;
@@ -1159,14 +1177,27 @@ top: -25px;
     border: none;
     border-bottom: 1px solid $prime-color;
   }
+  .baseline:focus{
+    box-shadow: none !important;
+    border-bottom-color: white;
+  }
   #comment{
     border: none;
     border-right: 1px solid $prime-color;
     border-bottom: 1px solid $prime-color;
   }
+  #comment:focus{
+    box-shadow: none !important;
+    border-bottom-color: white;
+    border-right-color: white;
+  }
   #artiste{
     border: none;
   }
+  #artiste:focus{
+    box-shadow: none !important;
+  }
+
   #titre-projet{
     border: none;
   }
@@ -1344,9 +1375,13 @@ top: -25px;
   .custom-select{
     color: white;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: $bg-color;
     border: 1px solid $prime-color;
     border-radius: 0px;
+  }
+  .custom-select:focus{
+    box-shadow: none !important;
+    border-color: white;
   }
   .custom-select::placeholder{
     color: white;
@@ -1378,10 +1413,19 @@ top: -25px;
     border: none;
     border-bottom: 1px solid $prime-color;
   }
+  .baseline:focus{
+    box-shadow: none !important;
+    border-bottom-color: white;
+  }
   #comment{
     border: none;
     border-right: 1px solid $prime-color;
     border-bottom: 1px solid $prime-color;
+  }
+  #comment:focus{
+    box-shadow: none !important;
+    border-bottom-color: white;
+    border-right-color: white;
   }
   #auteur{
     border: none;

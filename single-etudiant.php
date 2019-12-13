@@ -8,7 +8,7 @@
       <p class="mail-etudiant">tatianaolivier@contact.com</p>
     </div><!--nom et mail-->
     
-    <div class="col-4 col-lg-6 d-flex icon-media">
+    <div class="col-4 col-lg-6 d-flex justify-content-end icon-media">
         <a href="#" class="fab fa-behance"></a>
         <a href="#" class="fas fa-basketball-ball"></a>
         <a href="#" class="fab fa-facebook-f"></a>

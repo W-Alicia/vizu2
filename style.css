@@ -591,15 +591,6 @@ p.description-etu {
 
 .icon-media {
   height: 100px;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: end;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   margin-bottom: 50px;
 }
 
@@ -1150,9 +1141,15 @@ h5.nom-etudiant {
 .add-news .custom-select {
   color: white;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #111110;
   border: 1px solid #BA3941;
   border-radius: 0px;
+}
+
+.add-news .custom-select:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-color: white;
 }
 
 .add-news .custom-select::-webkit-input-placeholder {
@@ -1221,10 +1218,23 @@ h5.nom-etudiant {
   border-bottom: 1px solid #BA3941;
 }
 
+.add-news .baseline:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-bottom-color: white;
+}
+
 .add-news #comment {
   border: none;
   border-right: 1px solid #BA3941;
   border-bottom: 1px solid #BA3941;
+}
+
+.add-news #comment:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-bottom-color: white;
+  border-right-color: white;
 }
 
 .add-news #artiste {
@@ -1238,6 +1248,11 @@ h5.nom-etudiant {
   width: 100px;
   -webkit-box-shadow: 5px 5px 8px black;
           box-shadow: 5px 5px 8px black;
+}
+
+.add-news #artiste:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 /*add-news*/
@@ -1478,9 +1493,15 @@ h5.nom-etudiant {
 .add-projet .custom-select {
   color: white;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #111110;
   border: 1px solid #BA3941;
   border-radius: 0px;
+}
+
+.add-projet .custom-select:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-color: white;
 }
 
 .add-projet .custom-select::-webkit-input-placeholder {
@@ -1549,14 +1570,32 @@ h5.nom-etudiant {
   border-bottom: 1px solid #BA3941;
 }
 
+.add-projet .baseline:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-bottom-color: white;
+}
+
 .add-projet #comment {
   border: none;
   border-right: 1px solid #BA3941;
   border-bottom: 1px solid #BA3941;
 }
 
+.add-projet #comment:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-bottom-color: white;
+  border-right-color: white;
+}
+
 .add-projet #artiste {
   border: none;
+}
+
+.add-projet #artiste:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 .add-projet #titre-projet {
@@ -1783,9 +1822,15 @@ h5.nom-etudiant {
 .add-ressource .custom-select {
   color: white;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #111110;
   border: 1px solid #BA3941;
   border-radius: 0px;
+}
+
+.add-ressource .custom-select:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-color: white;
 }
 
 .add-ressource .custom-select::-webkit-input-placeholder {
@@ -1854,10 +1899,23 @@ h5.nom-etudiant {
   border-bottom: 1px solid #BA3941;
 }
 
+.add-ressource .baseline:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-bottom-color: white;
+}
+
 .add-ressource #comment {
   border: none;
   border-right: 1px solid #BA3941;
   border-bottom: 1px solid #BA3941;
+}
+
+.add-ressource #comment:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-bottom-color: white;
+  border-right-color: white;
 }
 
 .add-ressource #auteur {
@@ -3091,7 +3149,7 @@ img {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
 
 /* Track */
