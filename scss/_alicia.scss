@@ -415,6 +415,14 @@ width: 3%;
  .img1{
   border-radius: 34px;
  }
+ .logo {
+  display: block;
+  text-indent: -9999px;
+  width: 100px;
+  height: 82px;
+  background: url(img/crearect.svg);
+  background-size: 100px 82px;
+}
 
 
 /* smartphone page temoignages*/
@@ -475,6 +483,21 @@ width: 3%;
   a:hover {
     text-decoration: none;
   }
+  
+
+
+    }/*fin container*/
+  }/*fin tempoignages*/
+
+      
+  /* smartphone page single creation*/
+  @media screen and (max-width: 900px){
+    .single-creation{
+
+    svg.rectcrea2{
+      position: absolute; left: 15px;
+        top: -54px;
+    }
 
 
     }/*fin container*/
