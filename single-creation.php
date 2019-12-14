@@ -4,7 +4,8 @@
 
 <div class="container page-single-creation">
 <div class="row">
-<div class="col-12 col-lg-6">
+<div class="col-12 col-lg-6 single-creation">
+<div class="svggauche">
 <svg width="500" height="715" class="rectcrea">
                 <rect class="rectcrea" width="500" height="715" style="fill:rgba(0, 0, 0, 0); stroke-width:1;stroke:rgb(255, 255, 255)"></rect>
 </svg><!--svg-->
@@ -21,9 +22,9 @@
     <img src="img/un.jpg" alt="un" width="450px" height="550px">
     <h4 class="prof">Professeur</h4>
 </div>
+</div>
 
-
-<div class="col-12 col-lg-6">
+<div class="col-12 col-lg-6 single-creation">
 <h2 class="leftres">TITRE</h2>
 <span style="color: white;
     font-family: 'Poppins', sans-serif;
