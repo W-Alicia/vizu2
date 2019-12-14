@@ -415,14 +415,6 @@ width: 3%;
  .img1{
   border-radius: 34px;
  }
- .logo {
-  display: block;
-  text-indent: -9999px;
-  width: 100px;
-  height: 82px;
-  background: url(img/crearect.svg);
-  background-size: 100px 82px;
-}
 
 
 /* smartphone page temoignages*/
@@ -435,8 +427,9 @@ width: 3%;
     }
       .titredeb {
         position: absolute;
-        font-size: 3rem;
-        top: 307px;
+        font-size: 35px;
+        top: 311px;
+        right: 33px;
       }
     }/*fin container*/
   }/*fin tempoignages*/
@@ -451,8 +444,9 @@ width: 3%;
     }
       .titredeb {
         position: absolute;
-        font-size: 4em;
-        top: 307px;
+        font-size: 35px;
+        top: 311px;
+        right: 55px;
       }
     }/*fin container*/
   }/*fin tempoignages*/
@@ -498,7 +492,9 @@ width: 3%;
       position: absolute; left: 15px;
         top: -54px;
     }
-
+.container {
+  width: 80%;
+}
 
     }/*fin container*/
   }/*fin tempoignages*/
