@@ -2401,8 +2401,30 @@ i.fas.fa-caret-down {
   font-size: 38px;
 }
 
+.img-block {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 500px;
+  height: 500px;
+}
+
+.img-block img {
+  width: 500px;
+  display: none;
+}
+
+.see {
+  visibility: visible;
+}
+
+.img1 img {
+  width: 200px;
+}
+
 .img1 {
-  border-radius: 34px;
+  width: 300px;
+  border: solid 2px yellow;
 }
 
 .Portfolio {
@@ -2939,8 +2961,30 @@ i.fas.fa-caret-down {
   font-size: 38px;
 }
 
+.img-block {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 500px;
+  height: 500px;
+}
+
+.img-block img {
+  width: 500px;
+  display: none;
+}
+
+.see {
+  visibility: visible;
+}
+
+.img1 img {
+  width: 200px;
+}
+
 .img1 {
-  border-radius: 34px;
+  width: 300px;
+  border: solid 2px yellow;
 }
 
 .Portfolio {

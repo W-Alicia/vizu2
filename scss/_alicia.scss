@@ -412,9 +412,31 @@ width: 3%;
   
   }
 
- .img1{
-  border-radius: 34px;
- }
+//  .img1{
+//   border-radius: 34px;
+//  }
+
+.img-block{
+  position: absolute;
+  top:10%;
+  right:10%;
+  width: 500px;
+  height: 500px;
+}
+.img-block img{
+  width: 500px;
+display:none;
+ //visibility:hidden;
+}
+.see{visibility:visible;}
+.img1 img{
+  width: 200px;
+
+}
+.img1 {
+ width: 300px;
+border:solid 2px yellow;
+}
  .Portfolio {
   position: relative;
   margin: 5px;
