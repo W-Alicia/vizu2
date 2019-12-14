@@ -225,6 +225,7 @@ h3 {
   margin-left: 21%;
 }
 
+
 .textdesc {
   color: white;
   font-size: 22px;
@@ -352,9 +353,9 @@ width: 3%;
   border: 7px solid prime-color;
 }
 
-.rect3 {
+.rect4 {
   position: absolute;
-  left: 25px;
+  left: 7px;
   top: 17px;
   transform: rotate(45deg);
   stroke-width: 2 !important;
@@ -470,6 +471,9 @@ width: 3%;
     .container {
       margin-top: 22%;
       margin-right: 11%;
+  }
+  a:hover {
+    text-decoration: none;
   }
 
 
