@@ -10,7 +10,7 @@
 </svg><!--svg-->
 <div class="front-img">
     <div class="row">
-    <img src="img/ress.png" alt="un" class="img1" width="450px" height="450px" style="z-index: 99;" ></div></div>
+    <img src="img/ress.png" alt="un" class="img1" width="450px" height="450px" style="z-index: 1;" ></div></div>
     <h4>Professeur</h4><h4>#2D</h4>
 </div><!--col-->
 
