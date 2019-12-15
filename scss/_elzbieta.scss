@@ -199,11 +199,9 @@ header{
       max-height: 200px;
       height: 100%;
       padding: 0px;
+      margin: 0 auto;
   }
   .add-img{
-    position: absolute;
-    left: 50px;
-    top: 80px;
     :hover{
       cursor: pointer;
     }
@@ -230,6 +228,97 @@ header{
   }
   .custom-file-label::after{
     display: none;
+  }
+  label {
+    color: white;
+  }
+  .custom-select {
+    color: white;
+    text-align: center;
+    background-color:$bg-color;
+    border: 1px solid$prime-color;
+    border-radius: 0px;
+  }
+  .custom-select:focus {
+    box-shadow: none !important;
+    border-color: white;
+  }
+  .form-control {
+    color: white;
+    text-align: center;
+    background-color:transparent;
+    border: 1px solid $prime-color;
+    border-radius: 0px;
+  }
+  .form-control::placeholder{
+    color: white;
+    font-size: 1rem;
+  }
+  .baseline {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 1px solid $prime-color;
+    border-radius: 0px;
+  }
+  .baseline:focus{
+    box-shadow: none !important;
+    border-color: white;
+  }
+  #nom{border: none;}
+  #nom:focus{box-shadow: none !important;}
+  #comment{
+    border: none;
+    border-right: 1px solid $prime-color;
+    border-bottom: 1px solid $prime-color;
+  }
+  #comment:focus{
+    box-shadow: none !important;
+    border-bottom-color: white;
+    border-right-color: white;
+  }
+  .btn-go {
+    background-color: $prime-color;
+    color:white;
+    border-radius: 2rem;
+    width: 100px;
+    box-shadow: 5px 5px 8px black;
+    margin-bottom: 50px;
+  }
+  .custom-file-input{
+    position: absolute;
+  }
+  .add-img{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .filter-user {
+    border-left: 1px solid $prime-color;
+    max-height: 500px;
+  }
+  form {padding-left: 25px;}
+  .icon-media{
+    height: auto;
+    margin-bottom: 0px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .link{
+    width: 200px;
+  }
+  .social label{
+    margin-right: 10px;
+    .fab{
+      margin-left: 0px;
+      text-align: left;
+      width: 45px;
+      font-size: 30px;
+    }
+    .picto-cv{
+      margin-left: 0px;
+      margin-right: 12px;
+      height: 30px;
+    }
   }
 }/*fin add new user*/
 

@@ -414,12 +414,7 @@ header .logo {
   max-height: 200px;
   height: 100%;
   padding: 0px;
-}
-
-.add-user .add-img {
-  position: absolute;
-  left: 50px;
-  top: 80px;
+  margin: 0 auto;
 }
 
 .add-user .add-img :hover {
@@ -453,6 +448,144 @@ header .logo {
 
 .add-user .custom-file-label::after {
   display: none;
+}
+
+.add-user label {
+  color: white;
+}
+
+.add-user .custom-select {
+  color: white;
+  text-align: center;
+  background-color: #111110;
+  border: 1px solid #BA3941;
+  border-radius: 0px;
+}
+
+.add-user .custom-select:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-color: white;
+}
+
+.add-user .form-control {
+  color: white;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid #BA3941;
+  border-radius: 0px;
+}
+
+.add-user .form-control::-webkit-input-placeholder {
+  color: white;
+  font-size: 1rem;
+}
+
+.add-user .form-control:-ms-input-placeholder {
+  color: white;
+  font-size: 1rem;
+}
+
+.add-user .form-control::-ms-input-placeholder {
+  color: white;
+  font-size: 1rem;
+}
+
+.add-user .form-control::placeholder {
+  color: white;
+  font-size: 1rem;
+}
+
+.add-user .baseline {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-bottom: 1px solid #BA3941;
+  border-radius: 0px;
+}
+
+.add-user .baseline:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-color: white;
+}
+
+.add-user #nom {
+  border: none;
+}
+
+.add-user #nom:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.add-user #comment {
+  border: none;
+  border-right: 1px solid #BA3941;
+  border-bottom: 1px solid #BA3941;
+}
+
+.add-user #comment:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-bottom-color: white;
+  border-right-color: white;
+}
+
+.add-user .btn-go {
+  background-color: #BA3941;
+  color: white;
+  border-radius: 2rem;
+  width: 100px;
+  -webkit-box-shadow: 5px 5px 8px black;
+          box-shadow: 5px 5px 8px black;
+  margin-bottom: 50px;
+}
+
+.add-user .custom-file-input {
+  position: absolute;
+}
+
+.add-user .add-img {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.add-user .filter-user {
+  border-left: 1px solid #BA3941;
+  max-height: 500px;
+}
+
+.add-user form {
+  padding-left: 25px;
+}
+
+.add-user .icon-media {
+  height: auto;
+  margin-bottom: 0px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.add-user .link {
+  width: 200px;
+}
+
+.add-user .social label {
+  margin-right: 10px;
+}
+
+.add-user .social label .fab {
+  margin-left: 0px;
+  text-align: left;
+  width: 45px;
+  font-size: 30px;
+}
+
+.add-user .social label .picto-cv {
+  margin-left: 0px;
+  margin-right: 12px;
+  height: 30px;
 }
 
 /*fin add new user*/
