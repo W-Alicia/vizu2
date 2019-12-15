@@ -2594,7 +2594,10 @@ i.fas.fa-caret-down {
   .single-creation img {
     max-height: 450px !important;
     max-width: 350px !important;
-    margin-left: 16%;
+    margin-left: 1%;
+  }
+  .single-creation .col-12.col-lg-6.single-creation {
+    margin-top: 25%;
   }
   .single-creation .textdesc {
     color: white;
@@ -3162,7 +3165,10 @@ i.fas.fa-caret-down {
   .single-creation img {
     max-height: 450px !important;
     max-width: 350px !important;
-    margin-left: 16%;
+    margin-left: 1%;
+  }
+  .single-creation .col-12.col-lg-6.single-creation {
+    margin-top: 25%;
   }
   .single-creation .textdesc {
     color: white;
