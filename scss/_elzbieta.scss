@@ -147,6 +147,10 @@ header{
     border-bottom: 1px solid $prime-color;
     border-radius: 0px;
 }
+.baseline:focus{
+  box-shadow: none !important;
+  border-color: white;
+}
 .form-control{color: $prime-color;}
 .btn-go {
   background-color: #BA3941;

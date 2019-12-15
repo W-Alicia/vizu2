@@ -364,6 +364,10 @@ header .logo {
   border-bottom: 1px solid #BA3941;
   border-radius: 0px;
 }
+.login-page .baseline:focus{
+  box-shadow: none !important;
+  border-color: white;
+}
 
 .login-page .form-control {
   color: #BA3941;
@@ -2501,21 +2505,7 @@ i.fas.fa-caret-down {
 /* smartphone page temoignages*/
 @media screen and (max-width: 900px) {
   .page-temoignages h2 {
-<<<<<<< HEAD
     font-size: 2.2rem;
-=======
-    font-size: 4rem;
-  }
-  .page-temoignages .picto-debouche {
-    position: relative;
-    bottom: 30px;
-  }
-  .page-temoignages .titredeb {
-    position: absolute;
-    font-size: 35px;
-    top: 311px;
-    right: 33px;
->>>>>>> cb495add59c5fe6bd8b9ac8489952153ab410309
   }
   /*fin container*/
 }
@@ -2524,21 +2514,7 @@ i.fas.fa-caret-down {
 /* smartphone page debouches*/
 @media screen and (max-width: 900px) {
   .page-debouches h2 {
-<<<<<<< HEAD
     font-size: 2.2rem;
-=======
-    font-size: 3rem;
-  }
-  .page-debouches .picto-debouche {
-    position: relative;
-    bottom: 30px;
-  }
-  .page-debouches .titredeb {
-    position: absolute;
-    font-size: 35px;
-    top: 311px;
-    right: 55px;
->>>>>>> cb495add59c5fe6bd8b9ac8489952153ab410309
   }
   /*fin container*/
 }
@@ -3036,21 +3012,7 @@ i.fas.fa-caret-down {
 /* smartphone page temoignages*/
 @media screen and (max-width: 900px) {
   .page-temoignages h2 {
-<<<<<<< HEAD
     font-size: 2.2rem;
-=======
-    font-size: 4rem;
-  }
-  .page-temoignages .picto-debouche {
-    position: relative;
-    bottom: 30px;
-  }
-  .page-temoignages .titredeb {
-    position: absolute;
-    font-size: 35px;
-    top: 311px;
-    right: 33px;
->>>>>>> cb495add59c5fe6bd8b9ac8489952153ab410309
   }
   /*fin container*/
 }
@@ -3059,21 +3021,7 @@ i.fas.fa-caret-down {
 /* smartphone page debouches*/
 @media screen and (max-width: 900px) {
   .page-debouches h2 {
-<<<<<<< HEAD
     font-size: 2.2rem;
-=======
-    font-size: 3rem;
-  }
-  .page-debouches .picto-debouche {
-    position: relative;
-    bottom: 30px;
-  }
-  .page-debouches .titredeb {
-    position: absolute;
-    font-size: 35px;
-    top: 311px;
-    right: 55px;
->>>>>>> cb495add59c5fe6bd8b9ac8489952153ab410309
   }
   /*fin container*/
 }
