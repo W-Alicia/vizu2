@@ -2340,8 +2340,8 @@ i.fas.fa-caret-down {
 
 .rect4 {
   position: absolute;
-  left: 7px;
-  top: 17px;
+  left: -2px;
+  top: 14px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   stroke-width: 2 !important;
@@ -2558,6 +2558,12 @@ i.fas.fa-caret-down {
 /*fin tempoignages*/
 /* smartphone page single ressource*/
 @media screen and (max-width: 900px) {
+  .single-ressource .row {
+    margin-top: 20%;
+  }
+  .single-ressource .rect4 {
+    margin-top: 18%;
+  }
   .single-ressource .col-12.col-lg-6.text-bottom {
     margin-top: 15%;
   }
@@ -2566,10 +2572,6 @@ i.fas.fa-caret-down {
   }
   .single-ressource .textdesc {
     margin-left: 0%;
-  }
-  .single-ressource .container {
-    margin-top: 22%;
-    margin-right: 11%;
   }
   .single-ressource a:hover {
     text-decoration: none;
@@ -2917,8 +2919,8 @@ i.fas.fa-caret-down {
 
 .rect4 {
   position: absolute;
-  left: 7px;
-  top: 17px;
+  left: -2px;
+  top: 14px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   stroke-width: 2 !important;
@@ -3124,6 +3126,12 @@ i.fas.fa-caret-down {
 /*fin tempoignages*/
 /* smartphone page single ressource*/
 @media screen and (max-width: 900px) {
+  .single-ressource .row {
+    margin-top: 20%;
+  }
+  .single-ressource .rect4 {
+    margin-top: 18%;
+  }
   .single-ressource .col-12.col-lg-6.text-bottom {
     margin-top: 15%;
   }
@@ -3132,10 +3140,6 @@ i.fas.fa-caret-down {
   }
   .single-ressource .textdesc {
     margin-left: 0%;
-  }
-  .single-ressource .container {
-    margin-top: 22%;
-    margin-right: 11%;
   }
   .single-ressource a:hover {
     text-decoration: none;

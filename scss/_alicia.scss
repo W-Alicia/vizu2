@@ -355,8 +355,8 @@ width: 3%;
 
 .rect4 {
   position: absolute;
-  left: 7px;
-  top: 17px;
+  left: -2px;
+  top: 14px;
   transform: rotate(45deg);
   stroke-width: 2 !important;
   stroke-width: 2 !important;
@@ -545,6 +545,12 @@ border:solid 2px yellow;
   /* smartphone page single ressource*/
   @media screen and (max-width: 900px){
     .single-ressource{
+      .row {
+margin-top: 20%;
+      }
+      .rect4{
+        margin-top: 18%;
+      }
       .col-12.col-lg-6.text-bottom{margin-top: 15%;}
     .leftres {
       margin-left: 0%;
@@ -552,10 +558,6 @@ border:solid 2px yellow;
     .textdesc{
       margin-left: 0%;
     }
-    .container {
-      margin-top: 22%;
-      margin-right: 11%;
-  }
   a:hover {
     text-decoration: none;
   }
