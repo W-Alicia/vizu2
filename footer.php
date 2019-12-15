@@ -1,7 +1,6 @@
-<div class="container footer-element">
-
-        <a href="login.php">LOG IN</a>
-
+<div class="container-fluid footer-element">
+        <a href="login.php" class="float-left">LOG IN</a>
+        <a href="faq.php" class="float-right faq-txt">FAQ</a>
 </div>
 
 <script type="text/javascript" src="js/menu.js"><script>
