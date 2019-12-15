@@ -224,20 +224,14 @@ header .logo {
   margin: 30px 0px 0px -45px;
 }
 
-.footer-element {
-  margin-left: 20px;
-  margin-bottom: 40px;
-  margin-top: 20px !important;
-  padding-top: 0px;
-  max-width: 90%;
-}
-
 .footer-element a {
   color: #BA3941;
+  margin: 0px 20px 40px 20px;
 }
 
 .footer-element a:hover {
   text-decoration: none !important;
+  color: white !important;
 }
 
 .footer-element a::after {
@@ -247,6 +241,15 @@ header .logo {
   height: 2px;
   background: #BA3941;
   margin: 30px 0px 0px -50px;
+}
+
+.footer-element a.faq-txt::after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background: #BA3941;
+  margin: 30px 0px 0px -30px;
 }
 
 /*LOGIN   LOGIN*/
@@ -325,7 +328,7 @@ header .logo {
   background-color: #111110;
   -webkit-box-shadow: 5px 5px 8px black;
           box-shadow: 5px 5px 8px black;
-  height: 175px;
+  max-height: 220px;
   margin-top: 20px;
 }
 
@@ -363,6 +366,12 @@ header .logo {
   border-radius: 0px;
 }
 
+.login-page .baseline:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-color: white;
+}
+
 .login-page .form-control {
   color: #BA3941;
 }
@@ -375,6 +384,7 @@ header .logo {
   -webkit-box-shadow: 5px 5px 8px black;
           box-shadow: 5px 5px 8px black;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* fin login */
@@ -404,12 +414,7 @@ header .logo {
   max-height: 200px;
   height: 100%;
   padding: 0px;
-}
-
-.add-user .add-img {
-  position: absolute;
-  left: 50px;
-  top: 80px;
+  margin: 0 auto;
 }
 
 .add-user .add-img :hover {
@@ -445,7 +450,169 @@ header .logo {
   display: none;
 }
 
+.add-user label {
+  color: white;
+}
+
+.add-user .custom-select {
+  color: white;
+  text-align: center;
+  background-color: #111110;
+  border: 1px solid #BA3941;
+  border-radius: 0px;
+}
+
+.add-user .custom-select:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-color: white;
+}
+
+.add-user .form-control {
+  color: white;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid #BA3941;
+  border-radius: 0px;
+}
+
+.add-user .form-control::-webkit-input-placeholder {
+  color: white;
+  font-size: 1rem;
+}
+
+.add-user .form-control:-ms-input-placeholder {
+  color: white;
+  font-size: 1rem;
+}
+
+.add-user .form-control::-ms-input-placeholder {
+  color: white;
+  font-size: 1rem;
+}
+
+.add-user .form-control::placeholder {
+  color: white;
+  font-size: 1rem;
+}
+
+.add-user .baseline {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-bottom: 1px solid #BA3941;
+  border-radius: 0px;
+}
+
+.add-user .baseline:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-color: white;
+}
+
+.add-user #nom {
+  border: none;
+}
+
+.add-user #nom:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.add-user #comment {
+  border: none;
+  border-right: 1px solid #BA3941;
+  border-bottom: 1px solid #BA3941;
+}
+
+.add-user #comment:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-bottom-color: white;
+  border-right-color: white;
+}
+
+.add-user .btn-go {
+  background-color: #BA3941;
+  color: white;
+  border-radius: 2rem;
+  width: 100px;
+  -webkit-box-shadow: 5px 5px 8px black;
+          box-shadow: 5px 5px 8px black;
+  margin-bottom: 50px;
+}
+
+.add-user .custom-file-input {
+  position: absolute;
+}
+
+.add-user .add-img {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.add-user .filter-user {
+  border-left: 1px solid #BA3941;
+  max-height: 500px;
+}
+
+.add-user form {
+  padding-left: 25px;
+}
+
+.add-user .icon-media {
+  height: auto;
+  margin-bottom: 0px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.add-user .link {
+  width: 200px;
+}
+
+.add-user .social label {
+  margin-right: 10px;
+}
+
+.add-user .social label .fab {
+  margin-left: 0px;
+  text-align: left;
+  width: 45px;
+  font-size: 30px;
+}
+
+.add-user .social label .picto-cv {
+  margin-left: 0px;
+  margin-right: 12px;
+  height: 30px;
+}
+
 /*fin add new user*/
+/* VALIDETTA ! */
+.validetta-error input {
+  border-bottom: solid 1px #BA3941;
+}
+
+.validetta-valid input {
+  border-bottom: solid 1px white;
+}
+
+.error {
+  position: initial;
+  background-color: transparent;
+  color: #BA3941;
+  z-index: 69;
+  font-size: 0.8rem;
+}
+
+.erroe:before {
+  width: 0;
+  height: 0;
+  content: none;
+}
+
+/* FIN VALIDETTA*/
 .container.archive-etudiants {
   background-color: #111110;
   max-width: 960px;
@@ -560,12 +727,7 @@ header .logo {
 
 h4.nom-etudiant {
   display: block;
-  color: #FFF;
-  text-decoration: none;
-  overflow: hidden;
-  text-transform: uppercase;
-  text-shadow: -3px 0px #BA3941;
-  font-size: 2.9rem;
+  text-align: left !important;
 }
 
 p.mail-etudiant {
@@ -675,8 +837,7 @@ p.description-etu {
     padding-right: 20px;
   }
   h4.nom-etudiant {
-    font-size: 2.6rem;
-    text-align: center;
+    text-align: center !important;
   }
   .etu-section h5 {
     font-size: 1.4rem;
@@ -803,8 +964,6 @@ p.description-etu {
 }
 
 .travaux {
-  -webkit-column-gap: 20px;
-          column-gap: 20px;
   height: 550px;
   overflow-y: scroll;
   width: 100%;
@@ -869,11 +1028,13 @@ h5.nom-etudiant {
 }
 
 .archive-news .travaux {
-  -webkit-column-gap: 20px;
-          column-gap: 20px;
   height: 470px;
   overflow-y: scroll;
   width: 100%;
+}
+
+.archive-news .travaux .offset-md-1 {
+  margin-left: 20px;
 }
 
 .archive-news .show-img {
@@ -1000,7 +1161,7 @@ h5.nom-etudiant {
   }
   .archive-news .travaux {
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 0px;
   }
   .archive-news .filtre-random {
     margin-right: 0px;
@@ -1422,7 +1583,7 @@ h5.nom-etudiant {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 50px;
+  margin-top: auto;
   position: relative;
   top: -15px;
   left: -110px;
@@ -1482,6 +1643,8 @@ h5.nom-etudiant {
 .add-projet p {
   color: white;
   font-size: 0.9rem;
+  padding: 20px;
+  margin-bottom: 0px;
 }
 
 .add-projet .filter-projet {
@@ -1600,6 +1763,11 @@ h5.nom-etudiant {
 
 .add-projet #titre-projet {
   border: none;
+}
+
+.add-projet #titre-projet:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 .add-projet .btn-go {
@@ -1760,7 +1928,7 @@ h5.nom-etudiant {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 50px;
+  margin-top: auto;
   position: relative;
   top: -15px;
   left: -110px;
@@ -1855,7 +2023,7 @@ h5.nom-etudiant {
 
 .add-ressource .filter-ressource {
   border-left: 1px solid #BA3941;
-  max-height: 555px;
+  max-height: 500px;
 }
 
 .add-ressource form {
@@ -1920,6 +2088,11 @@ h5.nom-etudiant {
 
 .add-ressource #auteur {
   border: none;
+}
+
+.add-ressource #auteur:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 .add-ressource #titre-projet {
@@ -2512,17 +2685,7 @@ i.fas.fa-caret-down {
 /* smartphone page temoignages*/
 @media screen and (max-width: 900px) {
   .page-temoignages h2 {
-    font-size: 4rem;
-  }
-  .page-temoignages .picto-debouche {
-    position: relative;
-    bottom: 30px;
-  }
-  .page-temoignages .titredeb {
-    position: absolute;
-    font-size: 35px;
-    top: 311px;
-    right: 33px;
+    font-size: 2.2rem;
   }
   /*fin container*/
 }
@@ -2531,17 +2694,7 @@ i.fas.fa-caret-down {
 /* smartphone page debouches*/
 @media screen and (max-width: 900px) {
   .page-debouches h2 {
-    font-size: 3rem;
-  }
-  .page-debouches .picto-debouche {
-    position: relative;
-    bottom: 30px;
-  }
-  .page-debouches .titredeb {
-    position: absolute;
-    font-size: 35px;
-    top: 311px;
-    right: 55px;
+    font-size: 2.2rem;
   }
   /*fin container*/
 }
@@ -3083,17 +3236,7 @@ i.fas.fa-caret-down {
 /* smartphone page temoignages*/
 @media screen and (max-width: 900px) {
   .page-temoignages h2 {
-    font-size: 4rem;
-  }
-  .page-temoignages .picto-debouche {
-    position: relative;
-    bottom: 30px;
-  }
-  .page-temoignages .titredeb {
-    position: absolute;
-    font-size: 35px;
-    top: 311px;
-    right: 33px;
+    font-size: 2.2rem;
   }
   /*fin container*/
 }
@@ -3102,17 +3245,7 @@ i.fas.fa-caret-down {
 /* smartphone page debouches*/
 @media screen and (max-width: 900px) {
   .page-debouches h2 {
-    font-size: 3rem;
-  }
-  .page-debouches .picto-debouche {
-    position: relative;
-    bottom: 30px;
-  }
-  .page-debouches .titredeb {
-    position: absolute;
-    font-size: 35px;
-    top: 311px;
-    right: 55px;
+    font-size: 2.2rem;
   }
   /*fin container*/
 }
@@ -3290,7 +3423,6 @@ i.fas.fa-caret-down {
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  font-size: 30px;
   text-align: center;
 }
 
@@ -3320,6 +3452,7 @@ i.fas.fa-caret-down {
   overflow: hidden;
   text-transform: uppercase;
   text-shadow: -3px 0px #BA3941;
+  font-size: 2.2rem;
 }
 
 .overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
@@ -3329,7 +3462,7 @@ i.fas.fa-caret-down {
 .overlay ul li a:after {
   content: '';
   position: absolute;
-  bottom: 20px;
+  bottom: 30px;
   left: 50%;
   width: 25%;
   -webkit-transform: translateX(-50%);
@@ -3504,7 +3637,7 @@ img {
 
 :root {
   scrollbar-color: #BA3941 #111110;
-  scrollbar-width: thin;
+  scrollbar-width: 5px;
   height: auto;
 }
 
@@ -3533,4 +3666,31 @@ img {
 }
 
 /* FIN MENU     FIN MENU    FIN MENU    FIN MENU */
+/* TITRES POUR LES PAGES */
+.titre-page {
+  font-size: 3rem;
+  text-shadow: -3px 0px #BA3941;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 900px) {
+  .titre-page {
+    font-size: 2.2rem;
+  }
+  .overlay ul {
+    height: 85%;
+    width: 80%;
+  }
+}
+
+/* FIN TITRES  POUR LES PAGES */
 /*# sourceMappingURL=style.css.map */

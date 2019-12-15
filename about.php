@@ -3,7 +3,7 @@
 <div id="about" class="container-fluid">
     <div class="row d-flex justify-content-center ">
         <div class="col-11 col-md-8">
-            <h1 class="d-flex justify-content-center ">QUIQUOIWHAT?</h1>
+            <h1 class=" titre-page d-flex justify-content-center ">QUIQUOIWHAT?</h1>
             <p>
                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
                 moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.

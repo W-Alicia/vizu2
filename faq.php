@@ -5,9 +5,9 @@
 
 <div class="container page-faq">
 <div class="row all-accordion">
-<a href="#"><img src="img/picto-debouche.svg" alt="picto-debouche" class="picto-debouche"></a>
-<h2 class="titredeb">FAQ<h2 class="line">UOI<h2>?</h2></p></h2>
+<a href="#" class="position-absolute"><img src="img/picto-debouche.svg" alt="picto-debouche" class="picto-debouche"></a>
 
+<h2 class="titre-page">FAQ<span class="line">UOI?</span></h2>
 
 
 <div id="accordion" class="col-12 col-lg-6 accordion1">

@@ -5,7 +5,7 @@
 <div class="container single-section">
     <div class="row">
         <div class="col-12">
-            <h1 class="display-3 text-uppercase text-center">3D - Vidéo</h1>
+            <h1 class="titre-page text-uppercase text-center">3D - Vidéo</h1>
             <p class="text-uppercase">Description de la section. Description de la section. Description de la section. Description de la section. Description de la section. Description de la section. Description de la section. Description de la section. Description de la section.<br>
             Description de la section. Description de la section. Description de la section. Description de la section. Description de la section. Description de la section. Description de la section. Description de la section. Description de la section.</p>
         </div>

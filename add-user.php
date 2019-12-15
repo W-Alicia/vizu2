@@ -2,34 +2,56 @@
 
 <div class="container add-user">
     <div class="row">
-        <div class="col-12 col-lg-6 text-uppercase">
+        <div class="col-12 col-lg-6 text-uppercase  d-flex align-items-start justify-content-center flex-column ">
             <div class="etu-picto">
                 <img src="img/picto-logo.svg" alt="image">
             </div>
             <div class="add-img">
                 <input type="file" class="custom-file-input" id="inputGroupFile02">
-                <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">
+                <label class="custom-file-label add-img" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">
                     <span><img src="img/picto-down.png"></span>
                         CHARGER
                 </label>
             </div>
-        
-            
-            <div class="row description-event ">
-                <div class="col-6 tag-event">
-                    <h5>#bozar</h5>
-                    <h5>#expo</h5>
-                </div><!--tag event-->
-                <div class="col-6 date-event">
-                    <h5>20/06/2020</h5>
-                </div><!--date event-->
-            </div><!--description event-->
-            
-        </div><!--show news-->
+            <div class="d-flex flex-column justify-content-center icon-media">
+                <div class="form-group row social">
+                    <label for="prenom" class="col-form-label"><i class="fab fa-behance"></i></label>
+                    <div class="col">
+                        <input type="text" class="form-control baseline link" id="prenom">
+                    </div>
+                </div><!--form row-->
+                <div class="form-group row social">
+                    <label for="prenom" class="col-form-label"><i class="fab fa-dribbble"></i></label>
+                    <div class="col">
+                        <input type="text" class="form-control baseline link" id="prenom">
+                    </div>
+                </div><!--form row-->
+                <div class="form-group row social">
+                    <label for="prenom" class="col-form-label"><i class="fab fa-facebook-f"></i></label>
+                    <div class="col">
+                        <input type="text" class="form-control baseline link" id="prenom">
+                    </div>
+                </div><!--form row-->
+                <div class="form-group row social">
+                    <label for="prenom" class="col-form-label"><i class="fab fa-instagram"></i></label>
+                    <div class="col">
+                        <input type="text" class="form-control baseline link" id="prenom">
+                    </div>
+                </div><!--form row-->
+                <div class="form-group row social">
+                    <label for="prenom" class="col-form-label"><img src="img/picto-cv.svg" class="picto-cv" alt="cv"></label>
+                    <div class="col">
+                        <input type="text" class="form-control baseline link" id="prenom">
+                    </div>
+                </div><!--form row-->
+                
+                
+            </div><!--icon media-->
+        </div><!--picto-->
 
 
 
-        <div class="col-12 col-lg-6 filter-news text-uppercase">
+        <div class="col-12 col-lg-6 filter-user text-uppercase">
             <form>
                 <div class="form-group row">
                     <label for="cycle" class="col-form-label">CYCLE:</label>

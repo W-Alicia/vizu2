@@ -37,16 +37,13 @@ header{
   }
 
 .footer-element{
-  margin-left:20px;
-  margin-bottom: 40px;
-  margin-top: 20px !important;
-  padding-top: 0px;
-  max-width: 90%;
   a{
     color: $prime-color;
+    margin: 0px 20px 40px 20px;
   }
   a:hover{
     text-decoration: none !important;
+    color: white !important;
   }
   a::after{
     content: '';
@@ -56,7 +53,16 @@ header{
     background: 
     #BA3941;
     margin: 30px 0px 0px -50px;
-}
+  }
+  a.faq-txt::after{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background: 
+    #BA3941;
+    margin: 30px 0px 0px -30px;
+  }
 }
 
 /*LOGIN   LOGIN*/
@@ -126,7 +132,7 @@ header{
   border-radius: 1rem;
   background-color: #111110;;
   box-shadow: 5px 5px 8px black;
-  height: 175px;
+  max-height: 220px;
   margin-top: 20px;
 }
 .form-group {
@@ -147,6 +153,10 @@ header{
     border-bottom: 1px solid $prime-color;
     border-radius: 0px;
 }
+.baseline:focus{
+  box-shadow: none !important;
+  border-color: white;
+}
 .form-control{color: $prime-color;}
 .btn-go {
   background-color: #BA3941;
@@ -155,6 +165,7 @@ header{
   width: 100px;
   box-shadow: 5px 5px 8px black;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 }
 
@@ -188,11 +199,9 @@ header{
       max-height: 200px;
       height: 100%;
       padding: 0px;
+      margin: 0 auto;
   }
   .add-img{
-    position: absolute;
-    left: 50px;
-    top: 80px;
     :hover{
       cursor: pointer;
     }
@@ -220,7 +229,115 @@ header{
   .custom-file-label::after{
     display: none;
   }
+  label {
+    color: white;
+  }
+  .custom-select {
+    color: white;
+    text-align: center;
+    background-color:$bg-color;
+    border: 1px solid$prime-color;
+    border-radius: 0px;
+  }
+  .custom-select:focus {
+    box-shadow: none !important;
+    border-color: white;
+  }
+  .form-control {
+    color: white;
+    text-align: center;
+    background-color:transparent;
+    border: 1px solid $prime-color;
+    border-radius: 0px;
+  }
+  .form-control::placeholder{
+    color: white;
+    font-size: 1rem;
+  }
+  .baseline {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 1px solid $prime-color;
+    border-radius: 0px;
+  }
+  .baseline:focus{
+    box-shadow: none !important;
+    border-color: white;
+  }
+  #nom{border: none;}
+  #nom:focus{box-shadow: none !important;}
+  #comment{
+    border: none;
+    border-right: 1px solid $prime-color;
+    border-bottom: 1px solid $prime-color;
+  }
+  #comment:focus{
+    box-shadow: none !important;
+    border-bottom-color: white;
+    border-right-color: white;
+  }
+  .btn-go {
+    background-color: $prime-color;
+    color:white;
+    border-radius: 2rem;
+    width: 100px;
+    box-shadow: 5px 5px 8px black;
+    margin-bottom: 50px;
+  }
+  .custom-file-input{
+    position: absolute;
+  }
+  .add-img{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .filter-user {
+    border-left: 1px solid $prime-color;
+    max-height: 500px;
+  }
+  form {padding-left: 25px;}
+  .icon-media{
+    height: auto;
+    margin-bottom: 0px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .link{
+    width: 200px;
+  }
+  .social label{
+    margin-right: 10px;
+    .fab{
+      margin-left: 0px;
+      text-align: left;
+      width: 45px;
+      font-size: 30px;
+    }
+    .picto-cv{
+      margin-left: 0px;
+      margin-right: 12px;
+      height: 30px;
+    }
+  }
 }/*fin add new user*/
+
+
+/* VALIDETTA ! */
+.validetta-error input {border-bottom:solid 1px $prime-color;}
+.validetta-valid input {border-bottom:solid 1px white;}
+.error {
+    position: initial;
+    background-color: transparent; 
+    color: $prime-color;
+    z-index: 69;
+    font-size: 0.8rem;
+}
+.erroe:before{
+    width: 0; height: 0;
+    content: none;
+}
+/* FIN VALIDETTA*/
 
 .container.archive-etudiants{
     background-color: $bg-color;
@@ -334,12 +451,7 @@ header{
 
 h4.nom-etudiant{
   display: block;
-  color: #FFF;
-  text-decoration: none;
-  overflow: hidden;
-  text-transform: uppercase;
-  text-shadow: -3px 0px $prime-color;
-  font-size: 2.9rem;
+  text-align: left !important;
 }
 
 
@@ -449,8 +561,7 @@ p.description-etu{
     padding-right: 20px;
   }
   h4.nom-etudiant{
-    font-size: 2.6rem;
-    text-align: center;
+    text-align: center !important;
   }
   .etu-section h5{
     font-size: 1.4rem;
@@ -573,7 +684,6 @@ p.description-etu{
   padding-right: 0px;
 }
 .travaux{
-  column-gap: 20px;
   height: 550px;
   overflow-y: scroll;
   width: 100%;
@@ -639,11 +749,14 @@ top: -25px;
     margin-top: 155px;
   }
   .travaux{
-    column-gap: 20px;
     height: 470px;
     overflow-y: scroll;
     width: 100%;
+    .offset-md-1 {
+      margin-left: 20px;
+    }
   }
+  
   .show-img{
     border: 1px white solid;
     width: 350px !important;
@@ -750,7 +863,7 @@ top: -25px;
   }
   .travaux{
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 0px;
   }
   .filtre-random{
     margin-right: 0px;
@@ -1081,7 +1194,7 @@ top: -25px;
   .nom-auteur{
     align-items: end;
     display: flex;
-    margin-top: 50px;
+    margin-top: auto;
     position: relative;
     top: -15px;
     left: -110px;
@@ -1129,7 +1242,11 @@ top: -25px;
       text-align: center;
       margin: 0 !important;
     }
-    p {color: white; font-size: 0.9rem;}
+    p {color: white; 
+      font-size: 0.9rem;
+      padding: 20px;
+      margin-bottom: 0px;
+    }
   
   .filter-projet{
     border-left: 1px solid#BA3941;
@@ -1200,6 +1317,9 @@ top: -25px;
 
   #titre-projet{
     border: none;
+  }
+  #titre-projet:focus{
+    box-shadow: none !important;
   }
   .btn-go{
     background-color: $prime-color;
@@ -1326,7 +1446,7 @@ top: -25px;
   .nom-auteur{
     align-items: end;
     display: flex;
-    margin-top: 50px;
+    margin-top: auto;
     position: relative;
     top: -15px;
     left: -110px;
@@ -1389,7 +1509,7 @@ top: -25px;
   }
   .filter-ressource{
     border-left: 1px solid $prime-color;
-    max-height: 555px;
+    max-height: 500px;
   }
   form{
     padding-left: 25px;
@@ -1429,6 +1549,9 @@ top: -25px;
   }
   #auteur{
     border: none;
+  }
+  #auteur:focus{
+    box-shadow: none !important;
   }
   #titre-projet{
     border: none;

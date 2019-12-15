@@ -502,34 +502,14 @@ border:solid 2px yellow;
 /* smartphone page temoignages*/
   @media screen and (max-width: 900px){
     .page-temoignages{
-      h2{font-size: 4rem;}
-      .picto-debouche {
-        position: relative;
-        bottom: 30px;
-    }
-      .titredeb {
-        position: absolute;
-        font-size: 35px;
-        top: 311px;
-        right: 33px;
-      }
+      h2{font-size: 2.2rem;}
     }/*fin container*/
   }/*fin tempoignages*/
 
   /* smartphone page debouches*/
   @media screen and (max-width: 900px){
     .page-debouches{
-      h2{font-size: 3rem;}
-      .picto-debouche {
-        position: relative;
-        bottom: 30px;
-    }
-      .titredeb {
-        position: absolute;
-        font-size: 35px;
-        top: 311px;
-        right: 55px;
-      }
+      h2{font-size: 2.2rem;}
     }/*fin container*/
   }/*fin tempoignages*/
 

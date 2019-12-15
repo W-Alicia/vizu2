@@ -24,6 +24,14 @@
 </div>
 </div>
 
+<<<<<<< HEAD
+
+<div class="col-12 col-lg-6">
+<h2 class="titre-page text-left justify-content-start">TITRE</h2>
+<h3>2019</h3>
+<h4>TATIANA OLIVIER</h4>
+<h1>@TATIANO</h1>
+=======
 <div class="col-12 col-lg-6 single-creation">
 <h2 class="leftres">TITRE</h2>
 <span style="color: white;
@@ -32,6 +40,7 @@
     margin-left: 4%;">2019</span>
 <h3 class="leftres">TATIANA OLIVIER</h3>
 <a href="#"><h4 class="leftres">@TATIANO</h4></a>
+>>>>>>> cb495add59c5fe6bd8b9ac8489952153ab410309
 
 <p class="textdesc">
 Lorem ipsum dolor sit amet consectetur adipisicing elit.
