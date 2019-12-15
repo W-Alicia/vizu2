@@ -2580,21 +2580,21 @@ i.fas.fa-caret-down {
 /*fin ress*/
 /* smartphone page single creation*/
 @media screen and (max-width: 900px) {
-  .page.single-creation .container {
+  .single-creation .container {
     margin-top: 56%;
     width: 90%;
   }
-  .page.single-creation svg.rectcrea2 {
+  .single-creation svg.rectcrea2 {
     position: absolute;
     left: 15px;
     top: -54px;
   }
-  .page.single-creation img {
+  .single-creation img {
     max-height: 450px !important;
     max-width: 350px !important;
     margin-left: 16%;
   }
-  .page.single-creation .textdesc {
+  .single-creation .textdesc {
     color: white;
     font-size: 22px;
     margin-top: 11%;
@@ -2609,7 +2609,7 @@ i.fas.fa-caret-down {
   /*fin container*/
 }
 
-/*fin tempoignages*/
+/*fin crea*/
 body, html {
   background-color: #111110;
   margin: 0px;
@@ -3146,21 +3146,21 @@ i.fas.fa-caret-down {
 /*fin ress*/
 /* smartphone page single creation*/
 @media screen and (max-width: 900px) {
-  .page.single-creation .container {
+  .single-creation .container {
     margin-top: 56%;
     width: 90%;
   }
-  .page.single-creation svg.rectcrea2 {
+  .single-creation svg.rectcrea2 {
     position: absolute;
     left: 15px;
     top: -54px;
   }
-  .page.single-creation img {
+  .single-creation img {
     max-height: 450px !important;
     max-width: 350px !important;
     margin-left: 16%;
   }
-  .page.single-creation .textdesc {
+  .single-creation .textdesc {
     color: white;
     font-size: 22px;
     margin-top: 11%;
@@ -3175,7 +3175,7 @@ i.fas.fa-caret-down {
   /*fin container*/
 }
 
-/*fin tempoignages*/
+/*fin crea*/
 /* MENU     MENU    MENU    MENU    MENU */
 .button_container {
   position: fixed;
