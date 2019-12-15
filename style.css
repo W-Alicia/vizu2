@@ -328,7 +328,7 @@ header .logo {
   background-color: #111110;
   -webkit-box-shadow: 5px 5px 8px black;
           box-shadow: 5px 5px 8px black;
-  height: 175px;
+  max-height: 220px;
   margin-top: 20px;
 }
 
@@ -384,6 +384,7 @@ header .logo {
   -webkit-box-shadow: 5px 5px 8px black;
           box-shadow: 5px 5px 8px black;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* fin login */
@@ -455,6 +456,30 @@ header .logo {
 }
 
 /*fin add new user*/
+/* VALIDETTA ! */
+.validetta-error input {
+  border-bottom: solid 1px #BA3941;
+}
+
+.validetta-valid input {
+  border-bottom: solid 1px white;
+}
+
+.error {
+  position: initial;
+  background-color: transparent;
+  color: #BA3941;
+  z-index: 69;
+  font-size: 0.8rem;
+}
+
+.erroe:before {
+  width: 0;
+  height: 0;
+  content: none;
+}
+
+/* FIN VALIDETTA*/
 .container.archive-etudiants {
   background-color: #111110;
   max-width: 960px;

@@ -1,27 +1,5 @@
 $(document).ready(function(){
     
-    $("#register_btn").click(function(){
-        $("#block").animate({left:"22.5%"},400); 
-        $("#block").animate({left:"30%"},500); 
-        $(".login").css("visibility","hidden");
-        $(".login").animate({left:"25%"},400);
-        
-        $(".register").animate({left:"17%"},400);
-        $(".register").animate({left:"30%"},500);
-        $(".register").css("visibility","visible");
-    }); 
-    
-    $("#login_btn").click(function(){
-        $("#block").animate({left:"77.5%"},400); 
-        $("#block").animate({left:"70%"},500);
-        $(".register").css("visibility","hidden");
-        $(".register").animate({left:"75%"},400);
-        
-        $(".login").animate({left:"83.5%"},400);
-        $(".login").animate({left:"70%"},500);
-        $(".login").css("visibility","visible");
-    });
-
     $('#form-login').validetta({
         showErrorMessages : true, // If you dont want to display error messages set this option false
         /** You can display errors as inline or bubble */
@@ -32,7 +10,7 @@ $(document).ready(function(){
          * If you want special style, you can change class name as you like with this option.
          * Error message window template : <span class="errorTemplateClass">Error messages will be here !</span>
          */
-        errorTemplateClass : 'validetta-bubble',
+        errorTemplateClass : 'error',
         /** Class that would be added on every failing validation field */
         errorClass : 'validetta-error',
         /** Same for valid validation */
@@ -79,7 +57,6 @@ $(document).ready(function(){
         
         },
         onError : function(){
-            alert('error');
         },
 
         required  : 'Custom error message.'
