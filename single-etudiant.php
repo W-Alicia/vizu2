@@ -10,7 +10,7 @@
     
     <div class="col-4 col-lg-6 d-flex justify-content-end icon-media">
         <a href="#" class="fab fa-behance"></a>
-        <a href="#" class="fas fa-basketball-ball"></a>
+        <a href="#" class="fab fa-dribbble"></a>
         <a href="#" class="fab fa-facebook-f"></a>
         <a href="#" class="fab fa-instagram"></a>
         <a href="#" class="picto-cv"><img src="img/picto-cv.svg" class="picto-cv" alt="cv"></a>
