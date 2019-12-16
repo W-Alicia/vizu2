@@ -6,20 +6,20 @@
 <div class="row">
 <div class="col-12 col-lg-6 single-creation">
 <div class="svggauche">
-<svg width="500" height="715" class="rectcrea">
-                <rect class="rectcrea" width="500" height="715" style="fill:rgba(0, 0, 0, 0); stroke-width:1;stroke:rgb(255, 255, 255)"></rect>
+<svg width="400" height="645" class="rectcrea">
+                <rect class="rectcrea" width="400" height="645" style="fill:rgba(0, 0, 0, 0); stroke-width:1;stroke:rgb(255, 255, 255)"></rect>
 </svg><!--svg-->
 
-<svg width="500" height="663" class="rectcrea2" style="position: absolute; left: 15px;
-        top: -54px;">
-                <rect class="rectcrea2" width="452" height="663" style="fill:rgba(0, 0, 0, 0); stroke-width:1;stroke:rgb(255, 255, 255)"></rect>
+<svg width="430" height="680" class="rectcrea2" style="position: absolute; left: -25px;
+        top: -97px;">
+                <rect class="rectcrea2" width="430" height="680" style="fill:rgba(0, 0, 0, 0); stroke-width:1;stroke:rgb(255, 255, 255)"></rect>
 </svg><!--svg-->
-<svg width="530" height="750" class="rectcrea3" style="    position: absolute;
-    left: -24px;
-    top: -98px;">
-                <rect class="rectcrea3" width="530" height="750" style="fill:rgba(0, 0, 0, 0); stroke-width:1;stroke:rgb(255, 255, 255)"></rect>
+<svg width="380" height="610" class="rectcrea3" style="    position: absolute;
+    left: 3px;
+    top: -65px;">
+                <rect class="rectcrea3" width="380" height="610" style="fill:rgba(0, 0, 0, 0); stroke-width:1;stroke:rgb(255, 255, 255)"></rect>
 </svg><!--svg-->
-    <img src="img/un.jpg" alt="un" width="450px" height="550px">
+    <img src="img/un.jpg" alt="un" width="350px" height="450px">
     <h4 class="prof">Professeur</h4>
 </div>
 </div>

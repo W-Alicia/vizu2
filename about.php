@@ -13,9 +13,9 @@
                 aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. 
             </p>
             <div class="d-flex justify-content-around">
-                <div class="photo-de-classe col-5 col-xl-3 "></div>
-                <div class="photo-de-classe col-5 col-xl-3 petit"></div>
-                <div class="photo-de-classe col-5 col-xl-3 petit"></div>
+                <div class="photo-de-classe col-12 col-xl-3 "></div>
+                <div class="photo-de-classe col-xl-3 petit"></div>
+                <div class="photo-de-classe col-xl-3 petit"></div>
             </div>
         </div>
     </div>
