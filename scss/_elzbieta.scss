@@ -1647,3 +1647,39 @@ top: -25px;
 
 
 
+/* PAGE DEBOUCHES */
+.page-debouches{
+  .all-accordion{
+    a{
+      top: 200px;
+      left: 80px;
+    }
+  }
+}/*page debouches*/
+
+/* PAGE TEMOIGNAGES */
+.page-temoignages{
+    a{
+      top: 180px;
+      left: 90px;
+    }
+}/*page temoignages*/
+
+@media screen and (max-width: 900px){
+  .page-debouches{
+    .all-accordion{
+      a{
+        top: 200px;
+        left: 260px;
+        img{width:100px}
+      }
+    }
+  }
+  .page-temoignages{
+    a{
+      top: 180px;
+      left: 260px;
+      img{width:100px}
+    }
+}
+} /* SMARTPHONE debouches*/
