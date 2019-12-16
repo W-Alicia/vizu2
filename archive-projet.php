@@ -22,7 +22,7 @@
         <div class="row projets">
             
             <div  class="col-6 col-md-4 col-lg-3 etu">
-                <a>
+                <a href="single-projet.php">
                     <div class="etu-info">
                         <h5>Projet</h5>
                     </div>
@@ -32,7 +32,7 @@
                 </a>    
             </div>
             <div  class="col-6 col-md-4 col-lg-3 etu">
-                <a>
+                <a href="single-projet.php">
                     <div class="etu-info">
                         <h5>Projet</h5>
                     </div>
@@ -42,7 +42,7 @@
                 </a>    
             </div>
             <div  class="col-6 col-md-4 col-lg-3 etu">
-                <a>
+                <a href="single-projet.php">
                     <div class="etu-info">
                         <h5>Projet</h5>
                     </div>
@@ -52,7 +52,7 @@
                 </a>    
             </div>
             <div  class="col-6 col-md-4 col-lg-3 etu">
-                <a>
+                <a href="single-projet.php">
                     <div class="etu-info">
                         <h5>Projet</h5>
                     </div>
@@ -62,7 +62,7 @@
                 </a>    
             </div>
             <div  class="col-6 col-md-4 col-lg-3 etu">
-                <a>
+                <a href="single-projet.php">
                     <div class="etu-info">
                         <h5>Projet</h5>
                     </div>

@@ -23,9 +23,14 @@ h1 {
 }
 
 #accueil .element .vertical-text, #sections .element .vertical-text {
-  -webkit-writing-mode: sideways-lr;
-      -ms-writing-mode: sideways-lr;
-          writing-mode: sideways-lr;
+  position: absolute;
+  top: 35vh;
+  left: -50px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  width: 35vh;
 }
 
 #accueil .element .icon, #sections .element .icon {
@@ -87,14 +92,11 @@ h1 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  #accueil .element h1, #sections .element h1 {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-  }
   #accueil .element .vertical-text, #sections .element .vertical-text {
-    -webkit-writing-mode: horizontal-tb;
-        -ms-writing-mode: lr-tb;
-            writing-mode: horizontal-tb;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    position: static;
+    width: 100%;
   }
   #accueil .element a, #sections .element a {
     -ms-flex-item-align: center;
@@ -102,8 +104,8 @@ h1 {
         align-self: center;
   }
   #accueil .element .icon, #sections .element .icon {
-    height: 20vw;
-    width: 35vh;
+    height: 10vh;
+    width: 75vw;
     border-radius: 5% / 40%;
     background-color: #BA3941;
   }
@@ -129,11 +131,10 @@ h1 {
   #about .photo-de-classe {
     height: 29vh;
     background-color: #BA3941;
-    border-radius: 10% / 5%;
+    border-radius: 5%;
   }
   #about .petit {
-    height: 14vh;
-    display: inline-block;
+    display: none;
   }
 }
 
@@ -147,6 +148,11 @@ h1 {
   height: 100%;
 }
 
+#ressourses .left .prev {
+  height: 90%;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
 #ressourses .travaux div {
   overflow: hidden;
 }
@@ -155,14 +161,54 @@ h1 {
   width: 100%;
 }
 
-.ressourse {
+#ressourses .ressourse {
   height: 72vh;
   padding-top: 30px;
 }
 
-.archive-projets .projets {
-  overflow: scroll;
-  height: 59vh;
+#ressourses .right {
+  position: relative;
+}
+
+#ressourses .right .add {
+  position: absolute;
+  bottom: 5%;
+  right: 0;
+}
+
+#ressourses .right .add .plus {
+  height: 80px;
+}
+
+@media screen and (max-width: 900px) {
+  #ressourses {
+    height: 67vh;
+    overflow: hidden;
+  }
+  #ressourses .recherche {
+    top: 20vh;
+  }
+  #ressourses .ressourse {
+    height: 70vh;
+  }
+  #ressourses .right .add {
+    bottom: 28%;
+    right: -25%;
+  }
+  #ressourses .right .add .plus {
+    height: 50px;
+  }
+}
+
+.projets .etu .etu-picto {
+  overflow: hidden;
+}
+
+.projets .etu .etu-picto img {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media screen and (max-width: 900px) {
@@ -178,6 +224,14 @@ h1 {
     width: 150px !important;
     height: 150px !important;
   }
+}
+
+.single-projet div {
+  display: inline-block;
+}
+
+.single-projet div img {
+  width: 100%;
 }
 
 header {
