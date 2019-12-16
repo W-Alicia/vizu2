@@ -76,7 +76,7 @@
                 <div class="form-group row">
                     <label for="genre" class="col-form-label">DATE:</label>
                     <div class="col">
-                        <select class="custom-select" id="sel1" name="sellist1">
+                        <select class="custom-select" id="sel2" name="sellist2">
                             <option>EXPO</option>
                             <option>EVENEMENT</option>
                             <option>Concert</option>
@@ -87,7 +87,7 @@
                 <div class="form-group row">
                     <label for="categorie" class="col-form-label">CATEGORIE:</label>
                     <div class="col">
-                        <select class="custom-select" id="sel1" name="sellist1">
+                        <select class="custom-select" id="sel3" name="sellist3">
                             <option>PEINTURE</option>
                             <option>PHOTO</option>
                             <option>SCULPTUPE</option>

@@ -17,11 +17,6 @@
                         </div>
                         <img src="img/huit.jpg" alt="image">
                     </div>
-                    <div class=" col-12 d-inline-flex icon-color">
-                        <div class="color1"></div>
-                        <div class="color2"></div>
-                        <div class="color3"></div>
-                    </div>
                 </div><!--row-->
             </div><!--show img-->
 
@@ -84,12 +79,6 @@
                         <input type="text" class="form-control baseline" id="tag">
                     </div>
                 </div><!--form row--> 
-                <div class="form-group row">
-                    <label for="tag" class="col-form-label">Gamme de couleurs :</label>
-                    <div class="col">
-                        <input type="text" class="form-control baseline" id="couleurs">
-                    </div>
-                </div><!--form row-->
                 <div class="form-group row rowcomment">
                     <label for="comment">description:</label>
                     <textarea class="form-control" rows="3" id="comment"></textarea>

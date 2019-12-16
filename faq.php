@@ -3,11 +3,11 @@
 
 <a href="single-section.php"><img src="img/arrow.svg" alt="arrow" class="arrow2" width="75px"></a>
 
-<div class="container page-debouches">
+<div class="container page-faq">
 <div class="row all-accordion">
 <a href="#" class="position-absolute"><img src="img/picto-debouche.svg" alt="picto-debouche" class="picto-debouche"></a>
-<h2 class="titre-page">DÉBOUCHÉS</h2>
 
+<h2 class="titre-page">FAQ<span class="line">UOI?</span></h2>
 
 
 <div id="accordion" class="col-12 col-lg-6 accordion1">
@@ -16,14 +16,14 @@
     <div class="card-header" id="headingOne">
       <h5 class="mb-0"><i class="fas fa-caret-down" data-toggle="collapse" data-target="#collapseOne"></i>
        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        DÉBOUCHÉ 1
+         QUESTION ?
         </button>
       </h5>
     </div>
 
     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
       <div class="card-body">
-      CECI EST UN DÉBOUCHÉ CECI EST UN DÉBOUCHÉ CECI EST UN DÉBOUCHÉ
+      CECI EST UNE RÉPONSE CECI EST UNE RÉPONSE CECI EST UNE RÉPONSE 
       </div>
     </div>
   </div><!--card-->
@@ -32,7 +32,7 @@
     <div class="card-header" id="headingTwo">
       <h5 class="mb-0"><i class="fas fa-caret-down" data-toggle="collapse" data-target="#collapseTwo"></i>
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-         DÉBOUCHÉ 2
+         QUESTION ?
         </button>
       </h5>
     </div>
@@ -47,7 +47,7 @@
     <div class="card-header" id="headingThree">
       <h5 class="mb-0"><i class="fas fa-caret-down" data-toggle="collapse" data-target="#collapseThree"></i>
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-         DÉBOUCHÉ 3
+         QUESTION ?
         </button>
       </h5>
     </div>
@@ -63,14 +63,14 @@
     <div class="card-header" id="headingFour">
       <h5 class="mb-0"><i class="fas fa-caret-down" data-toggle="collapse" data-target="#collapseFour"></i>
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-        DÉBOUCHÉ 4
+         QUESTION ?
         </button>
       </h5>
     </div>
 
     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
       <div class="card-body">
-  CECI EST UN DÉBOUCHÉ CECI EST UN DÉBOUCHÉ CECI EST UN DÉBOUCHÉ
+     CECI EST UNE RÉPONSE CECI EST UNE RÉPONSE CECI EST UNE RÉPONSE 
       </div>
     </div>
 
@@ -81,14 +81,14 @@
     <div class="card-header" id="headingFive">
       <h5 class="mb-0"><i class="fas fa-caret-down" data-toggle="collapse" data-target="#collapseFive"></i>
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-         DÉBOUCHÉ 5
+         QUESTION ?
         </button>
       </h5>
     </div>
 
     <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
       <div class="card-body">
-  CECI EST UN DÉBOUCHÉ CECI EST UN DÉBOUCHÉ CECI EST UN DÉBOUCHÉ
+     CECI EST UNE RÉPONSE CECI EST UNE RÉPONSE CECI EST UNE RÉPONSE 
       </div>
     </div>
 
@@ -99,14 +99,14 @@
     <div class="card-header" id="headingSix">
       <h5 class="mb-0"><i class="fas fa-caret-down" data-toggle="collapse" data-target="#collapseSix"></i>
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-         DÉBOUCHÉ 6
+         QUESTION ?
         </button>
       </h5>
     </div>
 
     <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
       <div class="card-body">
-       CECI EST UN DÉBOUCHÉ CECI EST UN DÉBOUCHÉ CECI EST UN DÉBOUCHÉ
+     CECI EST UNE RÉPONSE CECI EST UNE RÉPONSE CECI EST UNE RÉPONSE 
       </div>
     </div>
   </div><!--card-->
@@ -122,14 +122,14 @@
     <div class="card-header" id="headingSeven">
       <h5 class="mb-0"><i class="fas fa-caret-down" data-toggle="collapse" data-target="#collapseSeven"></i>
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-        DÉBOUCHÉ 7
+         QUESTION ?
         </button>
       </h5>
     </div><!--card header-->
 
     <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
       <div class="card-body">
-      CECI EST UN DÉBOUCHÉ CECI EST UN DÉBOUCHÉ CECI EST UN DÉBOUCHÉ
+     CECI EST UNE RÉPONSE CECI EST UNE RÉPONSE CECI EST UNE RÉPONSE 
       </div><!--card body-->
     </div><!--collapse-->
   </div><!--card-->
@@ -137,7 +137,7 @@
     <div class="card-header" id="headingEight">
       <h5 class="mb-0"><i class="fas fa-caret-down" data-toggle="collapse" data-target="#collapseEight"></i>
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-         DÉBOUCHÉ 8
+         QUESTION ?
         </button>
       </h5>
     </div><!--card header-->
@@ -151,7 +151,7 @@
     <div class="card-header" id="headingNine">
       <h5 class="mb-0"><i class="fas fa-caret-down" data-toggle="collapse" data-target="#collapseNine"></i>
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-         DÉBOUCHÉ 9
+         QUESTION ?
         </button>
       </h5>
     </div><!--card header-->

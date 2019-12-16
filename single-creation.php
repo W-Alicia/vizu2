@@ -4,20 +4,43 @@
 
 <div class="container page-single-creation">
 <div class="row">
-<div class="col-12 col-lg-6">
-<svg width="500" height="730" class="rectcrea">
-                <rect class="rectcrea" width="500" height="730" style="fill:rgba(0, 0, 0, 0); stroke-width:3;stroke:rgb(255, 255, 255)"></rect>
+<div class="col-12 col-lg-6 single-creation">
+<div class="svggauche">
+<svg width="400" height="645" class="rectcrea">
+                <rect class="rectcrea" width="400" height="645" style="fill:rgba(0, 0, 0, 0); stroke-width:1;stroke:rgb(255, 255, 255)"></rect>
 </svg><!--svg-->
-    <img src="img/un.jpg" alt="un" width="450px" height="550px">
-    <h4>Professeur</h4>
+
+<svg width="430" height="680" class="rectcrea2" style="position: absolute; left: -25px;
+        top: -97px;">
+                <rect class="rectcrea2" width="430" height="680" style="fill:rgba(0, 0, 0, 0); stroke-width:1;stroke:rgb(255, 255, 255)"></rect>
+</svg><!--svg-->
+<svg width="380" height="610" class="rectcrea3" style="    position: absolute;
+    left: 3px;
+    top: -65px;">
+                <rect class="rectcrea3" width="380" height="610" style="fill:rgba(0, 0, 0, 0); stroke-width:1;stroke:rgb(255, 255, 255)"></rect>
+</svg><!--svg-->
+    <img src="img/un.jpg" alt="un" width="350px" height="450px">
+    <h4 class="prof">Professeur</h4>
+</div>
 </div>
 
+<<<<<<< HEAD
 
 <div class="col-12 col-lg-6">
-<h2>TITRE
-<h3>2019</h3></h2>
+<h2 class="titre-page text-left justify-content-start">TITRE</h2>
+<h3>2019</h3>
 <h4>TATIANA OLIVIER</h4>
 <h1>@TATIANO</h1>
+=======
+<div class="col-12 col-lg-6 single-creation">
+<h2 class="leftres">TITRE</h2>
+<span style="color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    margin-left: 4%;">2019</span>
+<h3 class="leftres">TATIANA OLIVIER</h3>
+<a href="#"><h4 class="leftres">@TATIANO</h4></a>
+>>>>>>> cb495add59c5fe6bd8b9ac8489952153ab410309
 
 <p class="textdesc">
 Lorem ipsum dolor sit amet consectetur adipisicing elit.

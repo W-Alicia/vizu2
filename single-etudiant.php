@@ -4,11 +4,11 @@
   <div class="row text-uppercase">
 
     <div class="col-12 col-lg-6">
-      <h4 class="nom-etudiant">Tatiana Olivier</h4>
+      <h4 class="titre-page nom-etudiant">Tatiana Olivier</h4>
       <p class="mail-etudiant">tatianaolivier@contact.com</p>
     </div><!--nom et mail-->
     
-    <div class="col-4 col-lg-6 icon-media">
+    <div class="col-4 col-lg-6 d-flex justify-content-end icon-media">
         <a href="#" class="fab fa-behance"></a>
         <a href="#" class="fas fa-basketball-ball"></a>
         <a href="#" class="fab fa-facebook-f"></a>
@@ -27,8 +27,8 @@
       </div><!--etu section-->
     </div><!--picto et section-->
           
-    <div class="col-12 col-lg-6 description-etudiant">
-        <p class="description-etu">J’adore les pandas et les grands palmiers. Les lasanges sont vraiment cool. J’aime l’illustration et le design.</p>
+    <div class="col-12 col-lg-6 d-flex flex-column description-etudiant">
+        <p class="description-etu align-bottom mt-auto">J’adore les pandas et les grands palmiers. Les lasanges sont vraiment cool. J’aime l’illustration et le design.</p>
         <input type="image" id="modif-description" alt="modification" src="img/picto-modif.png">
     </div><!--paragraph description-->
 
@@ -62,11 +62,11 @@
 
       <div class="row">
           <div class="container all-travaux">
-              <div class="row travaux">
+              <div class="row justify-content-around travaux">
                 <div class="col-7 col-lg-4">
                   1
                 </div>
-                <div class="col-4 col-lg">
+                <div class="col-4 col-lg-3">
                   2
                 </div>
                 <div class="col-6 col-lg-4">
@@ -76,7 +76,7 @@
                 <div class="col-5 col-lg-3">
                   4
                 </div>
-                <div class="col-3 col-lg">
+                <div class="col-3 col-lg-5">
                   5
                 </div>
                 <div class="col-8 col-lg-3">
@@ -86,7 +86,7 @@
                 <div class="col-5 col-lg-5">
                   7
                 </div>
-                <div class="col-6 col-lg">
+                <div class="col-6 col-lg-3">
                   8
                 </div>
                 <div class="col-7 col-lg-3">
@@ -98,7 +98,7 @@
                 <div class="col-3 col-lg-3">
                   11
                 </div>
-                <div class="col-8 col-lg">
+                <div class="col-8 col-lg-5">
                   12
                 </div>
               </div><!--row-->
